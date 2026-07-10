@@ -136,8 +136,9 @@ def fetch_apps():
             continue
         seen.add(name)
 
-        # 找对应的 tag (按顺序)
-        tag = free_tags[len([r for r in results if r["type"] == "免费"])] if len(free_tags) > 0 else ""
+        # 找对应的 tag (按顺序，避免越界)
+        free_count = len([r for r in results if r["type"] == "免费"])
+        tag = free_tags[free_count] if free_count < len(free_tags) else ""
         tag = tag[:8] if tag else ""
 
         results.append({
