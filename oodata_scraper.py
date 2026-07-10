@@ -59,11 +59,13 @@ def fetch_apps():
         if '【' in name and '】' in name and 'apps.apple.com' not in content:
             continue
 
-        # 提取 App Store ID（兼容 /app/id 和 /us/app/id 两种格式）
+        # 提取 App Store ID 和国家代码（兼容 /app/id /cn/app/id /us/app/id）
         app_id = ""
-        app_match = re.search(r'apps\.apple\.com/(?:[a-z]{2}/)?app/id(\d+)', content)
+        country = ""
+        app_match = re.search(r'apps\.apple\.com/(?:([a-z]{2})/)?app/id(\d+)', content)
         if app_match:
-            app_id = app_match.group(1)
+            country = app_match.group(1) or ""
+            app_id = app_match.group(2)
 
         # 无 App Store 链接 → 跳过（Epic 游戏、Telegram 链接等）
         if not app_id:
@@ -89,6 +91,7 @@ def fetch_apps():
             'desc': desc,
             'tag': tag,
             'app_id': app_id,
+            'country': country,
         })
 
     return results
@@ -140,7 +143,7 @@ def main():
             if a['tag']:
                 desc_tag += f" | {a['tag']}"
             lines.append(f"   {desc_tag}")
-            lines.append(f"   https://apps.apple.com/app/id{a['app_id']}")
+            lines.append(f"   https://apps.apple.com/{a['country'] + '/' if a['country'] else ''}app/id{a['app_id']}")
         msg = "\n".join(lines)
         ok = tg_send(msg)
         print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
