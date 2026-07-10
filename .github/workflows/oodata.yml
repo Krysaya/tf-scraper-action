@@ -1,9 +1,9 @@
-name: TestFlight Scraper
+name: Oodata Daily
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # 每天 UTC 12:00 = 北京时间 20:00
-  workflow_dispatch:        # 允许手动触发
+    - cron: '0 13 * * *'  # UTC 13:00 = 北京时间 21:00（比 TF 晚一小时）
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -14,13 +14,13 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run scraper
-        run: python3 scraper.py
+      - name: Run oodata scraper
+        run: python3 oodata_scraper.py
 
-      - name: Commit sent codes
+      - name: Commit sent IDs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add sent_codes.json
-          git diff --staged --quiet || git commit -m "Update sent codes [skip ci]"
+          git add oodata_sent.json
+          git diff --staged --quiet || git commit -m "Update oodata sent [skip ci]"
           git push

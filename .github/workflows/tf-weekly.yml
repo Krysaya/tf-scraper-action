@@ -1,0 +1,16 @@
+name: TestFlight Weekly
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'  # UTC 04:00 Monday = 北京时间 周一 12:00
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run weekly scraper (all Y links)
+        run: python3 scraper.py weekly

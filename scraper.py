@@ -1,6 +1,9 @@
 # 🤖 TestFlight 链接自动抓取器（GitHub Actions 版）
+# 用法: python3 scraper.py [daily|weekly]
+#   daily  — 只发新增链接，上限 100 条
+#   weekly — 发全部 Y-status 链接（周报）
 
-import re, json, os
+import re, json, os, sys
 from datetime import datetime
 from urllib.request import urlopen, Request
 
@@ -12,7 +15,7 @@ TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 BASE = "https://raw.githubusercontent.com/fmz200/global-testflight-link/main"
 PAGES = ["README.md"] + [f"readme/table{i}.md" for i in range(2, 35)]
 
-SENT_FILE = "sent_codes.json"  # 已发送过的 join 代码
+SENT_FILE = "sent_codes.json"
 
 # HTML 行匹配: <td>logo</td> <td>名称</td> <td><a ...join/CODE>...</td> <td>状态</td>
 ROW_PAT = re.compile(
@@ -64,34 +67,63 @@ def tg_send(text):
         return False
 
 def main():
-    print(f"🕐 {datetime.now()} 开始抓取...")
+    # 模式判断: 命令行参数 > 自动检测
+    mode = "daily"
+    if len(sys.argv) > 1:
+        mode = sys.argv[1]
+    print(f"🕐 {datetime.now()} 模式: {mode}")
+
     entries = fetch_all_y()
-    print(f"📊 共 {len(entries)} Y")
+    print(f"📊 共 {len(entries)} 条 Y-status 链接")
 
-    sent = load_sent()
-    new_entries = [(n, c) for n, c in entries if c not in sent]
-    for _, c in new_entries:
-        sent.add(c)
+    if mode == "weekly":
+        # ===== 周报：发全部有效链接 =====
+        if not entries:
+            print("✅ 无有效链接")
+            return
 
-    if not new_entries:
-        print("✅ 没有新增，跳过发送")
+        for start in range(0, len(entries), 10):
+            batch = entries[start:start+10]
+            now = datetime.now().strftime('%m/%d')
+            lines = [f"🧪 TestFlight 周报 · 全部有效链接 ({now})", ""]
+            for i, (name, code) in enumerate(batch, start+1):
+                lines.append(f"{i}. {name}")
+                lines.append(f"   https://testflight.apple.com/join/{code}")
+            msg = "\n".join(lines)
+            ok = tg_send(msg)
+            print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
+        print("🏁 周报发送完成")
+
+    else:
+        # ===== 每日：只发新增，上限 100 =====
+        sent = load_sent()
+        new_entries = [(n, c) for n, c in entries if c not in sent]
+        for _, c in new_entries:
+            sent.add(c)
+
+        if not new_entries:
+            print("✅ 没有新增，跳过发送")
+            save_sent(sent)
+            return
+
+        # 每天最多发 100 条
+        if len(new_entries) > 100:
+            new_entries = new_entries[:100]
+        print(f"🆕 {len(new_entries)} 条新增")
+
+        for start in range(0, len(new_entries), 10):
+            batch = new_entries[start:start+10]
+            now = datetime.now().strftime('%m/%d')
+            lines = [f"🧪 TestFlight 新链接 ({now})", ""]
+            for i, (name, code) in enumerate(batch, start+1):
+                lines.append(f"{i}. {name}")
+                lines.append(f"   https://testflight.apple.com/join/{code}")
+            msg = "\n".join(lines)
+            ok = tg_send(msg)
+            print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
+
         save_sent(sent)
-        return
-
-    print(f"🆕 {len(new_entries)} 条新增")
-    for start in range(0, len(new_entries), 10):
-        batch = new_entries[start:start+10]
-        now = datetime.now().strftime('%m/%d')
-        lines = [f"🧪 TestFlight 新链接 ({now})", ""]
-        for i, (name, code) in enumerate(batch, start+1):
-            lines.append(f"{i}. {name}")
-            lines.append(f"   https://testflight.apple.com/join/{code}")
-        msg = "\n".join(lines)
-        ok = tg_send(msg)
-        print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
-
-    save_sent(sent)
-    print("🏁 完成")
+        print("🏁 完成")
 
 if __name__ == "__main__":
     main()
