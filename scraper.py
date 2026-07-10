@@ -8,7 +8,9 @@ from datetime import datetime
 from urllib.request import urlopen, Request
 
 # ========== 配置 ==========
-BOT_TOKEN = "8878668814:AAF4XnjgHE9eS201jnVPYOcrXL_6F2mUoik"
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+if not BOT_TOKEN:
+    raise RuntimeError("环境变量 TELEGRAM_BOT_TOKEN 未设置")
 CHANNEL = "@ios_collection_ipa"
 TG_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
