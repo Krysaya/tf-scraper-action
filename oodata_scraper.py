@@ -96,6 +96,21 @@ def fetch_apps():
 
     return results
 
+def resolve_appstore_url(app_id, original_country):
+    """优先用国区 /cn/app/id 验证，打不开则回退原始链接"""
+    cn_url = f"https://apps.apple.com/cn/app/id{app_id}"
+    try:
+        req = Request(cn_url, headers=HEADERS)
+        resp = urlopen(req, timeout=10)
+        if resp.getcode() < 400:
+            resp.close()
+            return cn_url
+    except Exception:
+        pass
+    # 回退原始格式
+    prefix = f"{original_country}/" if original_country else ""
+    return f"https://apps.apple.com/{prefix}app/id{app_id}"
+
 def load_sent():
     if os.path.exists(SENT_FILE):
         with open(SENT_FILE, 'r') as f:
@@ -138,12 +153,16 @@ def main():
         now = datetime.now().strftime('%m/%d')
         lines = [f"📱 今日限免 ({now})", ""]
         for i, a in enumerate(batch, start+1):
+            # 解析最终 URL：优先国区，不行回退
+            final_url = resolve_appstore_url(a['app_id'], a['country'])
+            cn_label = "🇨🇳" if "/cn/" in final_url else "🌐"
+            print(f"  {cn_label} {a['name'][:30]}: {final_url}")
             lines.append(f"{i}. {a['name']}")
             desc_tag = a['desc']
             if a['tag']:
                 desc_tag += f" | {a['tag']}"
             lines.append(f"   {desc_tag}")
-            lines.append(f"   https://apps.apple.com/{a['country'] + '/' if a['country'] else ''}app/id{a['app_id']}")
+            lines.append(f"   {final_url}")
         msg = "\n".join(lines)
         ok = tg_send(msg)
         print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
