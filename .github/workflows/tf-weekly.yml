@@ -2,7 +2,7 @@ name: TestFlight Weekly
 
 on:
   schedule:
-    - cron: '0 4 * * 1'  # UTC 04:00 Monday = 北京时间 周一 12:00
+    - cron: '0 0 * * 1'  # UTC 00:00 Monday = 北京时间 周一 08:00
   workflow_dispatch:
 
 jobs:

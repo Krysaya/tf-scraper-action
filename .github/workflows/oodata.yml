@@ -2,7 +2,7 @@ name: Oodata Daily
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # UTC 13:00 = 北京时间 21:00（比 TF 晚一小时）
+    - cron: '0 0 * * *'  # UTC 00:00 = 北京时间 08:00
   workflow_dispatch:
 
 jobs:

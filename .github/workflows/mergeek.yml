@@ -2,7 +2,7 @@ name: Mergeek Daily
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # UTC 14:00 = 北京时间 22:00（比其他的再晚一小时）
+    - cron: '0 0 * * *'  # UTC 00:00 = 北京时间 08:00
   workflow_dispatch:
 
 jobs:
