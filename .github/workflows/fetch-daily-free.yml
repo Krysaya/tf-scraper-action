@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────
+# Fetch Daily Free App Data
+# → 每日抓取 AppStore 限免数据，产出 每日限免MMDD.txt
+# 时间：每天 UTC 01:00（北京时间 09:00）
+# ─────────────────────────────────────────
+name: Fetch Daily Free App Data
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with: { token: ${{ secrets.GITHUB_TOKEN }} }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - run: python daily_merger.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 每日限免*.txt 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Daily free app data [skip ci]"
+          git push
