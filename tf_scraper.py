@@ -145,10 +145,11 @@ def main():
         return
 
     if mode == "daily":
-        # 保存全部合并结果到 JSON（推送层自己按 sent_codes.json 筛选新增）
-        with open("tf_daily_links.json", "w", encoding="utf-8") as f:
+        today = datetime.now().strftime("%m%d")
+        filename = f"tf_daily_links_{today}.json"
+        with open(filename, "w", encoding="utf-8") as f:
             json.dump(merged, f, ensure_ascii=False, indent=2)
-        print(f"📝 已保存: tf_daily_links.json ({len(merged)} 款)")
+        print(f"📝 已保存: {filename} ({len(merged)} 款)")
         return
 
     if mode == "weekly":

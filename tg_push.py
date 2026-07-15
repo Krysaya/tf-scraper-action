@@ -74,7 +74,8 @@ def push_daily_free():
 
 # ========== 每日 TF 链接推送 ==========
 def push_daily_tf():
-    filename = "tf_daily_links.json"
+    today = datetime.now().strftime("%m%d")
+    filename = f"tf_daily_links_{today}.json"
     if not os.path.exists(filename):
         print(f"❌ 文件不存在: {filename}")
         return
@@ -86,7 +87,10 @@ def push_daily_tf():
     new_entries = [e for e in entries if e["code"] not in sent]
 
     if not new_entries:
-        print("✅ TF 无新增链接")
+        # 无新增内容也通知 TG
+        now = datetime.now().strftime("%m/%d")
+        tg_send(f"🧪 TestFlight 今日无新增链接 ({now})")
+        print("✅ TF 无新增链接（已通知 TG）")
         return
 
     if len(new_entries) > 100:
