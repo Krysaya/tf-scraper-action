@@ -2,14 +2,19 @@ name: Push Weekly TF Links to TG
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '5 0 * * 0'
   workflow_dispatch:
 
 jobs:
-  run:
+  push:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with: { token: ${{ secrets.GITHUB_TOKEN }} }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python tg_push.py weekly-tf
