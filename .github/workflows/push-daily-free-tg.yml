@@ -1,0 +1,15 @@
+name: Push Daily Free App to TG
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with: { token: ${{ secrets.GITHUB_TOKEN }} }
