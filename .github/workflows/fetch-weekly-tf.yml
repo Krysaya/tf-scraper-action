@@ -28,3 +28,4 @@ jobs:
           git add tf_weekly_links.json tf_wechat_sent.json tf_issue.txt TestFlight合集_*.txt 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Weekly TF links [skip ci]"
           git push
+

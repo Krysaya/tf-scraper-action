@@ -16,3 +16,4 @@ jobs:
 
       - name: Run weekly scraper (all Y links)
         run: python3 scraper.py weekly
+

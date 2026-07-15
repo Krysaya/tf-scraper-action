@@ -28,3 +28,4 @@ jobs:
           git add tf_daily_links.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Daily TF links [skip ci]"
           git push
+

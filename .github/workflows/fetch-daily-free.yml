@@ -28,3 +28,4 @@ jobs:
           git add 每日限免*.txt 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Daily free app data [skip ci]"
           git push
+

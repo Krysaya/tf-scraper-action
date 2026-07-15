@@ -29,3 +29,4 @@ jobs:
           git add sent_free.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Update free app sent records [skip ci]"
           git push
+

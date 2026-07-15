@@ -29,3 +29,4 @@ jobs:
           git add sent_codes.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Update TF sent codes [skip ci]"
           git push
+
