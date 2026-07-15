@@ -1,9 +1,9 @@
-# ─────────────────────────────────────────
+name: Fetch Weekly TF Links
+
 # Fetch Weekly TF Links
 # → 三源合并抓取一周 TF 链接，产出 tf_weekly_links.json + TestFlight合集_第N期.txt
 # 时间：每周日 UTC 00:00（北京时间 08:00）
 # ─────────────────────────────────────────
-name: Fetch Weekly TF Links
 
 on:
   schedule:

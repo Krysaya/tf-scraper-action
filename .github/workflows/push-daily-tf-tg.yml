@@ -1,9 +1,9 @@
-# ─────────────────────────────────────────
+name: Push Daily TF Links to TG
+
 # Push Daily TF Links to TG
 # → 读取 tf_daily_links.json，去重后推送新增 TF 链接到 Telegram
 # 时间：每天 UTC 00:05（北京时间 08:05）
 # ─────────────────────────────────────────
-name: Push Daily TF Links to TG
 
 on:
   schedule:

@@ -1,9 +1,9 @@
-# ─────────────────────────────────────────
+name: Fetch Daily Free App Data
+
 # Fetch Daily Free App Data
 # → 每日抓取 AppStore 限免数据，产出 每日限免MMDD.txt
 # 时间：每天 UTC 01:00（北京时间 09:00）
 # ─────────────────────────────────────────
-name: Fetch Daily Free App Data
 
 on:
   schedule:

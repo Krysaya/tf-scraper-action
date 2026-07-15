@@ -1,9 +1,9 @@
-# ─────────────────────────────────────────
+name: Fetch Daily TF Links
+
 # Fetch Daily TF Links
 # → 三源合并抓取 TF 链接，产出 tf_daily_links.json
 # 时间：每天 UTC 00:00（北京时间 08:00）
 # ─────────────────────────────────────────
-name: Fetch Daily TF Links
 
 on:
   schedule:

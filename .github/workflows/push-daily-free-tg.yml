@@ -1,9 +1,9 @@
-# ─────────────────────────────────────────
+name: Push Daily Free App to TG
+
 # Push Daily Free App to TG
 # → 读取 每日限免MMDD.txt，推送摘要到 Telegram
 # 时间：每天 UTC 01:05（北京时间 09:05）
 # ─────────────────────────────────────────
-name: Push Daily Free App to TG
 
 on:
   schedule:
