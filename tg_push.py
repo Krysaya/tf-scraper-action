@@ -51,14 +51,21 @@ def push_daily_free():
         print(f"✅ 已推送过: {filename}")
         return
 
-    lines = content.strip().split("\n")
-    # 只取前 15 行 + 摘要
-    msg = "\n".join(lines[:15])
-    if len(lines) > 15:
-        msg += f"\n… 共 {len(lines)} 行，完整列表见公众号"
-    msg += "\n\n📱 关注公众号获取完整内容"
-
-    ok = tg_send(msg)
+    # 推送完整内容，自动分段
+    content = content.strip()
+    MAX_LEN = 3800
+    msg_parts = []
+    while len(content) > MAX_LEN:
+        split_at = content.rfind("\n", 0, MAX_LEN)
+        if split_at == -1: split_at = MAX_LEN
+        msg_parts.append(content[:split_at])
+        content = content[split_at:].lstrip()
+    if content: msg_parts.append(content)
+    if not msg_parts: msg_parts = [content]
+    ok = True
+    for i, part in enumerate(msg_parts):
+        tag = f"({i+1}/{len(msg_parts)}) " if len(msg_parts) > 1 else ""
+        ok &= tg_send(tag + part)
     print(f"  {'✅' if ok else '❌'} 每日限免 TG 推送")
     if ok:
         sent.add(filename)
