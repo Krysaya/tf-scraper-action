@@ -21,13 +21,10 @@ TF_ISSUE_FILE = "tf_issue.txt"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}
 
-# ========== 源1：global-testflight-link ==========
-from scraper import fetch_all_y
-
-# ========== 源2：departures.to ==========
+# ========== 源1：departures.to ==========
 import departures_scraper as deps
 
-# ========== 源3：Google 搜索 ==========
+# ========== 源2：Google 搜索 ==========
 def fetch_from_google(time_range=""):
     label = {"": "全量", "d": "24小时内", "w": "7天内"}
     print(f"📥 Google 搜索 (site:testflight.apple.com/join/ {label.get(time_range,time_range)})...")
@@ -88,11 +85,7 @@ def set_issue(n):
 
 # ========== 三源合并 ==========
 def merge_all_sources(google_entries):
-    print("📥 scraper.py (global-testflight-link)...")
-    scraper_entries = fetch_all_y()
-    print(f"   scraper: {len(scraper_entries)}")
-
-    print("📥 departures_scraper (departures.to)...")
+    print("📥 departures.to...")
     try:
         deps_apps = deps.fetch_home()
         print(f"   departures: {len(deps_apps)}")
@@ -101,16 +94,11 @@ def merge_all_sources(google_entries):
         deps_apps = []
 
     code_meta = {}
-    for name, code in scraper_entries:
-        if code not in code_meta:
-            code_meta[code] = {"name": name, "desc": "", "tags": []}
-
     deps_codes = 0
     for a in deps_apps:
         code, status = deps.fetch_tf_code(a["id"])
         if code and status == "open":
-            if code not in code_meta:
-                code_meta[code] = {"name": a["name"], "desc": a.get("desc", ""), "tags": a.get("tags", [])}
+            code_meta[code] = {"name": a["name"], "desc": a.get("desc", ""), "tags": a.get("tags", [])}
             deps_codes += 1
             time.sleep(0.3)
 
@@ -127,7 +115,7 @@ def merge_all_sources(google_entries):
             "url": f"https://testflight.apple.com/join/{code}",
         })
 
-    print(f"📊 三源合并后: {len(merged)} 款 (scraper {len(scraper_entries)} + departures {deps_codes} + google {len(google_entries)})")
+    print(f"📊 二源合并后: {len(merged)} 款 (departures {deps_codes} + google {len(google_entries)})")
     return merged
 
 

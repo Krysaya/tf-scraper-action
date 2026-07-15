@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 TestFlight 每周合集公众号发布脚本
-数据来源: scraper.py 的 wechat-weekly 模式生成的 TXT
+数据来源: departures.to + Google 搜索
 封面: 固定 TestFlight 炫彩封面（不含日期）
 """
 
