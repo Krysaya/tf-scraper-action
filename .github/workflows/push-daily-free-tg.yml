@@ -1,3 +1,8 @@
+# ─────────────────────────────────────────
+# Push Daily Free App to TG
+# → 读取 每日限免MMDD.txt，推送摘要到 Telegram
+# 时间：每天 UTC 01:05（北京时间 09:05）
+# ─────────────────────────────────────────
 name: Push Daily Free App to TG
 
 on:
@@ -18,7 +23,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
       - run: python tg_push.py daily-free
       - run: |
           git config user.name "github-actions[bot]"

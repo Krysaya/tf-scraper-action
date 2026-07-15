@@ -1,3 +1,8 @@
+# ─────────────────────────────────────────
+# Push Weekly TF Links to TG
+# → 读取 tf_weekly_links.json，推送全部 TF 周报到 Telegram
+# 时间：每周日 UTC 00:05（北京时间 08:05）
+# ─────────────────────────────────────────
 name: Push Weekly TF Links to TG
 
 on:
@@ -18,5 +23,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
       - run: python tg_push.py weekly-tf

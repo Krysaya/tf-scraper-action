@@ -1,3 +1,8 @@
+# ─────────────────────────────────────────
+# Push Daily TF Links to TG
+# → 读取 tf_daily_links_MMDD.json，去重后推送新增 TF 链接到 Telegram
+# 时间：每天 UTC 00:05（北京时间 08:05）
+# ─────────────────────────────────────────
 name: Push Daily TF Links to TG
 
 on:
@@ -18,7 +23,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
       - run: python tg_push.py daily-tf
       - run: |
           git config user.name "github-actions[bot]"
