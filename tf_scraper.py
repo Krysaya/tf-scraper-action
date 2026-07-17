@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TestFlight 三源抓取器 — 只抓取合并，不推送
+TestFlight 二源抓取器 — 只抓取合并，不推送
 用法: python tf_scraper.py [daily|weekly]
   daily  → 输出 tf_daily_links.json（全部去重结果）
   weekly → 输出 tf_weekly_links.json + TestFlight合集_第N期.txt
@@ -24,42 +24,30 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleW
 # ========== 源1：departures.to ==========
 import departures_scraper as deps
 
-# ========== 源2：Google 搜索 ==========
-def fetch_from_google(time_range=""):
-    label = {"": "全量", "d": "24小时内", "w": "7天内"}
-    print(f"📥 Google 搜索 (site:testflight.apple.com/join/ {label.get(time_range,time_range)})...")
+# ========== 源2：Brave Search ==========
+def fetch_from_brave():
+    print("📥 Brave Search (site:testflight.apple.com/join/)...")
     results = []
-    params = {"q": "site:testflight.apple.com/join/", "hl": "en", "num": "50"}
-    if time_range:
-        params["tbs"] = f"qdr:{time_range}"
+    params = {"q": "site:testflight.apple.com/join/", "source": "web"}
+    brave_headers = dict(HEADERS)
+    brave_headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    brave_headers["Accept-Language"] = "en-US,en;q=0.9"
 
     try:
-        resp = requests.get("https://www.google.com/search", params=params, headers=HEADERS, timeout=20)
+        resp = requests.get("https://search.brave.com/search", params=params,
+                          headers=brave_headers, timeout=20)
         resp.raise_for_status()
     except Exception as e:
-        print(f"   ⚠️ Google 搜索失败: {e}")
+        print(f"   ⚠️ Brave Search 失败: {e}")
         return results
 
-    pats = [
-        re.compile(r'data-lpage="(https?://testflight\.apple\.com/join/[A-Za-z0-9]+)"'),
-        re.compile(r'/url\?q=(https?://testflight\.apple\.com/join/[A-Za-z0-9]+)'),
-        re.compile(r'<cite[^>]*>https?://testflight\.apple\.com/join/([A-Za-z0-9]+)'),
-        re.compile(r'(https?://testflight\.apple\.com/join/[A-Za-z0-9]+)'),
-    ]
-
-    found = set()
-    for pat in pats:
-        for m in pat.finditer(resp.text):
-            if pat.pattern.startswith(r'<cite'):
-                code = m.group(1)
-            else:
-                url = m.group(1)
-                cm = re.search(r'/join/([A-Za-z0-9]+)', url)
-                code = cm.group(1) if cm else None
-            if code and code not in found:
-                found.add(code)
-                results.append({"name": f"Google #{len(results)+1}", "code": code, "desc": ""})
-    print(f"   Google: {len(results)} 个链接")
+    codes = re.findall(r'testflight\.apple\.com/join/([A-Za-z0-9]+)', resp.text)
+    seen = set()
+    for code in codes:
+        if code not in seen:
+            seen.add(code)
+            results.append({"name": f"Brave #{len(results)+1}", "code": code, "desc": ""})
+    print(f"   Brave: {len(results)} 个链接")
     return results
 
 
@@ -83,8 +71,8 @@ def set_issue(n):
     with open(TF_ISSUE_FILE, 'w') as f: f.write(str(n))
 
 
-# ========== 三源合并 ==========
-def merge_all_sources(google_entries):
+# ========== 二源合并 ==========
+def merge_all_sources(brave_entries):
     print("📥 departures.to...")
     try:
         deps_apps = deps.fetch_home()
@@ -102,7 +90,7 @@ def merge_all_sources(google_entries):
             deps_codes += 1
             time.sleep(0.3)
 
-    for g in google_entries:
+    for g in brave_entries:
         if g["code"] not in code_meta:
             code_meta[g["code"]] = {"name": g["name"], "desc": "", "tags": []}
 
@@ -115,7 +103,7 @@ def merge_all_sources(google_entries):
             "url": f"https://testflight.apple.com/join/{code}",
         })
 
-    print(f"📊 二源合并后: {len(merged)} 款 (departures {deps_codes} + google {len(google_entries)})")
+    print(f"📊 二源合并后: {len(merged)} 款 (departures {deps_codes} + brave {len(brave_entries)})")
     return merged
 
 
@@ -124,9 +112,8 @@ def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
     print(f"🕐 {datetime.now()} 模式: {mode}")
 
-    time_rng = "d" if mode == "daily" else "w"
-    google_entries = fetch_from_google(time_rng)
-    merged = merge_all_sources(google_entries)
+    brave_entries = fetch_from_brave()
+    merged = merge_all_sources(brave_entries)
 
     if not merged:
         print("✅ 无链接")
