@@ -4,7 +4,8 @@
 只产出数据文件，不推送（推送由 tg_push.py / 公众号守护进程处理）
 """
 import sys, os, json, time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+BEIJING = timezone(timedelta(hours=8))
 from pathlib import Path
 
 import mergeek_scraper
@@ -13,7 +14,7 @@ import oodata_scraper
 
 def merge_all():
     """合并两个数据源，按 App ID 去重"""
-    print(f"🕐 {datetime.now()} 合并 mergeek + oodata")
+    print(f"🕐 {datetime.now(BEIJING)} 合并 mergeek + oodata")
 
     # 1. mergeek（先查 App ID）
     print("📥 mergeek...")
@@ -72,7 +73,7 @@ def merge_all():
 
 def write_txt(apps, filepath):
     """写入 TXT 文件"""
-    today = datetime.now().strftime("%m/%d")
+    today = datetime.now(BEIJING).strftime("%m/%d")
     lines = [f"今日限免 ({today})", ""]
     for i, a in enumerate(apps, 1):
         lines.append(f"{i}. {a['name']}")
@@ -85,7 +86,7 @@ def write_txt(apps, filepath):
 
 
 def main():
-    today = datetime.now().strftime("%m%d")
+    today = datetime.now(BEIJING).strftime("%m%d")
     out = Path(f"每日限免{today}.txt")
 
     apps = merge_all()
