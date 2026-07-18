@@ -5,7 +5,8 @@ Telegram 推送器 — 只读数据文件，格式化推 TG
 """
 
 import json, os, sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+BEIJING = timezone(timedelta(hours=8))
 from urllib.request import urlopen, Request
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -37,7 +38,7 @@ def save_set(s, path):
 
 # ========== 每日限免推送 ==========
 def push_daily_free():
-    today = datetime.now().strftime("%m%d")
+    today = datetime.now(BEIJING).strftime("%m%d")
     filename = f"每日限免{today}.txt"
     if not os.path.exists(filename):
         print(f"❌ 文件不存在: {filename}")
@@ -74,7 +75,7 @@ def push_daily_free():
 
 # ========== 每日 TF 链接推送 ==========
 def push_daily_tf():
-    today = datetime.now().strftime("%m%d")
+    today = datetime.now(BEIJING).strftime("%m%d")
     filename = f"tf_daily_links_{today}.json"
     if not os.path.exists(filename):
         print(f"❌ 文件不存在: {filename}")
@@ -88,7 +89,7 @@ def push_daily_tf():
 
     if not new_entries:
         # 无新增内容也通知 TG
-        now = datetime.now().strftime("%m/%d")
+        now = datetime.now(BEIJING).strftime("%m/%d")
         tg_send(f"🧪 TestFlight 今日无新增链接 ({now})")
         print("✅ TF 无新增链接（已通知 TG）")
         return
@@ -99,7 +100,7 @@ def push_daily_tf():
     for e in new_entries:
         sent.add(e["code"])
 
-    now = datetime.now().strftime("%m/%d")
+    now = datetime.now(BEIJING).strftime("%m/%d")
 
     for start in range(0, len(new_entries), 10):
         batch = new_entries[start:start+10]
@@ -127,7 +128,7 @@ def push_weekly_tf():
     with open(filename, encoding="utf-8") as f:
         entries = json.load(f)
 
-    now = datetime.now().strftime("%m/%d")
+    now = datetime.now(BEIJING).strftime("%m/%d")
 
     for start in range(0, len(entries), 10):
         batch = entries[start:start+10]
@@ -147,7 +148,7 @@ def push_weekly_tf():
 # ========== 主入口 ==========
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily-free"
-    print(f"🕐 {datetime.now()} 模式: {mode}")
+    print(f"🕐 {datetime.now(BEIJING)} 模式: {mode}")
 
     if mode == "daily-free":
         push_daily_free()

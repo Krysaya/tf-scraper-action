@@ -46,6 +46,45 @@ CATEGORY_EMOJI = {
 DEFAULT_EMOJI = "📱"
 
 # ============================================================
+# iTunes API — 自动获取 App 真实简介
+# ============================================================
+ITUNES_API = "https://itunes.apple.com/lookup?id={}&country=cn"
+
+def extract_app_id(url):
+    """从 App Store URL 提取数字 ID"""
+    if not url:
+        return None
+    m = re.search(r'/id(\d+)', url)
+    return m.group(1) if m else None
+
+def fetch_from_itunes(app_id):
+    """通过 iTunes API 获取应用简介（截取前 120 字）"""
+    try:
+        resp = requests.get(
+            ITUNES_API.format(app_id),
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=8,
+            proxies=NO_PROXY
+        )
+        data = resp.json()
+        if data.get("resultCount", 0) > 0:
+            result = data["results"][0]
+            desc = result.get("description", "")
+            if desc:
+                desc = desc[:120].replace("\n", " ") + ("..." if len(desc) > 120 else "")
+                return desc
+    except Exception:
+        pass
+    return None
+
+def save_descriptions(desc_map):
+    """持久化简介缓存到 descriptions.json"""
+    try:
+        DESC_PATH.write_text(json.dumps(desc_map, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception:
+        pass
+
+# ============================================================
 # 1. 文件解析
 # ============================================================
 def parse_txt_file(filepath):
@@ -102,9 +141,21 @@ def load_descriptions():
             pass
     return {}
 
-def get_desc(name, category, desc_map):
+def get_desc(name, category, url, desc_map):
     if name in desc_map:
         return desc_map[name]
+
+    # 尝试从 iTunes API 获取真实简介
+    app_id = extract_app_id(url)
+    if app_id:
+        desc = fetch_from_itunes(app_id)
+        if desc:
+            desc_map[name] = desc
+            save_descriptions(desc_map)
+            time.sleep(0.3)  # 避免请求过快
+            return desc
+
+    # iTunes API 失败，用模板兜底（不破坏现有流程）
     fallback = {
         "生活": "实用生活工具，让日常更智能便捷。",
         "工具": "高效实用工具，解决具体需求。",
@@ -195,7 +246,8 @@ def generate_cover(date_str, count, total):
         fonts["title"] = fonts["mid"] = fonts["small"] = ImageFont.load_default()
 
     # ---------- 3. 画文字（统一深灰蓝色，无描边） ----------
-    COLOR = (87, 140, 176)  # #578CB0
+    COLOR = (87, 140, 186)  # #578CB0
+    COLOR2 = (87, 147, 196)  # 标题以下文字（日期/数量/水印）
 
     def dc(d, text, font, y, color=COLOR):
         """居中绘制"""
@@ -207,16 +259,16 @@ def generate_cover(date_str, count, total):
         bb = d.textbbox((0, 0), text, font=font)
         text_w = bb[2] - bb[0]
         text_h = bb[3] - bb[1]
-        d.text((W - text_w - x_offset, H - text_h - y_offset), text, fill=COLOR, font=font)
+        d.text((W - text_w - x_offset, H - text_h - y_offset), text, fill=COLOR2, font=font)
 
     # 主标题（最大，靠上）
     dc(draw, "App Store 每日限免", fonts["title"], 120)
 
     # 日期（中间）
-    dc(draw, date_str, fonts["mid"], 270)
+    dc(draw, date_str, fonts["mid"], 270, color=COLOR2)
 
     # 数量和价值（中间偏下）
-    dc(draw, f"今日 {count} 款  ·  总价值 ¥{total}", fonts.get("mid2", fonts["small"]), 360)
+    dc(draw, f"今日 {count} 款  ·  总价值 ¥{total}", fonts.get("mid2", fonts["small"]), 360, color=COLOR2)
 
     # 右下角水印
     draw_watermark(draw, "卡拉库姆猫", fonts["small"])
@@ -284,8 +336,8 @@ def build_html(apps, qr_urls, date_str):
     html.append(f'<section style="display:inline-block;background:linear-gradient(135deg,{C_GRAD_START},{C_GRAD_END});padding:6px 20px;border-radius:20px;">')
     html.append(f'<span style="font-size:14px;font-weight:700;color:#ffffff;letter-spacing:1px;">{date_str}</span>')
     html.append('</section>')
-    html.append('<p style="font-size:26px;font-weight:700;color:#2c2c2c;letter-spacing:1px;margin:16px 0 6px;">App Store 每日限免</p>')
-    html.append('<p style="font-size:13px;color:#999999;margin:0;">限免随时结束 · 长按扫码下载 · 手慢无</p>')
+    html.append('<p style="font-size:26px;font-weight:700;color:#2c2c2c;letter-spacing:1px;margin:16px 0 6px;">App Store 每日限免白嫖</p>')
+    html.append('<p style="font-size:13px;color:#999999;margin:0;">iOS限免随时结束 · 长按扫码下载 · 手慢无</p>')
     html.append('</section>')
 
     # ── 分隔线 ──
@@ -310,7 +362,7 @@ def build_html(apps, qr_urls, date_str):
         saved = price.replace("¥", "")
         fire = "🔥 " if saved.isdigit() and int(saved) >= 50 else ""
         emoji = CATEGORY_EMOJI.get(category, DEFAULT_EMOJI)
-        desc = get_desc(name, category, desc_map)
+        desc = get_desc(name, category, url, desc_map)
 
         html.append(f'<section style="background-color:#ffffff;border:1px solid {C_BORDER};border-radius:10px;margin:0 0 14px;padding:0;">')
         html.append('<section style="padding:16px;">')

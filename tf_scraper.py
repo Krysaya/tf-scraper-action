@@ -7,7 +7,8 @@ TestFlight 二源抓取器 — 只抓取合并，不推送
 """
 
 import re, json, os, sys, time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+BEIJING = timezone(timedelta(hours=8))
 from urllib.request import urlopen, Request
 
 import requests
@@ -15,7 +16,6 @@ import requests
 sys.path.insert(0, os.path.dirname(__file__))
 
 # ========== 配置 ==========
-SENT_FILE = "sent_codes.json"
 TF_WECHAT_SENT = "tf_wechat_sent.json"
 TF_ISSUE_FILE = "tf_issue.txt"
 
@@ -110,7 +110,7 @@ def merge_all_sources(brave_entries):
 # ========== 主逻辑 ==========
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
-    print(f"🕐 {datetime.now()} 模式: {mode}")
+    print(f"🕐 {datetime.now(BEIJING)} 模式: {mode}")
 
     brave_entries = fetch_from_brave()
     merged = merge_all_sources(brave_entries)
@@ -120,7 +120,7 @@ def main():
         return
 
     if mode == "daily":
-        today = datetime.now().strftime("%m%d")
+        today = datetime.now(BEIJING).strftime("%m%d")
         filename = f"tf_daily_links_{today}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(merged, f, ensure_ascii=False, indent=2)
