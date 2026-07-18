@@ -95,12 +95,12 @@ def push_daily_tf():
         return
 
     if len(new_entries) > 100:
+        print(f"⚠️ 共 {len(new_entries)} 条新链接，超过 100 条上限，截取前 100 条推送")
+        print(f"   （剩余 {len(new_entries) - 100} 条下次推送）")
         new_entries = new_entries[:100]
 
-    for e in new_entries:
-        sent.add(e["code"])
-
     now = datetime.now(BEIJING).strftime("%m/%d")
+    pushed_codes = []
 
     for start in range(0, len(new_entries), 10):
         batch = new_entries[start:start+10]
@@ -112,10 +112,17 @@ def push_daily_tf():
             lines.append(line)
         msg = "\n".join(lines)
         ok = tg_send(msg)
-        print(f"  {'✅' if ok else '❌'} batch {start//10+1}")
+        if ok:
+            pushed_codes.extend(e["code"] for e in batch)
+            print(f"  ✅ batch {start//10+1}")
+        else:
+            print(f"  ❌ batch {start//10+1} 推送失败，跳过标记")
 
+    # 只有推送成功的才标记为 sent
+    for code in pushed_codes:
+        sent.add(code)
     save_set(sent, SENT_TF)
-    print(f"🏁 TF 每日推送完成 ({len(new_entries)} 条)")
+    print(f"🏁 TF 每日推送完成 ({len(pushed_codes)}/{len(new_entries)} 条成功)")
 
 
 # ========== 每周 TF 链接推送 ==========
