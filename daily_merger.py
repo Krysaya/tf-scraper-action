@@ -3,7 +3,7 @@
 每日限免合并器 — mergeek + oodata → 每日限免MMDD.txt
 只产出数据文件，不推送（推送由 tg_push.py / 公众号守护进程处理）
 """
-import sys, os, json, time
+import sys, os, json, time, re
 from datetime import datetime, timezone, timedelta
 BEIJING = timezone(timedelta(hours=8))
 from pathlib import Path
@@ -85,6 +85,18 @@ def write_txt(apps, filepath):
     filepath.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def load_yesterday_ids():
+    """加载昨天的 TXT，提取已出现的 App ID（用于跨天去重）"""
+    yesterday = (datetime.now(BEIJING) - timedelta(days=1)).strftime("%m%d")
+    y_file = Path(f"每日限免{yesterday}.txt")
+    if not y_file.exists():
+        return set()
+    text = y_file.read_text(encoding="utf-8")
+    ids = set(re.findall(r'apps\.apple\.com/\S*?/id(\d+)', text))
+    print(f"📋 昨日 {yesterday}: {len(ids)} 款 → 跨天去重")
+    return ids
+
+
 def main():
     today = datetime.now(BEIJING).strftime("%m%d")
     out = Path(f"每日限免{today}.txt")
@@ -92,6 +104,20 @@ def main():
     apps = merge_all()
     if not apps:
         print("✅ 今日无新限免")
+        return
+
+    # 跨天去重：去掉昨天已经出现过的 App
+    yesterday_ids = load_yesterday_ids()
+    if yesterday_ids:
+        before = len(apps)
+        apps = [a for a in apps if str(a["app_id"]) not in yesterday_ids]
+        removed = before - len(apps)
+        if removed:
+            names = [a["name"] for a in apps[:0]]  # 已过滤
+            print(f"🔁 跨天去重: 去掉 {removed} 款昨日已出现")
+
+    if not apps:
+        print("✅ 今日无新增限免（全部昨日已出现）")
         return
 
     write_txt(apps, out)
