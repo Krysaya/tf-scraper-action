@@ -112,7 +112,9 @@ def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
     print(f"🕐 {datetime.now(BEIJING)} 模式: {mode}")
 
-    brave_entries = fetch_from_brave()
+    # Brave Search 暂时禁用（返回 "Brave #N" 无意义名字，污染数据质量）
+    # brave_entries = fetch_from_brave()
+    brave_entries = []
     merged = merge_all_sources(brave_entries)
 
     if not merged:

@@ -1,13 +1,13 @@
 # ─────────────────────────────────────────
 # Push Weekly TF Links to TG
 # → 读取 tf_weekly_links.json，推送全部 TF 周报到 Telegram
-# 时间：每周日 UTC 00:05（北京时间 08:05）
+# 时间：每周二 UTC 00:05（北京时间 08:05）
 # ─────────────────────────────────────────
 name: Push Weekly TF Links to TG
 
 on:
   schedule:
-    - cron: '5 0 * * 0'
+    - cron: '5 0 * * 2'
   workflow_dispatch:
 
 jobs:
