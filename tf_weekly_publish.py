@@ -45,6 +45,7 @@ def parse_tf_txt(filepath):
         TestFlight合集 第N期
         <空行>
         1. App名称
+           简介：xxx          ← 可选
            https://testflight.apple.com/join/CODE
     """
     path = Path(filepath)
@@ -69,11 +70,12 @@ def parse_tf_txt(filepath):
         if match:
             name = match.group(1).strip()
             url = ""
-            if i + 1 < len(lines):
-                next_line = lines[i + 1].strip()
-                if next_line.startswith("https://testflight.apple.com"):
-                    url = next_line
-                    i += 1
+            # 往后找 testflight URL（最多查 5 行，跳过简介等中间行）
+            for j in range(i + 1, min(i + 6, len(lines))):
+                if "testflight.apple.com/join/" in lines[j]:
+                    url = lines[j].strip()
+                    i = j
+                    break
             i += 1
             apps.append((name, url))
         else:
