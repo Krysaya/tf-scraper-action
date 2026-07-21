@@ -1,65 +1,86 @@
 今日限免 (07/21)
 
-1. 相册小蜜蜂-高效清理相册
+1. Trinote
+   原价 ¥28 → 免费
+   https://apps.apple.com/cn/app/id6761228249
+2. KarmaSync: Health Dashboard
+   原价 ¥6 → 免费
+   https://apps.apple.com/cn/app/id6759564126
+3. Retro FM：专注计时，睡眠白噪音，解压放松音乐
+   原价 ¥8 → 免费 | 工具
+   https://apps.apple.com/cn/app/id6473508120
+4. 子弹笔记
+   原价 ¥8 → 免费 | 效率
+   https://apps.apple.com/cn/app/id6475782771
+5. BlotzTask-ADHD专属轻压力时间管理
+   原价 ¥3 → 免费
+   https://apps.apple.com/cn/app/id6752492404
+6. EasyGoDutch - 账单分割从未如此简单
+   原价 ¥6 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1630700673
+7. 相册小蜜蜂-高效清理相册
    原价 ¥12 → 免费
    https://apps.apple.com/cn/app/id6774040750
-2. 小素典-说文解字、康熙字典、新华字典等数十部文言文词典App
+8. 小素典-说文解字、康熙字典、新华字典等数十部文言文词典App
    原价 ¥15 → 免费 | 参考资料
    https://apps.apple.com/cn/app/id6592202887
-3. 心记-HeartNote
+9. 心记-HeartNote
    原价 ¥12 → 免费
    https://apps.apple.com/cn/app/id6759284816
-4. 老子说-学习古文,学习礼仪
+10. 老子说-学习古文,学习礼仪
    原价 ¥1 → 免费 | 教育
    https://apps.apple.com/cn/app/id1070992880
-5. KKCLOCK - 时钟士多
-   原价 ¥15 → 免费 | 生活
-   https://apps.apple.com/cn/app/id1625073027
-6. 海拔与相机 - 实时高度表测量仪
-   原价 ¥22 → 免费 | 工具
-   https://apps.apple.com/cn/app/id6751531266
-7. Burrow：家务清单&amp;追踪器
+11. Burrow：家务清单&amp;追踪器
    原价 ? → 免费 | 工具
    https://apps.apple.com/cn/app/id6753768774
-8. EasyTodo（极简待办）
+12. EasyTodo（极简待办）
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6465747613
-9. Lingoffline - Phrasebook
+13. Goalino: Cashier Concession
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6758986207
+14. PopNow - Instant Film Camera
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6792185460
+15. Scientific Calculator fx-991EX
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6760968561
+16. Lingoffline - Phrasebook
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1532704238
-10. Otter - Food &amp; Meal Diary
+17. Otter - Food &amp; Meal Diary
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1551273147
-11. Mathematics - multiplication
+18. Mathematics - multiplication
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id683788492
-12. SilentProof: Noise Complaint
+19. SilentProof: Noise Complaint
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6756213159
-13. Just a Simple Video Converter
+20. Just a Simple Video Converter
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6479526173
-14. Device Kit: CPU x Monitor
+21. Device Kit: CPU x Monitor
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6761011882
-15. IAP +Captain Adir
+22. IAP +Captain Adir
    原价 ? → 免费
    https://apps.apple.com/app/id6759227375
-16. Time Management AI: Planner
+23. Time Management AI: Planner
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6758272865
-17. OgdenSpine - 850 core English words
+24. OgdenSpine - 850 core English words
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6772943882
-18. Guitar Wiz - Everything Guitar
+25. Guitar Wiz - Everything Guitar
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6740015002
-19. Simple Spider - Solitaire
+26. Simple Spider - Solitaire
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6777424959
-20. Blown Away: Secret of the Wind
+27. Blown Away: Secret of the Wind
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1064025591
-21. RecallNote - Study review
+28. RecallNote - Study review
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6779927785
