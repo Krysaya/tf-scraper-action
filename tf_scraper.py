@@ -26,12 +26,13 @@ import departures_scraper as deps
 
 # ========== 源2：Brave Search ==========
 def fetch_from_brave():
+    """从 Brave Search 搜索结果中提取 TF code + 真实 App 名称"""
     print("📥 Brave Search (site:testflight.apple.com/join/)...")
     results = []
     params = {"q": "site:testflight.apple.com/join/", "source": "web"}
     brave_headers = dict(HEADERS)
     brave_headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-    brave_headers["Accept-Language"] = "en-US,en;q=0.9"
+    brave_headers["Accept-Language"] = "zh-CN,zh;q=0.9,en;q=0.5"
 
     try:
         resp = requests.get("https://search.brave.com/search", params=params,
@@ -41,12 +42,38 @@ def fetch_from_brave():
         print(f"   ⚠️ Brave Search 失败: {e}")
         return results
 
-    codes = re.findall(r'testflight\.apple\.com/join/([A-Za-z0-9]+)', resp.text)
-    seen = set()
-    for code in codes:
-        if code not in seen:
-            seen.add(code)
-            results.append({"name": f"Brave #{len(results)+1}", "code": code, "desc": ""})
+    # 提取所有 join code + 周围 300 字符上下文，尝试找真实 App 名
+    codes_seen = set()
+    for m in re.finditer(r'testflight\.apple\.com/join/([A-Za-z0-9]+)', resp.text):
+        code = m.group(1)
+        if code in codes_seen:
+            continue
+        codes_seen.add(code)
+
+        # 从 code 位置往前找最近的 <a> 或 <h> 标签内的文字当作 App 名
+        ctx = resp.text[max(0, m.start()-600):m.start()]
+        # 尝试提取链接文字 / 标题
+        name = ""
+        for p in [
+            r'<a[^>]*class="[^"]*snippet[^"]*"[^>]*>\s*(.+?)\s*</a>',
+            r'<span[^>]*class="[^"]*title[^"]*"[^>]*>\s*(.+?)\s*</span>',
+            r'class="[^"]*result-title[^"]*"[^>]*>(.+?)</',
+            r'>([^<]{3,80})</a>',
+        ]:
+            # 倒序找最后一个匹配（离 code 最近）
+            found = re.findall(p, ctx, re.DOTALL)
+            if found:
+                raw = found[-1]
+                name = re.sub(r'<[^>]+>', '', raw).strip()
+                if name and len(name) >= 2 and 'testflight' not in name.lower()[:20]:
+                    break
+                name = ""
+
+        if not name:
+            name = f"TF_{code[:6]}"  # fallback: 用 code 简写
+
+        results.append({"name": name, "code": code, "desc": ""})
+
     print(f"   Brave: {len(results)} 个链接")
     return results
 
@@ -112,9 +139,7 @@ def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
     print(f"🕐 {datetime.now(BEIJING)} 模式: {mode}")
 
-    # Brave Search 暂时禁用（返回 "Brave #N" 无意义名字，污染数据质量）
-    # brave_entries = fetch_from_brave()
-    brave_entries = []
+    brave_entries = fetch_from_brave()
     merged = merge_all_sources(brave_entries)
 
     if not merged:
