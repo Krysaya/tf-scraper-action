@@ -1,56 +1,80 @@
 今日限免 (07/22)
 
-1. Audubon Bird Guide
+1. 播客群岛
+   原价 ¥1 → 免费 | 音乐
+   https://apps.apple.com/cn/app/id1563276811
+2. Mindfulness Coach
+   原价 ¥15 → 免费
+   https://apps.apple.com/cn/app/id804284729
+3. Audubon Bird Guide
    原价 ¥148 → 免费 | Reference
    https://apps.apple.com/cn/app/id333227386
-2. 伟东云
+4. 伟东云
    原价 ¥3 → 免费 | 教育
    https://apps.apple.com/cn/app/id1616598418
-3. ZAKER
+5. ZAKER
    原价 ¥8 → 免费 | 新闻
    https://apps.apple.com/cn/app/id462149227
-4. 绘时
+6. 绘时
    原价 ¥3 → 免费
    https://apps.apple.com/cn/app/id6754768841
-5. HTTPWidget
+7. HTTPWidget
    原价 ¥38 → 免费 | Developer,Tools
    https://apps.apple.com/cn/app/id6447097633
-6. 不拖 - 日程计划待办清单,打卡提醒时间管理
+8. 不拖 - 日程计划待办清单,打卡提醒时间管理
    原价 ¥9 → 免费 | 效率
    https://apps.apple.com/cn/app/id1558442966
-7. 情绪星
+9. 情绪星
    原价 ¥1 → 免费 | 生活
    https://apps.apple.com/cn/app/id6504876907
-8. AI日程
-   原价 ¥8 → 免费 | 工具
-   https://apps.apple.com/cn/app/id6743120531
-9. 轻巧识字 - 科学复习, 轻松认字
-   原价 ¥1 → 免费 | 教育
-   https://apps.apple.com/cn/app/id6547838493
-10. QuickDrop: Fast File Share
+10. TypeFlow Chinese
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6760213216
+11. Marble: Training Journal
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6779775636
+12. Camera Copy
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1631718834
+13. Deep Movie - Pro Video Camera
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1611565383
+14. LandMeter - GPS Area Measure
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6779892226
+15. 7 Minute Vocal Warm Up
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1255708054
+16. Meditation by Soothing Pod
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1508720931
+17. Cadence - Habit Tracker
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6761003558
+18. QuickDrop: Fast File Share
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6745764555
-11. Big binary clock
+19. Big binary clock
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id572188132
-12. QuizTables - Mental Math
+20. QuizTables - Mental Math
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6760649275
-13. Video Maker Pro - Slideshow
+21. Video Maker Pro - Slideshow
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6791965992
-14. myAge
+22. myAge
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1227864569
-15. Robot Survival: Solar Mission
+23. Robot Survival: Solar Mission
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6791991400
-16. AuraCanvas
+24. AuraCanvas
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6760493013
-17. Waketag: Music Tag Editor
+25. Waketag: Music Tag Editor
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6738013677
-18. Packing List Travel Organizer
+26. Packing List Travel Organizer
    原价 ? → 免费 | IAP
    https://apps.apple.com/us/app/id6774575639
