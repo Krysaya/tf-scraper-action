@@ -70,14 +70,18 @@ def parse_tf_txt(filepath):
         if match:
             name = match.group(1).strip()
             url = ""
-            # 往后找 testflight URL（最多查 5 行，跳过简介等中间行）
+            desc = ""
+            # 往后找 testflight URL（最多查 5 行，跳过简介行）
             for j in range(i + 1, min(i + 6, len(lines))):
-                if "testflight.apple.com/join/" in lines[j]:
-                    url = lines[j].strip()
+                stripped = lines[j].strip()
+                if stripped.startswith("简介："):
+                    desc = stripped[3:].strip()
+                if "testflight.apple.com/join/" in stripped:
+                    url = stripped
                     i = j
                     break
             i += 1
-            apps.append((name, url))
+            apps.append((name, url, desc))
         else:
             i += 1
 
@@ -227,7 +231,7 @@ def build_html(apps, qr_urls, issue):
     html.append(f'<span style="display:inline-block;font-size:14px;font-weight:600;color:#6c3ce0;border:1px dashed #6c3ce0;border-radius:24px;padding:6px 20px;letter-spacing:1px;">🧪 本周 {count} 款 TestFlight 测试 · 长按扫码加入 ⬇</span>')
     html.append('</section>')
 
-    for i, (name, tf_url) in enumerate(apps):
+    for i, (name, tf_url, desc) in enumerate(apps):
         idx = i + 1
         html.append('<section style="background-color:#ffffff;border:1px solid #e5dff5;border-radius:10px;margin:0 0 14px;padding:0;">')
         html.append('<section style="padding:16px;">')
@@ -237,7 +241,10 @@ def build_html(apps, qr_urls, issue):
         html.append('<span style="display:inline-block;background-color:#e8f0fc;color:#3c7ce0;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;margin:0 0 0 4px;vertical-align:middle;">TestFlight</span>')
         html.append('</section>')
         html.append('<section style="margin:0 0 10px;">')
-        html.append('<p style="font-size:13px;color:#6b6b6b;line-height:1.6;margin:0 0 0 42px;padding:8px 12px;background-color:#f9f7fe;border-radius:6px;border-left:3px solid #6c3ce0;">限时 TestFlight 测试名额，点击或扫码加入体验。</p>')
+        if desc:
+            html.append(f'<p style="font-size:13px;color:#6b6b6b;line-height:1.6;margin:0 0 0 42px;padding:8px 12px;background-color:#f9f7fe;border-radius:6px;border-left:3px solid #6c3ce0;">{desc}</p>')
+        else:
+            html.append('<p style="font-size:13px;color:#6b6b6b;line-height:1.6;margin:0 0 0 42px;padding:8px 12px;background-color:#f9f7fe;border-radius:6px;border-left:3px solid #6c3ce0;">限时 TestFlight 测试名额，点击或扫码加入体验。</p>')
         html.append('</section>')
         if i < len(qr_urls) and qr_urls[i]:
             html.append('<section style="text-align:center;margin:0;">')
@@ -300,7 +307,7 @@ def main():
 
     print("📱 上传 QR 码...")
     qr_urls = []
-    for i, (_, tf_url) in enumerate(apps):
+    for i, (_, tf_url, _) in enumerate(apps):
         qr_urls.append(generate_qr(token, tf_url, i + 1) if tf_url else None)
     print(f"✅ QR: {len([u for u in qr_urls if u])}/{len(apps)}")
 
