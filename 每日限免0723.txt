@@ -3,72 +3,81 @@
 1. 我的待办-清单四象限日历提醒小组件
    原价 ¥3 → 免费 | 效率
    https://apps.apple.com/cn/app/id1294530516
-2. Sketcha
+2. Google Tasks：轻松处理事务
+   原价 ¥68 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1353634006
+3. 一点壁纸 - 海量高清壁纸，赏心悦目
+   原价 ¥598 → 免费 | 摄影与录像
+   https://apps.apple.com/cn/app/id1257792253
+4. Cloud Opener - File manager
+   原价 ¥8 → 免费 | 效率
+   https://apps.apple.com/cn/app/id928144263
+5. 白噪音 - 风声/婴儿睡眠/呼吸/深度睡眠
+   原价 ¥15 → 免费 | 健康健美
+   https://apps.apple.com/cn/app/id6669586084
+6. 将PDF转换为Word
+   原价 ¥8 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1450128854
+7. 将pdf转换为excel
+   原价 ¥8 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1453128341
+8. Sketcha
    原价 ¥68 → 免费 | 娱乐
    https://apps.apple.com/cn/app/id547157012
-3. Vinous: Wine Reviews & Ratings
+9. Vinous: Wine Reviews & Ratings
    原价 ¥8 → 免费 | 美食佳饮
    https://apps.apple.com/cn/app/id1010711422
-4. 荒岛的王-开心锤锤正版授权手游
+10. 荒岛的王-开心锤锤正版授权手游
    原价 ¥1 → 免费 | 游戏
    https://apps.apple.com/cn/app/id6444142143
-5. 烹饪大全-下厨房好帮手
-   原价 ¥1 → 免费 | 美食佳饮
-   https://apps.apple.com/cn/app/id460979760
-6. EyeMeasure
-   原价 ¥38 → 免费 | 健康健美,购物
-   https://apps.apple.com/cn/app/id1596893847
-7. 心经经典版
-   原价 ¥1 → 免费 | 图书
-   https://apps.apple.com/cn/app/id1400693504
-8. Roterra - 翻转童话
-   原价 ¥24 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id1386408490
-9. 自由计算器-高性能纠错计算器科学计算器极简计算器超级计算器
-   原价 ¥38 → 免费 | 财务
-   https://apps.apple.com/cn/app/id6743230137
-10. Burrow：家务清单&amp;追踪器
+11. Burrow：家务清单&amp;追踪器
    原价 ? → 免费 | 工具
    https://apps.apple.com/cn/app/id6753768774
-11. EasyTodo（极简待办）
+12. EasyTodo（极简待办）
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6465747613
-12. Tap &amp; Color
+13. F54 - Manual Cinema Camera
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6779788143
+14. FileMaster: Offline Scanner
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6773142187
+15. Tap &amp; Color
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6786056591
-13. Minus 5 - Get things done
+16. Minus 5 - Get things done
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6762616403
-14. CityPainter
+17. CityPainter
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1489035444
-15. Space Menace
+18. Space Menace
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6461121189
-16. MyKeyboard Pro
+19. MyKeyboard Pro
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1562086519
-17. File Search Machine
+20. File Search Machine
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1475341105
-18. MarkFrame - Photo border watermark
+21. MarkFrame - Photo border watermark
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6748356183
-19. AR Drawing &amp; Tracing: Sketch
+22. AR Drawing &amp; Tracing: Sketch
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6792264177
-20. Smart Grid Maker: Sketching
+23. Smart Grid Maker: Sketching
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6792256427
-21. Itemia: Home Inventory Boxes
+24. Itemia: Home Inventory Boxes
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6788200034
-22. Rebuild: Quit Drinking Alcohol
+25. Rebuild: Quit Drinking Alcohol
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6781575766
-23. Protractor Angle Measure App
+26. Protractor Angle Measure App
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6755661639
-24. GIF Aura -GIF Maker &amp; Live Converter
+27. GIF Aura -GIF Maker &amp; Live Converter
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6771666690
