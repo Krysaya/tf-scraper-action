@@ -1,83 +1,89 @@
 今日限免 (07/25)
 
-1. 雕塑者
+1. FOCI专注者
+   原价 ¥18 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1445508221
+2. dHome
+   原价 ¥68 → 免费 | 图形与设计
+   https://apps.apple.com/cn/app/id1544939254
+3. 雕塑者
    原价 ¥6 → 免费 | 工具
    https://apps.apple.com/cn/app/id1549845764
-2. ClipIt - 学英语必备生词本 App ，查询保存记单词
+4. ClipIt - 学英语必备生词本 App ，查询保存记单词
    原价 ¥1 → 免费 | 效率
    https://apps.apple.com/cn/app/id6740757080
-3. Arpeggi
+5. Arpeggi
    原价 ¥68 → 免费
-   https://apps.apple.com/app/id6503619183
-4. 不拖 - 日程计划待办清单,打卡提醒时间管理
+   https://apps.apple.com/cn/app/id6503619183
+6. 不拖 - 日程计划待办清单,打卡提醒时间管理
    原价 ¥9 → 免费 | 效率
    https://apps.apple.com/cn/app/id1558442966
-5. e科考
+7. e科考
    原价 ¥1 → 免费 | 工具
    https://apps.apple.com/cn/app/id6446301286
-6. 我的待办-清单四象限日历提醒小组件
+8. 我的待办-清单四象限日历提醒小组件
    原价 ¥3 → 免费 | 效率
    https://apps.apple.com/cn/app/id1294530516
-7. Moodli Journal
+9. Moodli Journal
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6751125559
-8. Next Task: To-Do &amp; Widgets
+10. Next Task: To-Do &amp; Widgets
    原价 ? → 免费
    https://apps.apple.com/cn/app/id389801252
-9. cRate Pro - Currency Converter
+11. cRate Pro - Currency Converter
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id909956791
-10. Neon Breakout - Watch &amp; Phone
+12. Neon Breakout - Watch &amp; Phone
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6449887741
-11. My IP Pro
+13. My IP Pro
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1523021936
-12. Acgbg~Anime Bg Wallpaper
+14. Acgbg~Anime Bg Wallpaper
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6748885060
-13. University Notes
+15. University Notes
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6777402601
-14. SeeMeCook
+16. SeeMeCook
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6759826831
-15. AllowanceGo: Kids &amp; Teens Game
+17. AllowanceGo: Kids &amp; Teens Game
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6772496637
-16. Remove Background :SellerKit
+18. Remove Background :SellerKit
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6780834698
-17. RetroHabits
+19. RetroHabits
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6756184886
-18. Killer Stickers
+20. Killer Stickers
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1429290875
-19. Tintin - Set Color Spectrum of Displays
+21. Tintin - Set Color Spectrum of Displays
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1475369846
-20. CDAY - Colorful Countdown Days
+22. CDAY - Colorful Countdown Days
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6464173441
-21. You Will Be Late
+23. You Will Be Late
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6775258188
-22. Ditto Cam
+24. Ditto Cam
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6760381571
-23. Toolmatic: Audio to Text Model
+25. Toolmatic: Audio to Text Model
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6762630396
-24. Sidey: Menubar AI assistant
+26. Sidey: Menubar AI assistant
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6760834274
-25. UPFinder
+27. UPFinder
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6762777788
-26. AdaptiveHiking
+28. AdaptiveHiking
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6775168063
-27. Virtual-Fridge
+29. Virtual-Fridge
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6770601806
