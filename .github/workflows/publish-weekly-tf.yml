@@ -16,10 +16,6 @@ jobs:
   publish:
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
-    env:
-      CF_WORKER_URL: ${{ secrets.CF_WORKER_URL }}
-      CF_WORKER_SECRET: ${{ secrets.CF_WORKER_SECRET }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,6 +51,11 @@ jobs:
         if: steps.find-txt.outputs.txt_file != ''
         run: python publishers/tf_weekly_publisher.py "${{ steps.find-txt.outputs.txt_file }}"
 
-      - name: Send to Cloudflare Worker
+      - name: Commit generated content (for SCF to pick up)
         if: steps.find-txt.outputs.txt_file != ''
-        run: python publishers/send_to_worker.py
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Generate TF article content [skip ci]"
+          git push

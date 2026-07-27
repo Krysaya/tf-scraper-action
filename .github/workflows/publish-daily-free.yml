@@ -17,10 +17,6 @@ jobs:
     # 仅在 fetch 成功时运行
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
-    env:
-      CF_WORKER_URL: ${{ secrets.CF_WORKER_URL }}
-      CF_WORKER_SECRET: ${{ secrets.CF_WORKER_SECRET }}
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -57,15 +53,11 @@ jobs:
         if: steps.find-txt.outputs.txt_file != ''
         run: python publishers/daily_free_publisher.py "${{ steps.find-txt.outputs.txt_file }}"
 
-      - name: Send to Cloudflare Worker
-        if: steps.find-txt.outputs.txt_file != ''
-        run: python publishers/send_to_worker.py
-
-      - name: Commit updated descriptions.json
+      - name: Commit generated content (for SCF to pick up)
         if: steps.find-txt.outputs.txt_file != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add descriptions.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "Update descriptions cache [skip ci]"
+          git add output/ descriptions.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Generate article content [skip ci]"
           git push
