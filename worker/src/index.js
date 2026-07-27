@@ -104,6 +104,20 @@ async function createDraft(token, { title, author, digest, content, thumb_media_
  */
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+
+    // 诊断端点：检查环境变量是否配置正确
+    if (request.method === 'GET' && url.pathname === '/debug') {
+      return new Response(JSON.stringify({
+        WORKER_SECRET_set: !!env.WORKER_SECRET,
+        WORKER_SECRET_len: (env.WORKER_SECRET || '').length,
+        WECHAT_APPID_set: !!env.WECHAT_APPID,
+        WECHAT_APPID_len: (env.WECHAT_APPID || '').length,
+        WECHAT_APPSECRET_set: !!env.WECHAT_APPSECRET,
+        WECHAT_APPSECRET_len: (env.WECHAT_APPSECRET || '').length,
+      }), { status: 200, headers: { 'Content-Type': 'application/json' } });
+    }
+
     // 1. 验证密钥
     const secret = request.headers.get('X-Worker-Secret');
     if (secret !== env.WORKER_SECRET) {
