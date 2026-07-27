@@ -1,0 +1,22 @@
+{
+  "title": "【TestFlight合集】第1期",
+  "author": "卡拉库姆猫",
+  "digest": "🧪 第 1 期TestFlight 每周合集限时测试名额 · 长按扫码加入 · 手慢无🧪 本周 10 款 T",
+  "type": "tf_weekly",
+  "issue": "1",
+  "count": 10,
+  "cover_file": "cover.jpg",
+  "html_file": "article.html",
+  "qr_files": [
+    "qr_1.png",
+    "qr_2.png",
+    "qr_3.png",
+    "qr_4.png",
+    "qr_5.png",
+    "qr_6.png",
+    "qr_7.png",
+    "qr_8.png",
+    "qr_9.png",
+    "qr_10.png"
+  ]
+}
