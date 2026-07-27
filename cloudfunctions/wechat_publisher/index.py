@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
 腾讯云函数 SCF（定时触发）— 微信公众号草稿箱发布
-每 5 分钟自动检查 GitHub 仓库 output/article.json，有就发布到微信草稿箱
+每 1 小时检查 GitHub output/article.json → 拉内容 → 调微信 API → 草稿箱
 
 环境变量:
   WECHAT_APPID     - 微信公众号 AppID
   WECHAT_APPSECRET - 微信公众号 AppSecret
-  GITHUB_TOKEN     - 有写权限的 GitHub PAT，发布成功后删除 marker 用
-  GITHUB_REPO      - 仓库 full_name，默认 Krysaya/tf-scraper-action
+  GITHUB_TOKEN     - 写权限 PAT
+
+仅用 Python 标准库（urllib），零外部依赖
 """
 
 import os
 import json
 import base64
-import requests
+import urllib.request
+import urllib.error
 
 GITHUB_API = "https://api.github.com"
 WECHAT_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token"
@@ -25,50 +27,123 @@ BRANCH = "main"
 
 
 # ============================================================
+# HTTP 工具（仅用 stdlib）
+# ============================================================
+def _gh_headers(raw=False):
+    token = os.environ.get("GITHUB_TOKEN", "")
+    accept = "application/vnd.github.v3.raw" if raw else "application/vnd.github.v3+json"
+    return {
+        "Authorization": f"token {token}",
+        "Accept": accept,
+        "User-Agent": "wechat-publisher-scf/1.0",
+    }
+
+
+def http_get_text(url, headers=None):
+    req = urllib.request.Request(url, headers=headers or {}, method="GET")
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return resp.read()
+
+
+def http_get_json(url, headers=None):
+    return json.loads(http_get_text(url, headers))
+
+
+def http_post_json(url, payload, headers=None):
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={**(headers or {}), "Content-Type": "application/json; charset=utf-8"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read())
+
+
+def http_delete_json(url, payload, headers=None):
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        headers={**(headers or {}), "Content-Type": "application/json; charset=utf-8"},
+        method="DELETE",
+    )
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read())
+
+
+def http_post_multipart(url, image_bytes, filename="image.jpg"):
+    """构造 multipart/form-data 上传文件"""
+    boundary = "----scfBoundary" + os.urandom(16).hex()
+    body = (
+        f"--{boundary}\r\n"
+        f'Content-Disposition: form-data; name="media"; filename="{filename}"\r\n'
+        f"Content-Type: image/jpeg\r\n"
+        f"\r\n"
+    ).encode("utf-8") + image_bytes + f"\r\n--{boundary}--\r\n".encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
+            "Content-Length": str(len(body)),
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read())
+
+
+# ============================================================
 # GitHub API
 # ============================================================
-def _gh_headers(json_content=True):
-    token = os.environ.get("GITHUB_TOKEN", "")
-    h = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
-    if not json_content:
-        h["Accept"] = "application/vnd.github.v3.raw"
-    return h
-
-
-def github_get_file(path):
-    """读取仓库文件（文本），返回字符串；不存在返回 None"""
+def gh_get_file(path):
+    """读取仓库文本文件"""
     url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
-    resp = requests.get(url, headers=_gh_headers(json_content=True), timeout=15)
-    if resp.status_code != 200:
-        return None
-    data = resp.json()
-    return base64.b64decode(data["content"]).decode("utf-8")
+    try:
+        data = http_get_json(url, headers=_gh_headers())
+        return base64.b64decode(data["content"]).decode("utf-8")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None
+        raise
 
 
-def github_get_binary(path):
-    """读取仓库文件（二进制），返回 bytes；不存在返回 None"""
+def gh_get_binary(path):
+    """读取仓库二进制文件"""
     url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
-    resp = requests.get(url, headers=_gh_headers(json_content=False), timeout=15)
-    if resp.status_code != 200:
+    try:
+        return http_get_text(url, headers=_gh_headers(raw=True))
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None
+        raise
+
+
+def gh_get_sha(path):
+    """获取文件 SHA"""
+    url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
+    try:
+        data = http_get_json(url, headers=_gh_headers())
+        return data.get("sha")
+    except urllib.error.HTTPError:
         return None
-    return resp.content
 
 
-def github_delete_file(path, sha, message):
+def gh_delete_file(path, sha, message):
     """删除仓库文件"""
     url = f"{GITHUB_API}/repos/{REPO}/contents/{path}"
-    payload = {"message": message, "sha": sha, "branch": BRANCH}
-    resp = requests.delete(url, headers=_gh_headers(), json=payload, timeout=15)
-    return resp.status_code == 200
-
-
-def github_get_sha(path):
-    """获取文件 SHA（删除时需要）"""
-    url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
-    resp = requests.get(url, headers=_gh_headers(), timeout=15)
-    if resp.status_code != 200:
-        return None
-    return resp.json().get("sha")
+    try:
+        http_delete_json(
+            url,
+            {"message": message, "sha": sha, "branch": BRANCH},
+            headers=_gh_headers(),
+        )
+        return True
+    except Exception:
+        return False
 
 
 # ============================================================
@@ -76,44 +151,25 @@ def github_get_sha(path):
 # ============================================================
 def get_access_token(appid, secret):
     url = f"{WECHAT_TOKEN_URL}?grant_type=client_credential&appid={appid}&secret={secret}"
-    resp = requests.get(url, timeout=15)
-    data = resp.json()
+    data = http_get_json(url)
     if "access_token" not in data:
-        raise Exception(
-            f"Token 失败 [errcode={data.get('errcode', '?')}] {data.get('errmsg', '?')}"
-        )
+        raise Exception(f"Token 失败: {data}")
     return data["access_token"]
 
 
 def upload_image(token, image_bytes, filename="image.jpg"):
     url = f"{WECHAT_MATERIAL_URL}?access_token={token}&type=image"
-    resp = requests.post(
-        url,
-        files={"media": (filename, image_bytes, "image/jpeg")},
-        timeout=30,
-    )
-    data = resp.json()
+    data = http_post_multipart(url, image_bytes, filename)
     if "url" not in data:
-        raise Exception(
-            f"上传图片失败 [errcode={data.get('errcode', '?')}] {data.get('errmsg', '?')}"
-        )
+        raise Exception(f"上传图片失败: {data}")
     return data["url"]
 
 
 def create_draft(token, article):
     url = f"{WECHAT_DRAFT_URL}?access_token={token}"
-    payload = {"articles": [article]}
-    resp = requests.post(
-        url,
-        data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
-        headers={"Content-Type": "application/json; charset=utf-8"},
-        timeout=30,
-    )
-    data = resp.json()
+    data = http_post_json(url, {"articles": [article]})
     if "media_id" not in data:
-        raise Exception(
-            f"创建草稿失败 [errcode={data.get('errcode', '?')}] {data.get('errmsg', '?')}"
-        )
+        raise Exception(f"创建草稿失败: {data}")
     return data["media_id"]
 
 
@@ -121,11 +177,11 @@ def create_draft(token, article):
 # 主流程
 # ============================================================
 def process_one_pending():
-    """处理一篇待发布文章，成功返回 media_id；无待发返回 None"""
+    """处理一篇待发布文章"""
     print("🔍 检查待发布 article.json ...")
 
     # 1. 读取 article.json
-    manifest_text = github_get_file("output/article.json")
+    manifest_text = gh_get_file("output/article.json")
     if manifest_text is None:
         print("📭 没有待发布的 article.json")
         return None
@@ -135,22 +191,21 @@ def process_one_pending():
     print(f"📄 找到: {title}")
 
     # 2. 读取 HTML
-    html = github_get_file("output/article.html")
+    html = gh_get_file("output/article.html")
     if html is None:
         print("❌ article.html 缺失")
         return None
 
     # 3. 读取封面图
-    cover_bytes = github_get_binary(f"output/{manifest['cover_file']}")
+    cover_bytes = gh_get_binary(f"output/{manifest['cover_file']}")
     if cover_bytes is None:
         print(f"❌ {manifest['cover_file']} 缺失")
         return None
 
     # 4. 读取 QR 码
     images = []
-    qr_files = manifest.get("qr_files", [])
-    for i, qr_name in enumerate(qr_files):
-        qr_bytes = github_get_binary(f"output/{qr_name}")
+    for i, qr_name in enumerate(manifest.get("qr_files", [])):
+        qr_bytes = gh_get_binary(f"output/{qr_name}")
         if qr_bytes:
             images.append({"id": f"qr_{i}", "bytes": qr_bytes})
 
@@ -158,20 +213,20 @@ def process_one_pending():
     appid = os.environ.get("WECHAT_APPID", "")
     appsecret = os.environ.get("WECHAT_APPSECRET", "")
     token = get_access_token(appid, appsecret)
+    print("✅ Token OK")
 
     # 上传封面
-    print("📤 上传封面 ...")
     thumb_media_id = upload_image(token, cover_bytes, "cover.jpg")
+    print(f"✅ 封面: {thumb_media_id[:20]}...")
 
     # 上传 QR + 替换占位符
-    print(f"📤 上传 {len(images)} 张 QR 码 ...")
     for img in images:
         wx_url = upload_image(token, img["bytes"], f"{img['id']}.png")
         placeholder = f"{{{{IMG:{img['id']}}}}}"
         html = html.replace(placeholder, wx_url)
+    print(f"✅ {len(images)} 张 QR 上传替换完成")
 
     # 创建草稿
-    print("📝 创建草稿 ...")
     article = {
         "title": title,
         "author": manifest.get("author", "卡拉库姆猫"),
@@ -184,10 +239,10 @@ def process_one_pending():
     media_id = create_draft(token, article)
     print(f"✅ 草稿创建成功: {media_id}")
 
-    # 6. 删除 article.json marker（防止重复发布）
-    sha = github_get_sha("output/article.json")
+    # 删除 marker
+    sha = gh_get_sha("output/article.json")
     if sha:
-        github_delete_file(
+        gh_delete_file(
             "output/article.json",
             sha,
             f"Published {manifest.get('type', '?')}: {title} [skip ci]",
@@ -199,13 +254,16 @@ def process_one_pending():
 
 def main_handler(event, context):
     """
-    SCF 定时触发入口 - 每 5 分钟执行一次
+    SCF 定时触发入口
     """
     try:
         media_id = process_one_pending()
         if media_id:
             return {"success": True, "media_id": media_id}
         return {"success": True, "msg": "no pending content"}
+    except urllib.error.HTTPError as e:
+        print(f"❌ HTTP 错误 [{e.code}]: {e.reason}")
+        return {"success": False, "error": f"HTTP {e.code}: {e.reason}"}
     except Exception as e:
         print(f"❌ 错误: {e}")
         return {"success": False, "error": str(e)}
