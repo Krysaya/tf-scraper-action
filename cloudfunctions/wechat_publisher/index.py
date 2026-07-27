@@ -158,11 +158,12 @@ def get_access_token(appid, secret):
 
 
 def upload_image(token, image_bytes, filename="image.jpg"):
+    """上传图片，返回完整响应 {'media_id': ..., 'url': ...}"""
     url = f"{WECHAT_MATERIAL_URL}?access_token={token}&type=image"
     data = http_post_multipart(url, image_bytes, filename)
     if "url" not in data:
         raise Exception(f"上传图片失败: {data}")
-    return data["url"]
+    return data  # {media_id, url} — 封面用 media_id，文中图片用 url
 
 
 def create_draft(token, article):
@@ -215,13 +216,15 @@ def process_one_pending():
     token = get_access_token(appid, appsecret)
     print("✅ Token OK")
 
-    # 上传封面
-    thumb_media_id = upload_image(token, cover_bytes, "cover.jpg")
-    print(f"✅ 封面: {thumb_media_id[:20]}...")
+    # 上传封面（用 media_id 作为 thumb_media_id）
+    cover_resp = upload_image(token, cover_bytes, "cover.jpg")
+    thumb_media_id = cover_resp["media_id"]
+    print(f"✅ 封面 media_id: {thumb_media_id[:20]}...")
 
-    # 上传 QR + 替换占位符
+    # 上传 QR + 替换占位符（用 url 嵌到 HTML 里）
     for img in images:
-        wx_url = upload_image(token, img["bytes"], f"{img['id']}.png")
+        img_resp = upload_image(token, img["bytes"], f"{img['id']}.png")
+        wx_url = img_resp["url"]
         placeholder = f"{{{{IMG:{img['id']}}}}}"
         html = html.replace(placeholder, wx_url)
     print(f"✅ {len(images)} 张 QR 上传替换完成")
