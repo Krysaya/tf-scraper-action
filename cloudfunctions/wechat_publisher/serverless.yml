@@ -1,0 +1,28 @@
+# 腾讯云函数 SCF 部署配置
+# 部署命令: sls deploy
+# 前提: npm i -g serverless && serverless plugin install -n serverless-tencent-scf
+
+component: scf
+name: wechat-publisher
+
+inputs:
+  name: wechat-publisher
+  src: ./
+  handler: index.main_handler
+  runtime: Python3.9
+  region: ap-guangzhou
+  memorySize: 256
+  timeout: 60
+  environment:
+    variables:
+      WECHAT_APPID: ${env:WECHAT_APPID}
+      WECHAT_APPSECRET: ${env:WECHAT_APPSECRET}
+      WORKER_SECRET: ${env:WORKER_SECRET}
+  events:
+    - apigw:
+        parameters:
+          serviceName: wechat-publisher-api
+          protocols:
+            - http
+            - https
+          environment: release
