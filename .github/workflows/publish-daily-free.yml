@@ -1,0 +1,71 @@
+# ─────────────────────────────────────────
+# Publish Daily Free Apps to WeChat Drafts
+# → 等 fetch-daily-free 完成后自动触发
+# → 生成封面 + QR + HTML → 发 Cloudflare Worker → 草稿箱
+# ─────────────────────────────────────────
+name: Publish Daily Free to WeChat
+
+on:
+  workflow_run:
+    workflows: ["Fetch Daily Free App Data"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  publish:
+    # 仅在 fetch 成功时运行
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    env:
+      CF_WORKER_URL: ${{ secrets.CF_WORKER_URL }}
+      CF_WORKER_SECRET: ${{ secrets.CF_WORKER_SECRET }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system fonts (CJK)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+
+      - name: Install Python deps
+        run: pip install -r publishers/requirements.txt
+
+      - name: Find today's TXT file
+        id: find-txt
+        run: |
+          # 按日期找今天的 TXT 文件
+          TODAY=$(TZ='Asia/Shanghai' date +%m%d)
+          FILE=$(ls 每日限免${TODAY}.txt 2>/dev/null | head -1)
+          if [ -z "$FILE" ]; then
+            echo "❌ 找不到 每日限免${TODAY}.txt，跳过"
+            exit 0
+          fi
+          echo "txt_file=$FILE" >> $GITHUB_OUTPUT
+          echo "📄 文件: $FILE"
+
+      - name: Generate content
+        if: steps.find-txt.outputs.txt_file != ''
+        run: python publishers/daily_free_publisher.py "${{ steps.find-txt.outputs.txt_file }}"
+
+      - name: Send to Cloudflare Worker
+        if: steps.find-txt.outputs.txt_file != ''
+        run: python publishers/send_to_worker.py
+
+      - name: Commit updated descriptions.json
+        if: steps.find-txt.outputs.txt_file != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add descriptions.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Update descriptions cache [skip ci]"
+          git push

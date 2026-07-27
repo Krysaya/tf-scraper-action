@@ -1,0 +1,10 @@
+name = "wechat-publisher"
+main = "src/index.js"
+compatibility_date = "2025-07-01"
+
+# 免费计划限制：
+# - 100,000 请求/天
+# - 10ms CPU 时间/请求（I/O 等待不计入）
+# - 每天仅 2 次触发，完全够用
+#
+# 如需固定出口 IP（微信 IP 白名单），升级到 Paid 后配 Zero Trust
