@@ -122,8 +122,16 @@ def gh_get_binary(path):
         raise
 
 
-def gh_get_sha(path):
-    """获取文件 SHA"""
+def gh_list_dir(path):
+    """列出目录下所有文件路径"""
+    url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
+    try:
+        data = http_get_json(url, headers=_gh_headers())
+        if isinstance(data, list):
+            return [f["path"] for f in data if f["type"] == "file"]
+    except urllib.error.HTTPError:
+        pass
+    return []
     url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
     try:
         data = http_get_json(url, headers=_gh_headers())
@@ -242,15 +250,15 @@ def process_one_pending():
     media_id = create_draft(token, article)
     print(f"✅ 草稿创建成功: {media_id}")
 
-    # 删除 marker
-    sha = gh_get_sha("output/article.json")
-    if sha:
-        gh_delete_file(
-            "output/article.json",
-            sha,
-            f"Published {manifest.get('type', '?')}: {title} [skip ci]",
-        )
-        print("🗑️ 已删除 article.json marker")
+    # 清空 output/ 目录（所有文件都通过 GitHub API 删除）
+    print("🧹 清理 output/ 目录 ...")
+    deleted = 0
+    for filepath in gh_list_dir("output"):
+        sha = gh_get_sha(filepath)
+        if sha:
+            gh_delete_file(filepath, sha, f"Cleanup after publish: {title} [skip ci]")
+            deleted += 1
+    print(f"🗑️ 已清理 {deleted} 个 output 文件")
 
     return media_id
 
