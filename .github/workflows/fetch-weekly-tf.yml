@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────
 # Fetch Weekly TF Links
-# → 三源合并抓取一周 TF 链接，产出 tf_weekly_links.json + TestFlight合集_第N期.txt
+# → 聚合最近 7 天 tf_daily_links_MMDD.json，产出 tf_weekly_links.json + TestFlight合集_第N期.txt
 # 时间：每周二 UTC 00:00（北京时间 08:00）
 # ─────────────────────────────────────────
 name: Fetch Weekly TF Links
@@ -22,8 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests
-      - run: python tf_scraper.py weekly
+      - run: python publishers/weekly_tf_merger.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
