@@ -254,7 +254,7 @@ def main():
     sent_codes = set(load_json(TF_WECHAT_SENT))
 
     # 4. 生成新一期合集 TXT
-    result = generate_weekly_txt(merged, sent_codes)
+    result = generate_weekly_txt(enriched, sent_codes)
     if result:
         fname, issue, new_tf = result
         print(f"📝 TXT: {fname} ({len(new_tf)} 款新, 第{issue}期)")
