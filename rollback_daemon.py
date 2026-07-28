@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
 """
-本地回滚方案 —— 如果腾讯云 SCF 收费了，跑这个脚本恢复本地自动发布
+本地回滚方案 —— 如果腾讯云 SCF 收费了 / 换了新电脑，用此脚本恢复本地自动发布
 
-用法:
-  python rollback_daemon.py
+┌─────────────────────────────────────────────────────┐
+│  新电脑使用步骤                                      │
+│                                                     │
+│  1. 下载代码                                         │
+│     git clone https://github.com/Krysaya/tf-scraper-action.git  │
+│     cd tf-scraper-action                             │
+│                                                     │
+│  2. 配置环境变量（必填 3 个）                         │
+│     export WECHAT_APPID="wx4767544e0f9b8625"         │
+│     export WECHAT_APPSECRET="你的AppSecret"           │
+│     export GITHUB_TOKEN="你的GitHub PAT"             │
+│                                                     │
+│  3. 运行                                             │
+│     python3 rollback_daemon.py                       │
+│                                                     │
+│  4. 后台运行（可选）                                  │
+│     nohup python3 rollback_daemon.py > rollback.log 2>&1 &  │
+│                                                     │
+│  Python 自带即可，零外部依赖。每 10 分钟轮询一次。      │
+└─────────────────────────────────────────────────────┘
 
 功能:
   每 10 分钟检查 GitHub 仓库的 output/article.json
