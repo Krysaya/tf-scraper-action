@@ -38,8 +38,8 @@ jobs:
       - name: Find latest TF weekly TXT
         id: find-txt
         run: |
-          # 找最新的 TestFlight合集_第N期.txt
-          FILE=$(ls -t TestFlight合集_第*.txt 2>/dev/null | head -1)
+          # 找最新的 TestFlight合集_第N期.txt（按数字排序，不用 ls -t 因为 git checkout 时间戳相同）
+          FILE=$(ls -1v TestFlight合集_第*.txt 2>/dev/null | tail -1)
           if [ -z "$FILE" ]; then
             echo "❌ 找不到 TestFlight合集 TXT，跳过"
             exit 0
