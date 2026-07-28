@@ -1,11 +1,7 @@
 TestFlight合集 第9期
 
 1. DownTo: Do More Together
-   简介：Get active. Stay accountable. Do more together.
-
-DownTo is the social app for people who would rather do something than just talk about it.
-
-Every plan on DownTo is a Move: an activity-based invit
+   简介：Get active. Stay accountable. Do more together.DownTo is the social app for people who would rather do something than just talk about it.Every plan on DownTo is a Move: an activity-based invit
    https://testflight.apple.com/join/SWCCgnxC
 2. TF_NVTwgJ
    https://testflight.apple.com/join/NVTwgJVx
