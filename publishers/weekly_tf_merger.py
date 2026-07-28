@@ -8,6 +8,10 @@
 """
 
 import json
+import re
+import time
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -17,6 +21,117 @@ WORK_DIR = Path(__file__).resolve().parent.parent
 TF_WECHAT_SENT = WORK_DIR / "tf_wechat_sent.json"
 TF_ISSUE_FILE = WORK_DIR / "tf_issue.txt"
 WEEKLY_LINKS = WORK_DIR / "tf_weekly_links.json"
+
+
+# ============================================================
+# TestFlight 页面抓取（获取真实 App 名称 + 验证链接是否有效）
+# ============================================================
+def fetch_tf_page_info(code):
+    """
+    访问 testflight.apple.com/join/{code}，获取真实 App 名称和链接状态
+
+    返回: (app_name, is_active)
+      app_name: str — 真实名称；失败返回 None
+      is_active: bool — 链接是否仍然可用
+    """
+    url = f"https://testflight.apple.com/join/{code}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            # 检查是否被重定向（重定向通常意味着链接失效）
+            final_url = resp.geturl()
+            if final_url != url and "join" not in final_url:
+                return None, False
+
+            html = resp.read().decode("utf-8", errors="ignore")
+
+            # 检测失效标志
+            if any(kw in html for kw in [
+                "isn't accepting",
+                "no longer available",
+                "has been removed",
+                "This beta is full",
+                "doesn't exist",
+            ]):
+                return None, False
+
+            # 提取 App 名称（按优先级尝试多种模式）
+            name = None
+            patterns = [
+                # meta og:title: "Join the <name> beta"
+                r'<meta[^>]+property="og:title"[^>]+content="Join the (.+?) beta',
+                r'<meta[^>]+content="Join the (.+?) beta[^"]*"[^>]+property="og:title"',
+                # title: "Join the <name> beta — TestFlight — Apple"
+                r'<title>Join the (.+?) beta',
+                # h1/h2 with app name class
+                r'class="[^"]*app-name[^"]*"[^>]*>([^<]+)',
+                # beta name in text
+                r'<span[^>]*class="[^"]*beta-name[^"]*"[^>]*>([^<]+)',
+                # fallback: any h1
+                r'<h1[^>]*>([^<]+)</h1>',
+            ]
+            for pattern in patterns:
+                m = re.search(pattern, html)
+                if m:
+                    name = m.group(1).strip()
+                    if name and len(name) >= 2 and "TestFlight" not in name:
+                        break
+                    name = None
+
+            return name, True
+
+    except urllib.error.HTTPError as e:
+        # 404/403/500 → 链接失效
+        return None, False
+    except Exception:
+        # 网络错误 → 状态未知
+        return None, None
+
+
+def enrich_and_validate(apps, skip_existing_names=True):
+    """
+    对 App 列表进行名称补全和链接验证
+
+    skip_existing_names: True = 只补全占位名（TF_XXXX），跳过已有真名的
+    """
+    enriched = []
+    expired = []
+    skipped = 0
+
+    for entry in apps:
+        name = entry.get("name", "")
+        code = entry.get("code", "")
+
+        # 是否需要补全名称？
+        needs_name = not name or name.startswith("TF_") or len(name) <= 8
+        if skip_existing_names and not needs_name:
+            enriched.append(entry)
+            skipped += 1
+            continue
+
+        print(f"  🔍 {code[:8]}...", end=" ")
+        real_name, is_active = fetch_tf_page_info(code)
+
+        if is_active is False:
+            print("❌ 已失效")
+            expired.append(code)
+            continue
+
+        if real_name:
+            entry["name"] = real_name
+            print(f"→ {real_name[:30]}")
+        else:
+            print(f"→ (名称获取失败)")
+
+        enriched.append(entry)
+        time.sleep(0.5)  # 避免请求过快被苹果限流
+
+    if skipped:
+        print(f"  ⏭️ 跳过 {skipped} 个已有真名")
+    if expired:
+        print(f"  ❌ 过滤 {len(expired)} 个失效链接")
+    return enriched, expired
 
 
 def load_json(path):
@@ -123,7 +238,14 @@ def main():
         print("✅ 无数据")
         return
 
-    # 2. 保存全部合并结果
+    # 2. 补全名称 + 过滤失效链接
+    print(f"\n🔍 验证链接并补全名称 ...")
+    merged, expired = enrich_and_validate(merged)
+    if not merged:
+        print("✅ 所有链接均已失效，无需生成")
+        return
+
+    # 3. 保存全部合并结果
     save_json(merged, WEEKLY_LINKS)
     print(f"📝 已保存: {WEEKLY_LINKS.name} ({len(merged)} 条)")
 
