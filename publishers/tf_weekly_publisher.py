@@ -74,7 +74,8 @@ def parse_tf_txt(filepath):
             name = match.group(1).strip()
             url = ""
             desc = ""
-            for j in range(i + 1, min(i + 6, len(lines))):
+            # 扫描更多行（延长到 10 行，处理带换行的长简介）
+            for j in range(i + 1, min(i + 11, len(lines))):
                 stripped = lines[j].strip()
                 if stripped.startswith("简介："):
                     desc = stripped[3:].strip()
@@ -170,12 +171,15 @@ def generate_tf_cover():
 # ============================================================
 def generate_qr(tf_url, idx):
     qr = qrcode.QRCode(version=1, box_size=8, border=2)
-    qr.add_data(tf_url)
+    if tf_url:
+        qr.add_data(tf_url)
+    else:
+        qr.add_data("https://testflight.apple.com")
     qr.make(fit=True)
     img = qr.make_image(fill_color="#333333", back_color="#ffffff")
     path = OUTPUT_DIR / f"qr_{idx}.png"
     img.save(path, format="PNG")
-    print(f"  ✅ QR #{idx}")
+    print(f"  {'✅' if tf_url else '⚠️'} QR #{idx}")
     return str(path)
 
 
@@ -216,11 +220,15 @@ def build_html(apps, issue):
             html.append('<p style="font-size:13px;color:#6b6b6b;line-height:1.6;margin:0 0 0 42px;padding:8px 12px;background-color:#f9f7fe;border-radius:6px;border-left:3px solid #6c3ce0;">限时 TestFlight 测试名额，点击或扫码加入体验。</p>')
         html.append('</section>')
 
+        # QR 码：有链接就生成真 QR，没有就留占位空位
+        html.append('<section style="text-align:center;margin:0;">')
         if tf_url:
-            html.append('<section style="text-align:center;margin:0;">')
             html.append(f'<img src="{{{{IMG:qr_{i}}}}}" style="width:140px;height:140px;display:inline-block;border:1px solid #e5dff5;border-radius:6px;padding:4px;">')
             html.append('<p style="font-size:11px;color:#999999;margin:4px 0 0;">▲ 长按识别二维码，加入 TestFlight 测试</p>')
-            html.append('</section>')
+        else:
+            html.append('<div style="width:140px;height:140px;display:inline-block;border:1px dashed #d0c8e0;border-radius:6px;background-color:#faf8fd;text-align:center;line-height:140px;color:#b0a8c0;font-size:13px;">🔗 直链失效</div>')
+            html.append('<p style="font-size:11px;color:#999999;margin:4px 0 0;">请手动搜索 App 名称加入 TestFlight</p>')
+        html.append('</section>')
 
         html.append('</section>')
         html.append('</section>')
@@ -235,7 +243,7 @@ def build_html(apps, issue):
 # ============================================================
 # 5. 保存输出
 # ============================================================
-def save_output(html_content, qr_paths, issue, count):
+def save_output(html_content, issue, count):
     html_path = OUTPUT_DIR / "article.html"
     html_path.write_text(html_content, encoding="utf-8")
     print(f"✅ HTML: {len(html_content)} 字符 → {html_path}")
@@ -253,7 +261,7 @@ def save_output(html_content, qr_paths, issue, count):
         "count": count,
         "cover_file": "cover.jpg",
         "html_file": "article.html",
-        "qr_files": [f"qr_{i}.png" for i in range(1, len(qr_paths) + 1)],
+        "qr_files": [f"qr_{i}.png" for i in range(1, count + 1)],
     }
     manifest_path = OUTPUT_DIR / "article.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -292,20 +300,19 @@ def main():
     # 1. 生成封面
     generate_tf_cover()
 
-    # 2. 生成 QR 码
+    # 2. 生成 QR 码（每个 App 都生成，没链接的用占位 QR）
     print("📱 生成 QR 码...")
     qr_paths = []
     for i, (_, tf_url, _) in enumerate(apps):
-        qr_paths.append(generate_qr(tf_url, i + 1) if tf_url else None)
-    ok = len([p for p in qr_paths if p])
-    print(f"✅ QR: {ok}/{count}")
+        qr_paths.append(generate_qr(tf_url, i + 1))
+    print(f"✅ QR: {len(qr_paths)}/{count}")
 
     # 3. 生成 HTML（含占位符）
     print("🏗️ 构建 HTML...")
     html_content = build_html(apps, issue)
 
     # 4. 保存
-    save_output(html_content, qr_paths, issue, count)
+    save_output(html_content, issue, count)
 
     print(f"\n✅ 内容生成完成 → {OUTPUT_DIR}")
     print(f"   封面: cover.jpg")

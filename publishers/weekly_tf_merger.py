@@ -219,7 +219,8 @@ def generate_weekly_txt(new_apps, sent_codes):
     for i, entry in enumerate(new_tf, 1):
         lines.append(f"{i}. {entry['name']}")
         if entry.get("desc"):
-            lines.append(f"   简介：{entry['desc'][:200]}")
+            clean_desc = entry["desc"].replace("\n", " ").replace("\r", " ")[:200]
+            lines.append(f"   简介：{clean_desc}")
         lines.append(f"   {entry['url']}")
 
     (WORK_DIR / fname).write_text("\n".join(lines) + "\n", encoding="utf-8")
