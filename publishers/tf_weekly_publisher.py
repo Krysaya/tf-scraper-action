@@ -316,7 +316,7 @@ def main():
 
     print(f"\n✅ 内容生成完成 → {OUTPUT_DIR}")
     print(f"   封面: cover.jpg")
-    print(f"   QR 码: {ok} 张")
+    print(f"   QR 码: {len(qr_paths)} 张")
     print(f"   HTML: article.html")
     print(f"   元数据: article.json")
 
