@@ -1,59 +1,74 @@
 今日限免 (07/28)
 
-1. Wally: Budget Tracker
-   原价 ¥8 → 免费
-   https://apps.apple.com/cn/app/id6760678640
-2. 群晖助手
+1. 群晖助手
    原价 ¥36 → 免费
    https://apps.apple.com/cn/app/id6761318963
-3. 易呗背单词-高考英语专用版
+2. 易呗背单词-高考英语专用版
    原价 ¥15 → 免费 | 教育
    https://apps.apple.com/cn/app/id628006358
-4. Everyday
+3. Everyday
    原价 ¥38 → 免费 | Food,&amp;,Drink
    https://apps.apple.com/cn/app/id1394150432
-5. 那时 - 记录每个珍贵回忆
+4. 那时 - 记录每个珍贵回忆
    原价 ¥1 → 免费 | 生活
    https://apps.apple.com/cn/app/id6449081809
-6. Word Pyramid
+5. Word Pyramid
    原价 ¥22 → 免费
    https://apps.apple.com/cn/app/id660241107
-7. i2Reader
+6. i2Reader
    原价 ¥38 → 免费 | 图书
    https://apps.apple.com/cn/app/id322680924
-8. Liyla and The Shadows of War
+7. Liyla and The Shadows of War
    原价 ¥12 → 免费 | 游戏
    https://apps.apple.com/cn/app/id1100839270
-9. Hydrate or Diedrate Water Log
+8. LBC Underground
+   原价 ¥68 → 免费 | 健康健美
+   https://apps.apple.com/cn/app/id1449626517
+9. SmartGrill by Lynx
+   原价 ¥88 → 免费 | 美食佳饮
+   https://apps.apple.com/cn/app/id948052006
+10. AppMarkers
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6747897832
+11. DraftCode: Code Editor
+   原价 ? → 免费
+   https://apps.apple.com/app/id6770432142
+12. Collection Monster
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6784935897
+13. Camera by Xi
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6757970293
+14. Hydrate or Diedrate Water Log
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6772648377
-10. Exercise Snacks: GoodTrainer3D
+15. Exercise Snacks: GoodTrainer3D
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1535882090
-11. Open Pi - Raspberry Pi Manager
+16. Open Pi - Raspberry Pi Manager
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6762019524
-12. Guitar Chords, Tabs and Scales
+17. Guitar Chords, Tabs and Scales
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1610128223
-13. Markdown Notes Editor: Markden
+18. Markdown Notes Editor: Markden
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6761099086
-14. Video Compressor Gold
+19. Video Compressor Gold
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1133417250
-15. Bluetooth Mic to Speaker App
+20. Bluetooth Mic to Speaker App
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6760194938
-16. GPS Speed Tracker &gt;Speedometer
+21. GPS Speed Tracker &gt;Speedometer
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6788115047
-17. Hotel detection assistant
+22. Hotel detection assistant
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6770867700
-18. Snapery Longshots
+23. Snapery Longshots
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6742097102
-19. Simple Notes - YepNotes
+24. Simple Notes - YepNotes
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id668384667
