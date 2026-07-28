@@ -1,1 +1,2 @@
-requests>=2.31
+# SCF 已改为纯 stdlib（urllib），零外部依赖
+# 此文件保留仅供记录

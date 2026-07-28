@@ -8,8 +8,6 @@
 """
 
 import json
-import os
-import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -19,8 +17,6 @@ WORK_DIR = Path(__file__).resolve().parent.parent
 TF_WECHAT_SENT = WORK_DIR / "tf_wechat_sent.json"
 TF_ISSUE_FILE = WORK_DIR / "tf_issue.txt"
 WEEKLY_LINKS = WORK_DIR / "tf_weekly_links.json"
-
-HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
 def load_json(path):

@@ -132,6 +132,10 @@ def gh_list_dir(path):
     except urllib.error.HTTPError:
         pass
     return []
+
+
+def gh_get_sha(path):
+    """获取文件 SHA"""
     url = f"{GITHUB_API}/repos/{REPO}/contents/{path}?ref={BRANCH}"
     try:
         data = http_get_json(url, headers=_gh_headers())
