@@ -15,27 +15,45 @@
 5. 日记罐罐-Emoji 心情日记本 · 隐私守护
    原价 ¥1 → 免费
    https://apps.apple.com/cn/app/id6746400159
-6. Kasu Trainer
-   原价 ¥22 → 免费 | 效率
-   https://apps.apple.com/cn/app/id987219998
-7. UGM Evaluados
-   原价 ¥15 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1558685475
-8. Ago: Last Time Tracker
+6. Bobofit: Weight & BMI Tracker
+   原价 ¥38 → 免费
+   https://apps.apple.com/cn/app/id6758529106
+7. Artiful Reader: Read & Listen
+   原价 ¥38 → 免费
+   https://apps.apple.com/cn/app/id6762534360
+8. Little Kitten: Pet Cat School
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1382661240
+9. Spatial Agents
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6759275149
+10. Amieeba - Digital Slime
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6757132639
+11. Goal Streak: Habit Tracker
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1630626343
+12. Resize Video
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6504019810
+13. Precursor: Hourly Screen Time
+   原价 ? → 免费
+   https://apps.apple.com/app/id6791403654
+14. Ago: Last Time Tracker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6780959791
-9. DuoSpace: Multiple Accounts
+15. DuoSpace: Multiple Accounts
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6767196211
-10. 9Stamp: Travel Stamp Maker
+16. 9Stamp: Travel Stamp Maker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6791581212
-11. Bible App: Daily Verse &amp; Pray
+17. Bible App: Daily Verse &amp; Pray
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6779263295
-12. SplitCam: Dual Recorder
+18. SplitCam: Dual Recorder
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6761194664
-13. Le Baby – newborn tracker
+19. Le Baby – newborn tracker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id1419753033
