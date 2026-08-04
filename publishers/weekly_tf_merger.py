@@ -18,6 +18,15 @@ from pathlib import Path
 BEIJING = timezone(timedelta(hours=8))
 
 WORK_DIR = Path(__file__).resolve().parent.parent
+
+# ========== 翻译：简介中文化（兜底 daily 未翻成功的条目）==========
+import sys as _sys
+_sys.path.insert(0, str(WORK_DIR))
+try:
+    import tf_translate
+except Exception as _e:
+    tf_translate = None
+    print(f"⚠️ 翻译模块 tf_translate 未加载: {_e}")
 TF_WECHAT_SENT = WORK_DIR / "tf_wechat_sent.json"
 TF_ISSUE_FILE = WORK_DIR / "tf_issue.txt"
 WEEKLY_LINKS = WORK_DIR / "tf_weekly_links.json"
@@ -238,6 +247,13 @@ def main():
     if not merged:
         print("✅ 无数据")
         return
+
+    # 1.5 简介中文化（兜底：daily 阶段没翻成功的，这里再翻一次；缓存 descriptions.json）
+    if tf_translate is not None:
+        try:
+            tf_translate.translate_entries(merged, cache_path=str(WORK_DIR / "descriptions.json"))
+        except Exception as _e:
+            print(f"⚠️ 翻译步骤出错，跳过: {_e}")
 
     # 2. 补全名称 + 过滤失效链接
     print(f"\n🔍 验证链接并补全名称 ...")

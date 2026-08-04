@@ -1,0 +1,31 @@
+# ─────────────────────────────────────────
+# Fetch Weekly TF Links
+# → 聚合最近 7 天 tf_daily_links_MMDD.json，产出 tf_weekly_links.json + TestFlight合集_第N期.txt
+# 时间：每周二 UTC 00:00（北京时间 08:00）
+# ─────────────────────────────────────────
+name: Fetch Weekly TF Links
+
+on:
+  schedule:
+    - cron: '0 0 * * 2'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python publishers/weekly_tf_merger.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tf_weekly_links.json tf_wechat_sent.json tf_issue.txt TestFlight合集_*.txt 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "Weekly TF links [skip ci]"
+          git push
