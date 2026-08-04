@@ -9,84 +9,87 @@
 3. 像素工坊：像素画拼豆哈马豆编辑器
    原价 ¥8 → 免费 | 图形与设计
    https://apps.apple.com/cn/app/id6755681228
-4. inPhotos 相册
-   原价 ¥22 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id6737150431
-5. Pixelist - Habit Tracker
+4. Pixelist - Habit Tracker
    原价 ¥15 → 免费 | 效率,工具
    https://apps.apple.com/cn/app/id1317636216
-6. 单词速通计划
+5. 单词速通计划
    原价 ¥15 → 免费
    https://apps.apple.com/cn/app/id6752371631
-7. Elks RV Parks
+6. Clipps
+   原价 ¥15 → 免费
+   https://apps.apple.com/cn/app/id6761316060
+7. 移动抄码
+   原价 ¥15 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1475440196
+8. Cosmos - Expanding horizons
+   原价 ¥15 → 免费 | 教育
+   https://apps.apple.com/cn/app/id1462752589
+9. Elks RV Parks
    原价 ¥8 → 免费 | 旅游
    https://apps.apple.com/cn/app/id1505088183
-8. Mindverse: AI Memory & Sync
-   原价 ¥128 → 免费
-   https://apps.apple.com/cn/app/id6766018877
-9. Idea Think：思维整理器
+10. Idea Think：思维整理器
    原价 ? → 免费
    https://apps.apple.com/cn/app/id1325419855
-10. 日理
+11. 日理
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6762459159
-11. Jot - Tasks &amp; Notes
+12. Jot - Tasks &amp; Notes
    原价 ? → 免费
    https://apps.apple.com/cn/app/id389801252
-12. RunnerMate
+13. RunnerMate
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6759859697
-13. Ai Pin Dou
+14. Ai Pin Dou
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6756688364
-14. Canon: Chord Composer
+15. Canon: Chord Composer
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6755978513
-15. ScanBatch · QR Code Scanner
+16. ScanBatch · QR Code Scanner
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6771756857
-16. Zanoza: Your Radio Collection
+17. Zanoza: Your Radio Collection
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6642717566
-17. Relaxing Tangle Pro
+18. Relaxing Tangle Pro
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6453170946
-18. Spring for Twitter
+19. Spring for Twitter
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id1508706541
-19. WordTube2: Language Learning
+20. WordTube2: Language Learning
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1486390323
-20. FlatMol 2
+21. FlatMol 2
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1474616897
-21. Push Up Counter
+22. Push Up Counter
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6758037844
-22. Snap2Gif
+23. Snap2Gif
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6502221306
-23. Passport Photo: ID Photo
+24. Passport Photo: ID Photo
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6472762578
-24. Counter-Plan-todo-tasbih-count
+25. Counter-Plan-todo-tasbih-count
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6762558902
-25. Intenty: Intention Journal
+26. Intenty: Intention Journal
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6780071655
-26. StampOut: Photo Stamp Camera
+27. StampOut: Photo Stamp Camera
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6791968686
-27. Due or Die: To-Do App Blocker
+28. Due or Die: To-Do App Blocker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6792173694
-28. Longing: Season Tracker
+29. Longing: Season Tracker
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6759530526
-29. Blocker+ Adult Content Blocker
+30. Blocker+ Adult Content Blocker
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6755668356
-30. Renewa: Bills &amp; Renewals
+31. Renewa: Bills &amp; Renewals
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6794522553
