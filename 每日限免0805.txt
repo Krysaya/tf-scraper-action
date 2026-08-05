@@ -1,44 +1,83 @@
 今日限免 (08/05)
 
-1. ASpeaker：200 种动物叫声大全
-   原价 ¥8 → 免费
-   https://apps.apple.com/cn/app/id6746611686
-2. ADP Mobile Solutions
-   原价 ¥22 → 免费 | 商务
-   https://apps.apple.com/cn/app/id444553167
-3. 扫雷世界 - 扫地雷小游戏对战
-   原价 ¥12 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id1196093666
-4. 颠倒思维
+1. 攒粒 - 线上问卷调研平台
    原价 ¥1 → 免费 | 生活
-   https://apps.apple.com/cn/app/id1536520485
-5. HAWKi - Illinois Tech mobile
-   原价 ¥68 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1078683087
-6. 慈光講堂HD
-   原价 ¥22 → 免费 | 教育
-   https://apps.apple.com/app/id1671094963
-7. 棋路Lite
+   https://apps.apple.com/cn/app/id1499802376
+2. 战龟:2
+   原价 ¥12 → 免费
+   https://apps.apple.com/cn/app/id1549589042
+3. Buy-World
+   原价 ¥1 → 免费 | 商务
+   https://apps.apple.com/cn/app/id1092806432
+4. 猫小帅拼音-儿童拼音学习和学拼音App
    原价 ¥8 → 免费 | 教育
-   https://apps.apple.com/app/id6444056497
-8. 视频压缩助手 - 口袋影视编辑制作大全
-   原价 ¥15 → 免费 | 音乐
-   https://apps.apple.com/app/id1102399925
-9. Prism Notes
+   https://apps.apple.com/cn/app/id1468068428
+5. 触摸冥想，创造性的可视化=知道顶空和深引导视觉绿洲音乐
+   原价 ¥8 → 免费 | 健康健美
+   https://apps.apple.com/cn/app/id807683952
+6. 宠物王国-科养玩家
+   原价 ¥3 → 免费 | 生活
+   https://apps.apple.com/cn/app/id1487995925
+7. 「字型艺廊 - 字型预览工具」
+   原价 ¥28 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1327481616
+8. 空调遥ּּ控器
+   原价 ¥8 → 免费
+   https://apps.apple.com/cn/app/id6747735742
+9. 新耀能源
+   原价 ¥8 → 免费 | 工具
+   https://apps.apple.com/cn/app/id987469913
+10. LinkCraft
+   原价 ¥15 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1489936605
+11. Prism Notes
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6754857785
-10. Brain Training Logic: Fallacy
+12. Moon Tracker: Lunar Phases
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6755927447
+13. WaterLog - Drink more water
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1601673732
+14. LearnBack: Active Recall
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6757343516
+15. Z- AI Relationship Coach
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6759488698
+16. DI Cam -Digital Instant Camera
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6785182331
+17. LineDrawing - True Line Art
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6789479641
+18. Guard Ninja
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1475364676
+19. Calming Tiny Wanders
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1542537461
+20. Point Five
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id1304298549
+21. LandMeter - GPS Area Measure
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/us/app/id6779892226
+22. Mathketeers: Math Games
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6786310522
+23. Brain Training Logic: Fallacy
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6743923575
-11. Linga AI: Learn Languages Fast
+24. Linga AI: Learn Languages Fast
    原价 ? → 免费 | IAP
-   https://apps.apple.com/app/id6762819424
-12. PhotoDateStamp - EXIF &amp; Frame
+   https://apps.apple.com/cn/app/id6762819424
+25. PhotoDateStamp - EXIF &amp; Frame
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6760278393
-13. PhotoSync - Backup to PC
+26. PhotoSync - Backup to PC
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6771433800
-14. ReadySet: Visual Routine Timer
+27. ReadySet: Visual Routine Timer
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6757413273
