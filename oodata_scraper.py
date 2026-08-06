@@ -60,13 +60,3 @@ def resolve_appstore_url(app_id, original_country):
     except Exception: pass
     prefix = f"{original_country}/" if original_country else ""
     return f"https://apps.apple.com/{prefix}app/id{app_id}"
-
-def load_sent():
-    if os.path.exists(SENT_FILE):
-        with open(SENT_FILE, 'r') as f:
-            return set(json.load(f))
-    return set()
-
-def save_sent(s):
-    with open(SENT_FILE, 'w') as f:
-        json.dump(sorted(list(s)), f)

@@ -20,24 +20,24 @@ import requests
 import qrcode
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
+# ── 翻译：英文简介→中文（复用 tf_translate，无缝降级）──
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+try:
+    import tf_translate as _tft
+    _has_cjk  = _tft.has_cjk
+    _translate = _tft.gtx_translate
+except Exception as _e:
+    _has_cjk  = lambda s: False
+    _translate = lambda s, **kw: None
+    print(f"⚠️ tf_translate 未加载，简介不翻译: {_e}")
+
 # ============================================================
 # 配置
 # ============================================================
 AUTHOR = "卡拉库姆猫"
 
 WORK_DIR = Path(__file__).resolve().parent.parent  # 仓库根目录
-
-# ========== 翻译：英文简介→中文（复用 tf_translate）==========
-import sys as _sys
-_sys.path.insert(0, str(WORK_DIR))
-try:
-    import tf_translate as _tft
-    _has_cjk   = _tft.has_cjk
-    _translate  = _tft.gtx_translate
-except Exception as _e:
-    _has_cjk   = lambda s: False
-    _translate  = lambda s, **kw: None
-    print(f"⚠️ tf_translate 未加载，简介不翻译: {_e}")
 OUTPUT_DIR = WORK_DIR / "output"
 DESC_PATH = WORK_DIR / "descriptions.json"
 

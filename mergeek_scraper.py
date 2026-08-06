@@ -89,14 +89,3 @@ def fetch_apps():
         tag = free_tags[free_count] if free_count < len(free_tags) else ""
         results.append({"slug": name, "name": name, "price": None, "category": tag[:8] if tag else "", "rating": "", "type": "免费"})
     return results
-
-
-def load_sent():
-    if os.path.exists(SENT_FILE):
-        with open(SENT_FILE, "r") as f:
-            return set(json.load(f))
-    return set()
-
-def save_sent(s):
-    with open(SENT_FILE, "w") as f:
-        json.dump(sorted(list(s)), f)
