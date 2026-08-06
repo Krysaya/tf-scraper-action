@@ -1,93 +1,183 @@
 [
   {
+    "name": "Dynamidrive",
+    "code": "FBKN7czt",
+    "desc": "Dynamidrive 是开车时听音乐的最佳应用程序。您可以自定义歌曲，根据您的速度实时调整，例如应该出现哪些乐器、节奏、音高等等！它为您提供了一种更有活力的聆听方式...",
+    "url": "https://testflight.apple.com/join/FBKN7czt"
+  },
+  {
+    "name": "Countdown Widget: NanoCount",
+    "code": "Wk3rDc1C",
+    "desc": "NanoCount 对主屏幕、锁定屏幕、动态岛和 Apple Watch 上的任何内容进行倒计时，并从日期开始计数。多事件小部件是免费的，而其他应用程序则收取订阅费用，没有帐户，并且一切都可以离线工作。发布前处于测试阶段。",
+    "url": "https://testflight.apple.com/join/Wk3rDc1C"
+  },
+  {
+    "name": "Ulys",
+    "code": "Y1wBksnf",
+    "desc": "学校规划师",
+    "url": "https://testflight.apple.com/join/Y1wBksnf"
+  },
+  {
+    "name": "Nightlight: Card Game",
+    "code": "paJrVSu6",
+    "desc": "Nachtlicht（“夜光”）是一款舒适的幽灵主题纸牌和记忆游戏。记住你的四张面朝下的牌，巧妙地抽牌和交换，使用动作牌（偷看、交换、双转）——然后喊“熄灯！”当你认为你握着最低的手的那一刻。但要小心：其他人都会得到一个......",
+    "url": "https://testflight.apple.com/join/paJrVSu6"
+  },
+  {
     "name": "Starlight VPN",
     "code": "VfQwnC67",
-    "desc": "Starlight VPN is a user-friendly VPN with full native support. Looking for beta testers to report connection issues, usability feedback, and device-specific problems.",
+    "desc": "Starlight VPN 是一款用户友好的 VPN，具有完整的本地支持。寻找 Beta 测试人员来报告连接问题、可用性反馈和设备特定问题。",
     "url": "https://testflight.apple.com/join/VfQwnC67"
   },
   {
     "name": "Clockistry",
     "code": "Cu53ZBA6",
-    "desc": "Clockistry is a personal time tracker for pursuits that matter to you — practicing an instrument, writing a book, learning a language, creating art, studying, training, reading, meditating. Time is your most precious resource; with Clockistry you can manage your time in a way tha...",
+    "desc": "Clockistry 是一款个人时间追踪器，可追踪对您而言重要的追求——练习乐器、写书、学习语言、创作艺术、学习、培训、阅读、冥想。时间是你最宝贵的资源；通过 Clockistry，您可以以一种...的方式管理您的时间。",
     "url": "https://testflight.apple.com/join/Cu53ZBA6"
-  },
-  {
-    "name": "Levity: Photo Cleaner",
-    "code": "Zt4Wrm3r",
-    "desc": "Levity is a privacy-first iPhone photo cleaner for calm, month-by-month cleanup sessions. Swipe to keep or release, review every choice, and confirm before anything is deleted. Similar-photo detection runs entirely on device. No account, ads, analytics, or weekly subscription. I’...",
-    "url": "https://testflight.apple.com/join/Zt4Wrm3r"
   },
   {
     "name": "NovaWeather!",
     "code": "ehW4mCXY",
-    "desc": "NovaWeather is a weather app that is highly customizable (very early beta; features coming soon).",
+    "desc": "NovaWeather 是一款高度可定制的天气应用程序（非常早期的测试版；功能即将推出）。",
     "url": "https://testflight.apple.com/join/ehW4mCXY"
   },
   {
     "name": "YourMeal: AI Calorie Tracker",
     "code": "2UNUYagj",
-    "desc": "Last call before Release:\r\n- Urgently need testers for the newly added languages\r\n- Added French, Italian, and Chinese\r\n- Fixed a minor bug in Apple Health integration\r\n- Minor bug fixes\r\n\r\n-------------Description-------------\r\nSay goodbye to tedious calorie counting and manual...",
+    "desc": "发布前最后一次调用： - 急需新添加语言的测试人员 - 添加了法语、意大利语和中文 - 修复了 Apple Health 集成中的一个小错误 - 小错误修复 -------------描述------------- 告别繁琐的卡路里计算和手...",
     "url": "https://testflight.apple.com/join/2UNUYagj"
   },
   {
     "name": "Decoran",
     "code": "cTbH8bgx",
-    "desc": "Decoran is an AI-powered interior design app that helps you explore new looks for real rooms. Start with a photo or create a concept from scratch, choose a curated style, and generate a polished visualization in a guided flow.\r\nDESIGN WITH YOUR OWN ROOM\r\nUpload or capture a photo...",
+    "desc": "Decoran 是一款人工智能驱动的室内设计应用程序，可帮助您探索真实房间的新外观。从照片开始或从头开始创建概念，选择策划的风格，并在引导流程中生成精美的可视化效果。 用您自己的房间进行设计 上传或拍摄照片...",
     "url": "https://testflight.apple.com/join/cTbH8bgx"
+  },
+  {
+    "name": "Figgy Browser",
+    "code": "DdhT4YFS",
+    "desc": "Figgy Figma 浏览器是一款为 iPad 上的 Figma、FigJam、白板、UI 设计、原型、流程图和网页画布工具打造的浏览器。 它让画布工作更稳： - 在 iPad 上打开 Figma 和 FigJam。 - 用固定标签快速回...",
+    "url": "https://testflight.apple.com/join/DdhT4YFS"
+  },
+  {
+    "name": "记忆花园",
+    "code": "XSdkH7mP",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/XSdkH7mP"
+  },
+  {
+    "name": "TF_27uRZQ",
+    "code": "27uRZQ45",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/27uRZQ45"
+  },
+  {
+    "name": "Moon FM - The Podcasts App",
+    "code": "c6NtF2xP",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/c6NtF2xP"
+  },
+  {
+    "name": "EIHL Tracker",
+    "code": "9g3XeszE",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/9g3XeszE"
+  },
+  {
+    "name": "PsyLog Journal",
+    "code": "MXxZqjST",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/MXxZqjST"
+  },
+  {
+    "name": "Cali 宝宝助手",
+    "code": "R1nDy5AU",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/R1nDy5AU"
+  },
+  {
+    "name": "Steadymark",
+    "code": "fC7BYb5D",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/fC7BYb5D"
+  },
+  {
+    "name": "Bloom - Gallery Scrolling",
+    "code": "m9hMPdtX",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/m9hMPdtX"
+  },
+  {
+    "name": "Mobile Forex",
+    "code": "maQ4xJGh",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/maQ4xJGh"
+  },
+  {
+    "name": "Genie AI",
+    "code": "uC9zvubz",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/uC9zvubz"
+  },
+  {
+    "name": "Chukshu Eye Breaks",
+    "code": "8papskze",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/8papskze"
+  },
+  {
+    "name": "BlinkWorld",
+    "code": "jWMYfjrv",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/jWMYfjrv"
+  },
+  {
+    "name": "auth. - 2FA Smart Sync",
+    "code": "8XDBCC4Q",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/8XDBCC4Q"
+  },
+  {
+    "name": "Slips - Quick Notes",
+    "code": "9QGyahYr",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/9QGyahYr"
+  },
+  {
+    "name": "marknow",
+    "code": "puySJEVn",
+    "desc": "MarkNow 是一款极简而强大的习惯打卡与时间管理工具。它不仅是一个打卡软件，更是你的饮食记录助手、运动打卡伙伴和心情日记本。 [Mergeek Discover] \"养成记录的习惯后，通过 MarkNow 的数据分析，我发现坚持晚上运动...",
+    "url": "https://testflight.apple.com/join/puySJEVn"
+  },
+  {
+    "name": "Ōree",
+    "code": "v3zbr8YC",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/v3zbr8YC"
+  },
+  {
+    "name": "CounterUps: Push-Ups Tracker",
+    "code": "myFEz6DW",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/myFEz6DW"
+  },
+  {
+    "name": "PingRoom",
+    "code": "UW186HBe",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/UW186HBe"
   },
   {
     "name": "Exercise: Gym Workout Planner",
     "code": "pRFSPSxJ",
-    "desc": "Exercise is the workout planner that runs your workouts for you. Build strength sessions, timed holds, circuits, HIIT, Tabata, stretching, and mobility routines with custom sets, reps, weights, durations, and rests. Or describe a workout in plain English and let AI build it.\r\n\r\nA...",
+    "desc": "锻炼是为您进行锻炼的锻炼计划程序。通过自定义组数、次数、重量、持续时间和休息来建立力量训练、定时保持、循环、HIIT、Tabata、拉伸和活动程序。或者用简单的英语描述一项锻炼，然后让人工智能来构建它。 一个...",
     "url": "https://testflight.apple.com/join/pRFSPSxJ"
   },
   {
     "name": "Lucid Dreaming: Dream Trainer",
     "code": "bGAQrtMQ",
-    "desc": "This app is designed to help you build the skills and habits that support lucid dreaming through dream journaling, learning, guided training, and ongoing practice.",
+    "desc": "该应用程序旨在帮助您通过记录梦境、学习、指导培训和持续练习来培养支持清醒梦的技能和习惯。",
     "url": "https://testflight.apple.com/join/bGAQrtMQ"
-  },
-  {
-    "name": "Spin &amp; Team Up",
-    "code": "ZNvnUbtK",
-    "desc": "iMesssage app for spin and forming teams",
-    "url": "https://testflight.apple.com/join/ZNvnUbtK"
-  },
-  {
-    "name": "Chromaroll",
-    "code": "kvBcBbXp",
-    "desc": "Chromaroll is a one-tap timing game about painting posters. The roller sweeps on its own, and every stamp has to land at exactly the right moment. The core loop is unusually tactile, with haptic-tuned stamps, ink pressure and combo fever. There are 2,000 levels, and the drums phy...",
-    "url": "https://testflight.apple.com/join/kvBcBbXp"
-  },
-  {
-    "name": "Trial Guard: Trial Tracker",
-    "code": "edW5ZSXR",
-    "desc": "Trial Guard is a focused iPhone tracker for free trials and renewal dates. Add a sample trial, review the upcoming timeline, test reminders, and check whether the cost and cancellation information are obvious at a glance. I am looking for feedback on first-use clarity, notificati...",
-    "url": "https://testflight.apple.com/join/edW5ZSXR"
-  },
-  {
-    "name": "Nash Fuel &amp; Recovery",
-    "code": "Yfwm1uBG",
-    "desc": "Nash Fuel &amp; Recovery combines hydration, practical nutrition, mobility, stretching, and recovery tools in one private iPhone app. I am looking for testers to use one tool repeatedly, check whether the guidance and units are understandable, verify reminders and saved progress, and...",
-    "url": "https://testflight.apple.com/join/Yfwm1uBG"
-  },
-  {
-    "name": "Nash Meals",
-    "code": "FFCKUQMt",
-    "desc": "Nash Meals is a private iPhone recipe app with 150 practical recipes, seven permanently free recipes, search, filters, favorites, serving-size scaling, meal planning, and premium custom recipes. I especially need feedback on recipe quality, scaling, dietary and allergen labels, c...",
-    "url": "https://testflight.apple.com/join/FFCKUQMt"
-  },
-  {
-    "name": "Nokka – Digitale Strichliste",
-    "code": "qseY3GA9",
-    "desc": "Nokka is a private tally counter for your crew — count anything together (swim days, ski runs, aperitivi, concert nights), race up private leaderboards, keep streaks alive, plan events, and settle friendly money-free bets. No accounts, no ads, no backend: everything syncs through...",
-    "url": "https://testflight.apple.com/join/qseY3GA9"
-  },
-  {
-    "name": "HubTweak",
-    "code": "H4Wm8mBN",
-    "desc": "The HubTweak social media app focuses on user individuality by allowing users to have post layouts, customise their profiles, choose how they view posts and many more features being added. Try it out and share your thoughts",
-    "url": "https://testflight.apple.com/join/H4Wm8mBN"
   },
   {
     "name": "TF_CxTHFf",
@@ -96,22 +186,76 @@
     "url": "https://testflight.apple.com/join/CxTHFfrs"
   },
   {
-    "name": "KRVR",
+    "name": "Join the Pod App beta",
     "code": "gNNdfEzx",
     "desc": "",
     "url": "https://testflight.apple.com/join/gNNdfEzx"
+  },
+  {
+    "name": "Join the TalosRoute beta",
+    "code": "dH8lkFZi",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/dH8lkFZi"
+  },
+  {
+    "name": "SaunaTime: Sauna Made Easier",
+    "code": "WsuUDTWY",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/WsuUDTWY"
+  },
+  {
+    "name": "Spin &amp; Team Up",
+    "code": "ZNvnUbtK",
+    "desc": "用于旋转和组建团队的 iMesssage 应用程序",
+    "url": "https://testflight.apple.com/join/ZNvnUbtK"
+  },
+  {
+    "name": "Chromaroll",
+    "code": "kvBcBbXp",
+    "desc": "Chromaroll 是一款关于绘制海报的一键计时游戏。滚筒自行扫动，每张邮票都必须在正确的时刻落地。核心环具有异常的触觉，具有触觉调整的印记、墨水压力和组合热度。有 2,000 个关卡，鼓声...",
+    "url": "https://testflight.apple.com/join/kvBcBbXp"
+  },
+  {
+    "name": "Trial Guard: Trial Tracker",
+    "code": "edW5ZSXR",
+    "desc": "Trial Guard 是一款专注于免费试用和续订日期的 iPhone 跟踪器。添加示例试用，查看即将到来的时间表、测试提醒，并检查费用和取消信息是否一目了然。我正在寻找有关首次使用清晰度、通知的反馈...",
+    "url": "https://testflight.apple.com/join/edW5ZSXR"
+  },
+  {
+    "name": "Nash Fuel &amp; Recovery",
+    "code": "Yfwm1uBG",
+    "desc": "Nash Fuel & Recovery 将补水、实用营养、活动、伸展和恢复工具结合在一款私人 iPhone 应用程序中。我正在寻找测试人员重复使用一种工具，检查指南和单元是否易于理解，验证提醒和保存的进度，以及......",
+    "url": "https://testflight.apple.com/join/Yfwm1uBG"
+  },
+  {
+    "name": "Nash Meals",
+    "code": "FFCKUQMt",
+    "desc": "Nash Meals 是一款私人 iPhone 食谱应用程序，包含 150 种实用食谱、7 种永久免费食谱、搜索、过滤器、收藏夹、份量缩放、膳食计划和高级定制食谱。我特别需要有关配方质量、缩放比例、饮食和过敏原标签等方面的反馈...",
+    "url": "https://testflight.apple.com/join/FFCKUQMt"
+  },
+  {
+    "name": "Nokka – Digitale Strichliste",
+    "code": "qseY3GA9",
+    "desc": "Nokka 是为您的团队提供的私人计数计数器 - 一起计算任何事情（游泳日、滑雪场、开胃酒、音乐会之夜）、在私人排行榜上竞赛、保持连胜、计划活动并结算友好的免费投注。没有帐户，没有广告，没有后端：一切都通过...同步",
+    "url": "https://testflight.apple.com/join/qseY3GA9"
+  },
+  {
+    "name": "HubTweak",
+    "code": "H4Wm8mBN",
+    "desc": "HubTweak 社交媒体应用程序专注于用户个性，允许用户拥有帖子布局、自定义他们的个人资料、选择他们查看帖子的方式以及添加的更多功能。尝试一下并分享您的想法",
+    "url": "https://testflight.apple.com/join/H4Wm8mBN"
+  },
+  {
+    "name": "Levity: Photo Cleaner",
+    "code": "Zt4Wrm3r",
+    "desc": "Levity 是一款隐私至上的 iPhone 照片清理器，可进行每月一次的平静清理。滑动以保留或释放，查看每个选择，并在删除任何内容之前进行确认。相似照片检测完全在设备上运行。没有帐户、广告、分析或每周订阅。我'...",
+    "url": "https://testflight.apple.com/join/Zt4Wrm3r"
   },
   {
     "name": "TalosRoute",
     "code": "luZsKILI",
     "desc": "",
     "url": "https://testflight.apple.com/join/luZsKILI"
-  },
-  {
-    "name": "JeeConnect",
-    "code": "dH8lkFZi",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dH8lkFZi"
   },
   {
     "name": "ChurchSuite Tap to Donate",
@@ -194,31 +338,31 @@
   {
     "name": "Loom Finance",
     "code": "fybRZwre",
-    "desc": "Live stream of impactful news that may move the stock market. No noise only important finance stories as they break in realtime/live",
+    "desc": "直播可能影响股市的有影响力的新闻。没有噪音，只有重要的金融故事，因为它们是实时/直播的",
     "url": "https://testflight.apple.com/join/fybRZwre"
   },
   {
     "name": "Nash Training",
     "code": "WHr9BpBD",
-    "desc": "Nash Training combines strength, cardio, and functional training in one private iPhone app. It includes three starter workouts free forever, guided progression, timers, history, optional gym prompts, post-workout mobility suggestions, a seven-day all-access trial, and one-time li...",
+    "desc": "Nash Training 将力量、有氧运动和功能训练融合在一款私人 iPhone 应用程序中。它包括三项永久免费的入门锻炼、指导进展、计时器、历史记录、可选的健身房提示、锻炼后活动建议、为期 7 天的全面试用以及一次性...",
     "url": "https://testflight.apple.com/join/WHr9BpBD"
   },
   {
     "name": "Wake Well: Smart Alarm",
     "code": "SKebysZE",
-    "desc": "Wake Well is a privacy-first iPhone alarm built with Apple’s system alarm framework. It includes 20 original tones, Math, Shake, Phrase, and QR wake challenges, shrinking snooze, Alarm Check, Nap, Sleep planning, and a one-time lifetime unlock. I am especially looking for locked-...",
+    "desc": "Wake Well 是一款隐私优先的 iPhone 闹钟，采用 Apple 的系统闹钟框架构建。它包括 20 种原创铃声、数学、摇动、短语和 QR 唤醒挑战、小睡、闹钟检查、午睡、睡眠计划和一次性终身解锁。我特别寻找锁定的...",
     "url": "https://testflight.apple.com/join/SKebysZE"
   },
   {
     "name": "Debt-Free: Payoff Planner",
     "code": "HWqUAFfk",
-    "desc": "Debt-Free is a private, on-device payoff planner with snowball and avalanche strategies, live extra-payment scenarios, targeted payments, payoff dates, milestones, payment history, reminders, backup, and a one-time lifetime unlock. I am looking for practical feedback on number en...",
+    "desc": "Debt-Free 是一款私密的设备上还款计划工具，具有滚雪球和雪崩策略、实时额外付款场景、目标付款、还款日期、里程碑、付款历史记录、提醒、备份和一次性终身解锁。我正在寻找有关号码的实际反馈...",
     "url": "https://testflight.apple.com/join/HWqUAFfk"
   },
   {
     "name": "Monitrun - SSL Expiry Monitor",
     "code": "Q2neZQuv",
-    "desc": "Monit is an iOS app designed to keep your online services running smoothly. Whether you manage a personal blog, a business website, or multiple client projects, Monit gives you the tools to detect problems before your users do.",
+    "desc": "Monit 是一款 iOS 应用程序，旨在让您的在线服务顺利运行。无论您管理个人博客、商业网站还是多个客户项目，Monit 都能为您提供先于用户检测问题的工具。",
     "url": "https://testflight.apple.com/join/Q2neZQuv"
   },
   {
@@ -244,35 +388,5 @@
     "code": "EQ8qeGd8",
     "desc": "",
     "url": "https://testflight.apple.com/join/EQ8qeGd8"
-  },
-  {
-    "name": "Parcel Sense",
-    "code": "hbMAYpwu",
-    "desc": "I got fed up with getting tracking updates that just give you a massive 12-hour delivery window, so I built an iOS app called Parcel Sense to try and fix this. It uses past tracking data to figure out a much tighter, more realistic arrival time for your packages. (UK ONLY)\r\n\r\nFea...",
-    "url": "https://testflight.apple.com/join/hbMAYpwu"
-  },
-  {
-    "name": "Grimspin",
-    "code": "btPMufEr",
-    "desc": "Version 1.3.8 of Grimspin!\r\n\r\nA brand new upgradeable slot machine game\r\n\r\nPlease let me know if you find any bugs! \r\n\r\nAlso, let me know if you have any comments, suggestions, or critiques!\r\n\r\nAll feedback is appreciated.\r\n\r\nIf you want some free energy, need help, or have any f...",
-    "url": "https://testflight.apple.com/join/btPMufEr"
-  },
-  {
-    "name": "Kitchen Agent for Chefs",
-    "code": "jedhRKGc",
-    "desc": "Kitchen Agent for Chefs is an iPhone and iPad operations workspace built for working chefs. Capture messy shift notes and photos, organize the day with AI, review source-linked drafts, track prep labor, analyze sales and food cost, forecast prep needs, manage vendors, and create...",
-    "url": "https://testflight.apple.com/join/jedhRKGc"
-  },
-  {
-    "name": "isReal",
-    "code": "wnN8BqMm",
-    "desc": "Not sure if a text, email, or message is a scam? Take a screenshot and let isReal give you a fast second opinion. It highlights suspicious signals, explains the risk in plain language, and helps you decide what to do next - without needing to forward the message or confront the s...",
-    "url": "https://testflight.apple.com/join/wnN8BqMm"
-  },
-  {
-    "name": "Hopbit",
-    "code": "wqnfUFwe",
-    "desc": "Hopbit is a mobile dashboard for Rybbit, supporting both self-hosted and Rybbit Cloud instances. Connect with your Rybbit base URL and API key to monitor your analytics from anywhere. Home Screen widgets let you keep an eye on your site’s traffic at a glance, without opening the...",
-    "url": "https://testflight.apple.com/join/wqnfUFwe"
   }
 ]
