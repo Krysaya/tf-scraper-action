@@ -1,77 +1,83 @@
 今日限免 (08/07)
 
-1. 暴走机甲
-   原价 ¥12 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id1394008449
-2. 飞鸽云文档
+1. 鹰脉
+   原价 ¥6 → 免费
+   https://apps.apple.com/cn/app/id6743833803
+2. Fjorden Camera
+   原价 ¥68 → 免费 | 摄影与录像
+   https://apps.apple.com/cn/app/id1542528184
+3. ecoplace
+   原价 ¥6 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1568046458
+4. 小乖兔
+   原价 ¥15 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1614800786
+5. 如梭-倒计时与纪念日
+   原价 ¥6 → 免费 | 效率
+   https://apps.apple.com/cn/app/id1526645596
+6. 绘时
+   原价 ¥1 → 免费
+   https://apps.apple.com/cn/app/id6754768841
+7. 随口记账-记账语音识别快捷管理账单
+   原价 ¥1 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1640044469
+8. Pro Photo Mosaic Creator
+   原价 ¥28 → 免费 | 摄影与录像
+   https://apps.apple.com/cn/app/id1219025715
+9. 飞鸽云文档
    原价 ¥8 → 免费
    https://apps.apple.com/cn/app/id1583906482
-3. 无损音频提取
+10. 无损音频提取
    原价 ¥6 → 免费
    https://apps.apple.com/cn/app/id6462839131
-4. NOVA助手
-   原价 ¥22 → 免费 | 商务
-   https://apps.apple.com/cn/app/id1129735180
-5. Jansen Docu Center
-   原价 ¥148 → 免费 | 商务
-   https://apps.apple.com/cn/app/id1448704118
-6. AI日程
-   原价 ¥8 → 免费 | 工具
-   https://apps.apple.com/cn/app/id6743120531
-7. NaNaTick-自律计时器，高效时间管理
-   原价 ¥8 → 免费 | 工具
-   https://apps.apple.com/cn/app/id6443690390
-8. 地图集
-   原价 ¥18 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1111513682
-9. Meow-无声陪伴的桌面摆件
-   原价 ¥6 → 免费 | 效率
-   https://apps.apple.com/cn/app/id1574272868
-10. Whengram
+11. Whengram
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6772987059
-11. Zee Cast: Stream Media to TV
+12. TXT Novel Reader
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id1633599674
+13. Lux Light Meter: Illuminance
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6790679680
+14. Slow Jogging Metronome
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6753762311
+15. SmallFish Chess for Stockfish
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id675049147
+16. TripleShot Recorder
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6761472164
+17. Magic Launcher Widgets Pro
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1121523480
+18. OneAGI : AGI for Everyone
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id6740195165
+19. Soulo - AI Search Aggregator
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6761165330
+20. Surreal Machines Crack
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6615060994
+21. PicEasy - Private Photo Tool
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6791810966
+22. Zee Cast: Stream Media to TV
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6759247906
-12. Rivals: Padel Scores &amp; Stats
+23. Rivals: Padel Scores &amp; Stats
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6793841238
-13. MP4 Video Player: All Formats
+24. MP4 Video Player: All Formats
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6780059206
-14. Voice to Text Offline Recorder
+25. Voice to Text Offline Recorder
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6767256118
-15. Habit Tracker: Planner Routine
+26. Habit Tracker: Planner Routine
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6774956996
-16. Nitralux: CCD-Style Camera
+27. Nitralux: CCD-Style Camera
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6759642197
-17. Under FM: Background Beats
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6793174840
-18. OpsCat - Server Monitor &amp; SSH
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6762209450
-19. TangDose
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6784709250
-20. Gordian Seed Tool
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1545088229
-21. LocalToolbox : Offline Tools
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6761979934
-22. Color Wheel Pro
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1453592782
-23. Business Card Maker
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6502953049
-24. Frogline - Tongue-flick bug catcher
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1033601765
-25. Recent Contacts Timeline
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id988504062
