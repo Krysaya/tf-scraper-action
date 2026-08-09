@@ -1,35 +1,56 @@
 今日限免 (08/09)
 
-1. 積木疊疊樂
+1. Weather: it is nice outside +
+   原价 ¥148 → 免费 | 天气
+   https://apps.apple.com/cn/app/id1312972903
+2. 積木疊疊樂
    原价 ¥15 → 免费 | 娱乐
    https://apps.apple.com/cn/app/id1484256313
-2. CalPets-运动养成可爱宠物&健康激励
+3. CalPets-运动养成可爱宠物&健康激励
    原价 ¥68 → 免费 | 健康健美
    https://apps.apple.com/cn/app/id6720723608
-3. CNC智能工厂
+4. CNC智能工厂
    原价 ¥8 → 免费 | 工具
    https://apps.apple.com/cn/app/id1517781401
-4. 暴走机甲
-   原价 ¥12 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id1394008449
-5. FocusCat: Simple Cat Pomodoro
+5. Trace: Symptom Tracker
+   原价 ? → 免费 | 健康健美
+   https://apps.apple.com/cn/app/id6756234011
+6. FocusCat: Simple Cat Pomodoro
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6759259457
-6. Whengram
-   原价 ? → 免费
-   https://apps.apple.com/cn/app/id6772987059
-7. InspirationDraft
+7. Cakes: Birthday Calendar
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id587880557
+8. Exif Viewer by Fluntro
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id944118456
+9. Oven to Air Fryer Recipes
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6749399825
+10. Pirates: Screen Time Control
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6787769872
+11. TicketMe
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6747669662
+12. Cleanup Photos by Fluntro
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6758605025
+13. TimeCatcher
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6760287864
+14. InspirationDraft
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6772732983
-8. SepiaPod - Retro Music Player
+15. SepiaPod - Retro Music Player
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6764757127
-9. Simple Notes - YepNotes
+16. Simple Notes - YepNotes
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id668384667
-10. Lunbi: Habit Tracker
+17. Lunbi: Habit Tracker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6796928746
-11. Light Sleep - White Noise
+18. Light Sleep - White Noise
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6449638248
