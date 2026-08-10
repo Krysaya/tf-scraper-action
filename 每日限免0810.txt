@@ -3,57 +3,69 @@
 1. BlotzTask-ADHD专属轻压力时间管理
    原价 ¥68 → 免费
    https://apps.apple.com/cn/app/id6752492404
-2. 如溪
+2. 新概念英语- 波形复读机
+   原价 ¥15 → 免费 | 教育
+   https://apps.apple.com/cn/app/id1074985575
+3. 如溪
    原价 ¥15 → 免费 | 生活
    https://apps.apple.com/cn/app/id6761559292
-3. 小猫专注 - 更可爱的专注番茄钟
+4. 小猫专注 - 更可爱的专注番茄钟
    原价 ¥3 → 免费 | 效率
    https://apps.apple.com/cn/app/id6746562271
-4. 斑布牛牛
+5. 斑布牛牛
    原价 ¥12 → 免费 | 教育
    https://apps.apple.com/cn/app/id1638035811
-5. 子弹笔记
+6. 子弹笔记
    原价 ¥8 → 免费 | 效率
    https://apps.apple.com/cn/app/id6475782771
-6. 时序万年历-中华万年历纯净版
+7. 时序万年历-中华万年历纯净版
    原价 ¥3 → 免费 | 工具
    https://apps.apple.com/cn/app/id6743664743
-7. 书中课堂
+8. 书中课堂
    原价 ¥8 → 免费 | 教育
    https://apps.apple.com/cn/app/id1005029377
-8. 天天美图 - 美女潮人美颜美妆自拍p图相机
-   原价 ¥15 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id1080276847
 9. Next Task: To-Do &amp; Widgets
    原价 ? → 免费
    https://apps.apple.com/cn/app/id389801252
-10. Kinnect sport
+10. Zee Cast: Stream Media to TV
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6759247906
+11. Color Picker · Color Palette
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1638900655
+12. Compress &amp; Upload for Safari
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6760980619
+13. OpenGraph Previewer
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6769523587
+14. Kinnect sport
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6762195970
-11. The Lettervan
+15. The Lettervan
    原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6474092236
-12. Quick Scan: Fast Safe Capable
+   https://apps.apple.com/cn/app/id6474092236
+16. Quick Scan: Fast Safe Capable
    原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6736847099
-13. Map Redirect for Map Links
+   https://apps.apple.com/cn/app/id6736847099
+17. Map Redirect for Map Links
    原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id1590589672
-14. CompassOne
+   https://apps.apple.com/cn/app/id1590589672
+18. CompassOne
    原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6789645403
-15. Brainrot Soundboard: Memes Box
+   https://apps.apple.com/cn/app/id6789645403
+19. Brainrot Soundboard: Memes Box
    原价 ? → 免费 | IAP
-   https://apps.apple.com/app/id6789836770
-16. CityChat - Local Chatrooms
+   https://apps.apple.com/cn/app/id6789836770
+20. CityChat - Local Chatrooms
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6757456350
-17. Piclean: Swipe Photo Cleaner
+21. Piclean: Swipe Photo Cleaner
    原价 ? → 免费 | IAP
-   https://apps.apple.com/app/id6759317346
-18. Precursor: Hourly Screen Time
+   https://apps.apple.com/cn/app/id6759317346
+22. Precursor: Hourly Screen Time
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6791403654
-19. MiroMiro: Wear the Magic
+23. MiroMiro: Wear the Magic
    原价 ? → 免费 | IAP
-   https://apps.apple.com/app/id6787686405
+   https://apps.apple.com/cn/app/id6787686405
