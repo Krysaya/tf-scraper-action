@@ -1,59 +1,68 @@
 今日限免 (08/12)
 
-1. 新概念英语- 波形复读机
+1. 视频合成 - 视频合并, 视频剪辑软件
+   原价 ¥8 → 免费
+   https://apps.apple.com/cn/app/id1447932422
+2. 要事第一 · 更高效的待办清单
+   原价 ¥3 → 免费
+   https://apps.apple.com/cn/app/id6464374981
+3. 新概念英语- 波形复读机
    原价 ¥15 → 免费 | 教育
    https://apps.apple.com/cn/app/id1074985575
-2. 小猫专注 - 更可爱的专注番茄钟
+4. 小猫专注 - 更可爱的专注番茄钟
    原价 ¥3 → 免费 | 效率
    https://apps.apple.com/cn/app/id6746562271
-3. CAHO
-   原价 ¥15 → 免费 | 效率
-   https://apps.apple.com/cn/app/id1459080258
-4. WriteBack
-   原价 ¥28 → 免费
-   https://apps.apple.com/cn/app/id1605748571
 5. FocusCat: Simple Cat Pomodoro
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6467869609
 6. Next Task: To-Do &amp; Widgets
    原价 ? → 免费
    https://apps.apple.com/cn/app/id389801252
-7. AllSwipe: Swipe Photo Cleaner
+7. FitRest: Sleep &amp; Heart Tracker
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6751546749
+8. Watermelon Maestro
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6794079050
+9. SignCloudNine: Signage
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6447579801
+10. AllSwipe: Swipe Photo Cleaner
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6761372644
-8. iCleanShot - For Lazy People
+11. iCleanShot - For Lazy People
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6756064954
-9. Wachteroids
+12. Wachteroids
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6449465941
-10. University Notes
+13. University Notes
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6777402601
-11. Fun Speaking word spelling game
+14. Fun Speaking word spelling game
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1410507137
-12. Stellar Photo Recovery
+15. Stellar Photo Recovery
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1460774889
-13. Forever Lost: Episode 1 HD
+16. Forever Lost: Episode 1 HD
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id542364897
-14. Easy Contacts: Contact Manager
+17. Easy Contacts: Contact Manager
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6756722371
-15. GLPzy: GLP-1 Dose Tracker
+18. GLPzy: GLP-1 Dose Tracker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6761775005
-16. PokePrice - TCG Card Scanner
+19. PokePrice - TCG Card Scanner
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6756879281
-17. Exiv - EXIF Viewer &amp; Editor
+20. Exiv - EXIF Viewer &amp; Editor
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6772528649
-18. Typelet - Quick Insert Text Templates
+21. Typelet - Quick Insert Text Templates
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6761749464
-19. CoCamera -Dual-lens-camera
+22. CoCamera -Dual-lens-camera
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6761088745
