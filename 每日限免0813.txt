@@ -1,44 +1,74 @@
 今日限免 (08/13)
 
-1. 大厂乐乎 - 感谢大佬，学到很多
+1. 俄罗斯方块-经典小游戏
+   原价 ¥1 → 免费 | 游戏
+   https://apps.apple.com/cn/app/id6744550585
+2. 大厂乐乎 - 感谢大佬，学到很多
    原价 ¥15 → 免费
-   https://apps.apple.com/cn/app/id1604009368
-2. 叨叨教育
+   https://apps.apple.com/app/id1604009368
+3. 叨叨教育
    原价 ¥15 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1460234862
-3. 紫鸾
+   https://apps.apple.com/app/id1460234862
+4. 紫鸾
    原价 ¥1 → 免费
-   https://apps.apple.com/cn/app/id6467690309
-4. 智慧迎江
+   https://apps.apple.com/app/id6467690309
+5. 智慧迎江
    原价 ¥38 → 免费
-   https://apps.apple.com/cn/app/id1549486270
-5. 唯啦腕表
+   https://apps.apple.com/app/id1549486270
+6. 唯啦腕表
    原价 ¥1 → 免费 | 生活
-   https://apps.apple.com/cn/app/id1397037637
-6. Edhita: Text Editor
+   https://apps.apple.com/app/id1397037637
+7. Edhita: Text Editor
    原价 ¥8 → 免费 | 工具
-   https://apps.apple.com/cn/app/id398896655
-7. Aquatic AV
-   原价 ¥68 → 免费 | 生活
-   https://apps.apple.com/cn/app/id1502279251
-8. 小小鱼缸 - 专注自律计时 · 治愈鱼缸陪伴
+   https://apps.apple.com/app/id398896655
+8. Wafme
+   原价 ¥8 → 免费 | 社交
+   https://apps.apple.com/app/id6473963973
+9. 小小鱼缸 - 专注自律计时 · 治愈鱼缸陪伴
    原价 ? → 免费 | 健康健美
-   https://apps.apple.com/cn/app/id6795802706
-9. Daily One Word
+   https://apps.apple.com/app/id6795802706
+10. Daily One Word
    原价 ? → 免费
-   https://apps.apple.com/cn/app/id6777126148
-10. Trace: Symptom Tracker
+   https://apps.apple.com/app/id6777126148
+11. Trace: Symptom Tracker
    原价 ? → 免费
-   https://apps.apple.com/cn/app/id6756234011
-11. Primary Particle
+   https://apps.apple.com/app/id6756234011
+12. Total Video Player
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id886683283
-12. Lettercam
+   https://apps.apple.com/cn/app/id919402022
+13. Match Mates: Cozy Poplike
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1302709732
-13. ImgZilla - Image Compressor
+   https://apps.apple.com/app/id6790190963
+14. Snapatch
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id6748052970
+15. Luna Glow
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id6737806967
+16. PDF Studio Editor: Scan &amp; Sign
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id899313582
+17. MoviePro for Business
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6478542680
+18. Pulse - Metronome
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id1207247199
+19. Quick CSV
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id1206514629
+20. Simori
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id6449623823
+21. Primary Particle
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id886683283
+22. Lettercam
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/app/id1302709732
+23. ImgZilla - Image Compressor
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6749323539
-14. QR Forge - QR Code Creator
+24. QR Forge - QR Code Creator
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6762170209
