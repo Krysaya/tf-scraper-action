@@ -130,6 +130,11 @@ def enrich_and_validate(apps, skip_existing_names=True):
         if real_name:
             entry["name"] = real_name
             print(f"→ {real_name[:30]}")
+        elif needs_name:
+            # 页面活跃但无法获取名称 → 大概率无效链接，过滤掉
+            print("❌ 无法获取名称，视为无效")
+            expired.append(code)
+            continue
         else:
             print(f"→ (名称获取失败)")
 

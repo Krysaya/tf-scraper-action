@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TestFlight 二源抓取器 — 只抓取合并，不推送
+TestFlight 三源抓取器 — 只抓取合并，不推送
 用法: python tf_scraper.py [daily|weekly]
   daily  → 输出 tf_daily_links.json（全部去重结果）
   weekly → 输出 tf_weekly_links.json + TestFlight合集_第N期.txt
@@ -21,7 +21,7 @@ TF_WECHAT_SENT = "tf_wechat_sent.json"
 TF_ISSUE_FILE = "tf_issue.txt"
 
 # Telegram 公开频道（网页版 t.me/s/<频道>，按时间倒序 = 新链接流）
-TG_CHANNELS = ["testflightx", "Testflightlink", "testflightlinks"]
+TG_CHANNELS = ["testflightx", "Testflightlink", "testflightlinks", "testflights", "TFGames"]
 # 实时复检并发数
 VALIDATE_WORKERS = 10
 
@@ -177,6 +177,7 @@ def validate_and_enrich(entries):
     from collections import Counter
     stats = Counter(st for st, _ in status_map.values())
     kept = []
+    unnamed_count = 0
     for e in entries:
         st, real_name = status_map.get(e["code"], ("ERROR", ""))
         if st != "OPEN":
@@ -185,7 +186,13 @@ def validate_and_enrich(entries):
         cur = e.get("name", "") or ""
         if real_name and (not cur or cur.startswith("TF_")):
             e["name"] = real_name
+        # 复检后名字仍是 TF_ 占位 = 无法从页面提取有效 App 名，大概率是无效链接，剔除
+        if (e.get("name", "") or "").startswith("TF_"):
+            unnamed_count += 1
+            continue
         kept.append(e)
+    if unnamed_count:
+        print(f"   🧹 过滤 TF_ 占位名（无法获取真实 App 名）{unnamed_count} 条")
     print(f"   状态分布: {dict(stats.most_common())}")
     print(f"   ✅ 保留 OPEN {len(kept)} / {len(entries)} 条")
     return kept
@@ -211,7 +218,7 @@ def set_issue(n):
     with open(TF_ISSUE_FILE, 'w') as f: f.write(str(n))
 
 
-# ========== 二源合并 ==========
+# ========== 三源合并 ==========
 def merge_all_sources(brave_entries, tg_entries=None):
     print("📥 departures.to...")
     try:
