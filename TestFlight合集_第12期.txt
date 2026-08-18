@@ -1,0 +1,73 @@
+TestFlight合集 第12期
+
+1. Zoomie
+   简介：你好，hoomans 🐶，我的意思是狗主人。来认识一下 Zoomie，一款专为您的狗狗设计的活动追踪器！ 我想分享一个我一直在做的宠物项目，名为 Zoomie，这是一个为你的狗设计的活动追踪器！ 这个想法很简单：关闭你的戒指，但为了你的狗。...
+   https://testflight.apple.com/join/hpcJFGFJ
+2. Blackjack Sense: Train &amp; Play
+   简介：Blackjack Sense 首先是一个训练器，其次是一个模拟器。它教授完整的基本策略、高低牌计数以及计数移动后的重要偏差。 跨越 7 个级别的简短课程培养每项技能，并通过练习使其坚持下去：软手、劈叉、双打、投降……
+   https://testflight.apple.com/join/TRacXH8e
+3. Temp Viewer
+   简介：Temp Viewer 是一个简单的菜单栏应用程序，用于监控 CPU 和 GPU 上的热负载（又称热度）。当温度过高时，颜色和状态将会改变。
+   https://testflight.apple.com/join/jTDRykWM
+4. Classic Pod
+   简介：旧的ios
+   https://testflight.apple.com/join/FqZvNvTh
+5. Briev
+   简介：Briev 将当天的新闻转化为简短的音频简报，并进行书面和旁白 在您的设备上。 您收到的不是摘要，而是简报。布里夫通读政治 频谱——左、右、中——将报道聚集成故事， 跟踪每个人在一段时间内的发展情况...
+   https://testflight.apple.com/join/476VvQWT
+6. Quemish
+   简介：Quemish 是一款独立开发（单一兼职开发人员）的 iPhone 和 iPad 应用程序，用于学习 Trexlin 世界中的构建语言。探索自定义脚本、947 个单词的双向词典、发音、课程、语法、文化和知识、间隔重复练习...
+   https://testflight.apple.com/join/UqrA7KAm
+7. Cornish Reps
+   简介：您的耳机会计算您的重复次数并在您耳边说出每个数字。电话坐到 侧面。你做完这组动作，号码就不是你的了。 AirPods 中的运动传感器会检测您每次重复时头部的倾斜度。该应用程序很重要 从那开始，并说出计数......
+   https://testflight.apple.com/join/WkWadR26
+8. HookScan
+   简介：HookScan 是一款下一代天气雷达应用程序，专为风暴追踪者、气象学家、应急管理人员、天气爱好者和初学者而设计。它将高分辨率雷达数据与先进的恶劣天气工具和人工智能天气助手相结合，帮助用户了解...
+   https://testflight.apple.com/join/DTKPhWcP
+9. TimeSwipe – Time Zone Tool
+   简介：跨时区的日程安排不需要心算。 TimeSwipe 可帮助您跨多个时区快速找到合理的会议时间。添加与您协调的城市或团队，然后只需滑动时间即可查看每个人的当地时间并找到更好的重叠时间...
+   https://testflight.apple.com/join/GraxwqxF
+10. ClipViewer
+   简介：ClipViewer 是一款 Mac 菜单栏应用程序，可显示剪贴板上的内容，因此您无需先将其粘贴到其他地方。 它处理文本、图像和文件路径。如果您复制密码或其他秘密，ClipViewer 会将其隐藏，直到您点击“显示”，然后可以再次隐藏它或....
+   https://testflight.apple.com/join/kVZGqmMG
+11. RoughCut for Final Cut Pro
+   简介：在制定时间表之前先构建你的故事。 RoughCut 可帮助您找到 Final Cut Pro 库中的最佳时刻，使用脚本文本将它们组合成故事，组织流程，然后创建可编辑的 Final Cut Pro 项目。 特点 • 浏览和搜索甚至...
+   https://testflight.apple.com/join/bxwEcqES
+12. NanoPack: Smart Packing List
+   简介：NanoPack 是您实际重复使用的装箱单。回答几个简单的问题，几秒钟内即可获得一份智能列表，其中包含每个项目背后的原因，这样充电器就再也不会呆在家里了。完全离线，真正免费，无需订阅。在发布前成为测试员并帮助塑造 v1...
+   https://testflight.apple.com/join/eSXWdbE8
+13. Mergewarden: Tiny Guardians
+   https://testflight.apple.com/join/keazjRVY
+14. OpenDisplay
+   https://testflight.apple.com/join/3NYaY11c
+15. SpotMap
+   简介：欢迎来到 SpotMap！探索、分享和享受世界各地的景点！创建群组并与朋友分享私人地点。与朋友聊天完全私密且安全。即使 KLST Studios 也无法读取您的消息。 立即尝试 SpotMap 测试版，添加地点并帮助解决我们的错误...
+   https://testflight.apple.com/join/ty17buNT
+16. Elements - Aesthetic Widgets
+   https://testflight.apple.com/join/rc2ygkUt
+17. Softly
+   简介：Twelve sounds. One gesture. Lock your phone and drift off. Softly is an ambient-audio app built for the hours when you n...
+   https://testflight.apple.com/join/4jwky5Gh
+18. YeSee 启缘-AI互动内容
+   https://testflight.apple.com/join/X21cgHNk
+19. Twitch Beta
+   https://testflight.apple.com/join/8vRKFAiY
+20. 塔台
+   https://testflight.apple.com/join/3wNF4Dsj
+21. KIEMTHEMB
+   https://testflight.apple.com/join/g8PLsHaI
+22. Nexus Shell
+   简介：Nexus Shell 是适用于 Apple Silicon Mac 的本机 macOS SSH 工作区。它结合了选项卡式 SSH 终端、双面板 SFTP、SSH 密钥管理、Docker 工具、服务器和网络监控以及加密的本地会话日志。此公共...
+   https://testflight.apple.com/join/y1F6h3wR
+23. TrainerRoad
+   https://testflight.apple.com/join/XMVCGAOW
+24. VFusio
+   https://testflight.apple.com/join/z656gqSW
+25. put.io
+   https://testflight.apple.com/join/Sj8gx21t
+26. Target: Shop. Style. Save.
+   https://testflight.apple.com/join/qcx8yK1s
+27. Groupie: Discover Share Listen
+   https://testflight.apple.com/join/U5vtWFZY
+28. Rooted Memories
+   https://testflight.apple.com/join/NB8KxU5h
