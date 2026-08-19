@@ -2,49 +2,52 @@
 
 1. 证件照相机-AI证件照制作换底色,一寸照片生成器,红底换蓝底
    原价 ¥22 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id6743226896
-2. NoCALL
+   https://apps.apple.com/app/id6743226896
+2. Waengi Pizza Kebap Haus
+   原价 ¥22 → 免费 | 美食佳饮
+   https://apps.apple.com/app/id6751777284
+3. Trigonometry(Math Drills)
+   原价 ¥8 → 免费
+   https://apps.apple.com/app/id1623896351
+4. ProForce Mobile
+   原价 ¥15 → 免费 | 工具
+   https://apps.apple.com/app/id1561215166
+5. Vocabulary Builder App
+   原价 ¥22 → 免费 | 教育
+   https://apps.apple.com/app/id890252250
+6. NoCALL
    原价 ¥3 → 免费
-   https://apps.apple.com/cn/app/id6791478475
-3. INX Troubleshooting Guide
+   https://apps.apple.com/app/id6791478475
+7. INX Troubleshooting Guide
    原价 ¥88 → 免费 | 效率
-   https://apps.apple.com/cn/app/id915945461
-4. Outwork Sales Management
+   https://apps.apple.com/app/id915945461
+8. Outwork Sales Management
    原价 ¥8 → 免费 | 效率
-   https://apps.apple.com/cn/app/id1181306072
-5. 智慧南宁人大
-   原价 ¥3 → 免费 | 商务
-   https://apps.apple.com/cn/app/id6452946091
-6. Good Dad
-   原价 ¥18 → 免费
-   https://apps.apple.com/cn/app/id6753931366
-7. New Life Irvine
-   原价 ¥68 → 免费 | 生活
-   https://apps.apple.com/cn/app/id1274300704
-8. LocalMind: Ollama & LM Studio
-   原价 ¥15 → 免费
-   https://apps.apple.com/cn/app/id6777025480
+   https://apps.apple.com/app/id1181306072
 9. SepiaPod - 复古音乐播放器
    原价 ? → 免费
-   https://apps.apple.com/cn/app/id6764757127
-10. SnapLapse: Progress Photos
+   https://apps.apple.com/app/id6764757127
+10. Itemia: Home Inventory Boxes
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6788200034
+11. SnapLapse: Progress Photos
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6791902298
-11. DraftCode: Code Editor
+12. DraftCode: Code Editor
    原价 ? → 免费
    https://apps.apple.com/app/id6770432142
-12. LeafRead - TXT/EPUB/MD Reader
+13. LeafRead - TXT/EPUB/MD Reader
    原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6767811417
-13. ID Photo Studio-Passport Photo
+   https://apps.apple.com/app/id6767811417
+14. ID Photo Studio-Passport Photo
    原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6761751168
-14. TOODL Timer TOODL
+   https://apps.apple.com/us/app/id6761751168
+15. TOODL Timer TOODL
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id6757822808
-15. Cadence music player
+16. Cadence music player
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6748620960
-16. BrainHero: Brain Training
+   https://apps.apple.com/app/id6748620960
+17. BrainHero: Brain Training
    原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6779550221
+   https://apps.apple.com/app/id6779550221
