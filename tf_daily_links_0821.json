@@ -1,0 +1,80 @@
+[
+  {
+    "name": "NATI Health",
+    "code": "YhGMDVwQ",
+    "desc": "我们正在测试 NATI Health，这是一款专为 Apple Watch 用户打造的健康应用程序，可以让您平静地了解每日的睡眠、恢复、心脏、运动和身体信号。 请自然使用该应用程序 3-4 天。 为了获得最佳测试效果： • 使用实体 iPh...",
+    "url": "https://testflight.apple.com/join/YhGMDVwQ"
+  },
+  {
+    "name": "DM2 MixPad-iOS",
+    "code": "A7X9Sbqw",
+    "desc": "DM2 MixPad 是一款适用于 Mac、iPhone 和 iPad 的实用现场混音乐器，专为 DJ、制作人、表演者和电子音乐家而打造。其触觉两层工作流程可让您在 16 个现场曲目中实时触发循环、搓盘、弯曲、排序、编曲和混音音乐，...",
+    "url": "https://testflight.apple.com/join/A7X9Sbqw"
+  },
+  {
+    "name": "DM2 MixPad",
+    "code": "SD1hE1jh",
+    "desc": "DM2 MixPad 是一款适用于 Mac、iPhone 和 iPad 的实用现场混音乐器，专为 DJ、制作人、表演者和电子音乐家而打造。其触觉两层工作流程可让您在 16 个现场曲目中实时触发循环、搓盘、弯曲、排序、编曲和混音音乐，...",
+    "url": "https://testflight.apple.com/join/SD1hE1jh"
+  },
+  {
+    "name": "Genie Photo",
+    "code": "YwZ9v2nc",
+    "desc": "Genie Photo 是一款通过 Catalyst 适用于 iPad 和 Mac 的全功能照片编辑器。",
+    "url": "https://testflight.apple.com/join/YwZ9v2nc"
+  },
+  {
+    "name": "Mic Captions",
+    "code": "pQKnQgZZ",
+    "desc": "Mic Captions 是一款适用于 iPhone 和 iPad 的离线实时转录和翻译应用程序，采用 iOS/iPadOS 27 的设备上语音和 AI 功能构建。 像提词器一样跟随实时字幕，点击任何单词打开词典，并在支持的设备上定期获取人...",
+    "url": "https://testflight.apple.com/join/pQKnQgZZ"
+  },
+  {
+    "name": "Riff Calendar",
+    "code": "STV8Dtcm",
+    "desc": "您可以缩放日历而不是切换视图。整个历法就是一个面，从半年到一天。拿着一个空槽，给它加上标题，完成。",
+    "url": "https://testflight.apple.com/join/STV8Dtcm"
+  },
+  {
+    "name": "Water Tracker - IdroFlow",
+    "code": "3ZCnXfjh",
+    "desc": "轻松保持水分充足。 IdroFlow 让饮用水成为您日常生活的一部分，让您感觉更加精力充沛、注意力集中且健康。 主要优点： • 稳定的补水带来更多能量和更清晰的注意力 • 养成简单、持久的饮酒习惯——没有大惊小怪、没有混乱……",
+    "url": "https://testflight.apple.com/join/3ZCnXfjh"
+  },
+  {
+    "name": "Quorum Messenger",
+    "code": "PPzryGCU",
+    "desc": "Quorum Mobile 是一切隐私应用程序：E2EE 直接消息和群聊、迷你应用程序、支持各种网络的加密钱包。",
+    "url": "https://testflight.apple.com/join/PPzryGCU"
+  },
+  {
+    "name": "Arbiter Wallet",
+    "code": "DfR1PW24",
+    "desc": "具有 HyperLiquid 交易功能的 Arbitrum 钱包",
+    "url": "https://testflight.apple.com/join/DfR1PW24"
+  },
+  {
+    "name": "Zoomie",
+    "code": "hpcJFGFJ",
+    "desc": "你好，hoomans 🐶，我的意思是狗主人。来认识一下 Zoomie，一款专为您的狗狗设计的活动追踪器！ 我想分享一个我一直在做的宠物项目，名为 Zoomie，这是一个为你的狗设计的活动追踪器！ 这个想法很简单：关闭你的戒指，但为了你的狗。...",
+    "url": "https://testflight.apple.com/join/hpcJFGFJ"
+  },
+  {
+    "name": "Temp Viewer",
+    "code": "jTDRykWM",
+    "desc": "Temp Viewer 是一个简单的菜单栏应用程序，用于监控 CPU 和 GPU 上的热负载（又称热度）。当温度过高时，颜色和状态将会改变。",
+    "url": "https://testflight.apple.com/join/jTDRykWM"
+  },
+  {
+    "name": "Classic Pod",
+    "code": "FqZvNvTh",
+    "desc": "旧的ios",
+    "url": "https://testflight.apple.com/join/FqZvNvTh"
+  },
+  {
+    "name": "Twitch Beta",
+    "code": "8vRKFAiY",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/8vRKFAiY"
+  }
+]
