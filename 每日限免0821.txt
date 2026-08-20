@@ -3,75 +3,81 @@
 1. Koehler Tutor
    原价 ¥15 → 免费 | 教育
    https://apps.apple.com/cn/app/id1281328178
-2. PulseDuo
+2. 轻巧识字 - 科学复习, 轻松认字
+   原价 ¥6 → 免费 | 教育
+   https://apps.apple.com/cn/app/id6547838493
+3. GODcha Bible Guide
+   原价 ¥3 → 免费 | 生活,参考
+   https://apps.apple.com/cn/app/id1009379446
+4. PulseDuo
    原价 ¥68 → 免费
    https://apps.apple.com/cn/app/id6786011799
-3. MyCalc: Flexible Calculator
+5. MyCalc: Flexible Calculator
    原价 ¥8 → 免费
    https://apps.apple.com/cn/app/id6775059951
-4. Nails Cloud
+6. Nails Cloud
    原价 ¥58 → 免费 | 商务
    https://apps.apple.com/cn/app/id1488261422
-5. Just Some Kana
+7. Just Some Kana
    原价 ¥38 → 免费
    https://apps.apple.com/cn/app/id1671606312
-6. HawkEye Link
+8. HawkEye Link
    原价 ¥68 → 免费 | 效率
    https://apps.apple.com/cn/app/id626467019
-7. AUKEY Dash
+9. AUKEY Dash
    原价 ¥22 → 免费 | 工具
    https://apps.apple.com/cn/app/id1529258341
-8. 华中大体育
-   原价 ¥3 → 免费 | 体育
-   https://apps.apple.com/cn/app/id1475859339
-9. Moneta: Money Tracker &amp; Budget
+10. Moneta: Money Tracker &amp; Budget
    原价 ? → 免费
-   https://apps.apple.com/cn/app/id389801252
-10. Chill: Self-Care Sanctuary
+   https://apps.apple.com/app/id389801252
+11. Feedling
+   原价 ? → 免费
+   https://apps.apple.com/app/id6754502269
+12. Chill: Self-Care Sanctuary
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id1622262960
-11. GridSticker - Sticker Maker
+13. GridSticker - Sticker Maker
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6766268733
-12. Break Out Brick Breaker Mania
+14. Break Out Brick Breaker Mania
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6443741135
-13. CreatorBook: Creator Analytics
+15. CreatorBook: Creator Analytics
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6762469059
-14. Relax Coloring - Calm Art
+16. Relax Coloring - Calm Art
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6760304084
-15. AlbumBee - Photo Cleanup
+17. AlbumBee - Photo Cleanup
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6774040750
-16. Cyclic Sighing
+18. Cyclic Sighing
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6757509105
-17. Doodle ABC: For Kids
+19. Doodle ABC: For Kids
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6798755850
-18. Compound Quest
+20. Compound Quest
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id6744287187
-19. Push The Button - RGBY?
+21. Push The Button - RGBY?
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id511622847
-20. Magic Call Pro: AI Voices
+22. Magic Call Pro: AI Voices
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1269010857
-21. Sports Scoreboard for OBS
+23. Sports Scoreboard for OBS
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1579159150
-22. Tactical Gps. Offline Map
+24. Tactical Gps. Offline Map
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1532775654
-23. iVerify Basic
+25. iVerify Basic
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id1466120520
-24. TimeCatcher
+26. TimeCatcher
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6760287864
-25. LunarLander
+27. LunarLander
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6593668928
