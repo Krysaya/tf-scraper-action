@@ -2,10 +2,10 @@
 
 1. Goal Streak: Habit Tracker
    原价 ¥15 → 免费 | 效率
-   https://apps.apple.com/app/id1630626343
+   https://apps.apple.com/cn/app/id1630626343
 2. Pixelist - Habit Tracker
    原价 ¥15 → 免费 | 效率,工具
-   https://apps.apple.com/app/id1317636216
+   https://apps.apple.com/cn/app/id1317636216
 3. Omega Go
    原价 ¥15 → 免费 | 旅游
    https://apps.apple.com/cn/app/id1435226932
@@ -36,24 +36,27 @@
 12. Feedling
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6754502269
-13. RSVP Reader Concentration Grid
+13. OutRaceTV
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6746750652
+14. RSVP Reader Concentration Grid
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6737622922
-14. Live Level - Habit Tracker
+15. Live Level - Habit Tracker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6770536492
-15. SSH Client – Terminal &amp; SFTP
+16. SSH Client – Terminal &amp; SFTP
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6764725683
-16. Speaker Cleaner, Water Remover
+17. Speaker Cleaner, Water Remover
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6785441468
-17. Robot Survival: Solar Mission
+18. Robot Survival: Solar Mission
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6791991400
-18. Mosaic: Auto Video Blur
+19. Mosaic: Auto Video Blur
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6798107003
-19. Typin - A minimal input app
+20. Typin - A minimal input app
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6758349989
