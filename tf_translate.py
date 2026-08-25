@@ -176,20 +176,26 @@ def translate_entries(entries, cache_path="descriptions.json", sleep=0.25, verbo
         name = (e.get("name") or "").strip()
         desc = e.get("desc") or ""
 
-        # 缓存命中（按 App 名）
+        # 缓存命中（按 App 名）；跳过英文脏缓存，触发重译
         if name and name in cache and cache[name]:
-            e["desc"] = cache[name]
-            n_cache += 1
-            continue
+            cached = cache[name]
+            if has_cjk(cached):
+                e["desc"] = cached
+                n_cache += 1
+                continue
+            # 缓存值是英文（历史脏数据）→ 视为未命中，下面重译覆盖
 
         zh = to_chinese(name, desc)
         e["desc"] = zh
-        if zh:
+        if zh and has_cjk(zh):
+            # 只缓存中文结果；英文兜底不缓存，下次运行会重试翻译
             if name:
                 cache[name] = zh
             n_new += 1
             time.sleep(sleep)  # 温柔一点，别打爆接口
         else:
+            if name:
+                cache.pop(name, None)  # 清掉旧的英文/空脏缓存
             n_empty += 1
 
     save_cache(cache, cache_path)
