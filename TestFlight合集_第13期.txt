@@ -1,0 +1,50 @@
+TestFlight合集 第13期
+
+1. CevizWatch
+   简介：Ceviz is an open-source Apple Watch and iPhone control surface for OpenClaw. Speak a short command on your watch, let Op...
+   https://testflight.apple.com/join/nEdn2Np2
+2. Accretion: The Vein
+   简介：Accretion: The Vein is an arcade cave-flyer for iPhone and iPad. One thumb does everything: drag to fly, push to burn, p...
+   https://testflight.apple.com/join/Dtc4ZCFu
+3. nook-momo
+   简介：Nook is a daily planner that integrates perfectly into the apple ecosystem! Organize your todos around the da you will a...
+   https://testflight.apple.com/join/ZxMM8Q7M
+4. DM2 MixPad-iOS
+   简介：DM2 MixPad is a hands-on live remix instrument for Mac, iPhone, and iPad, built for DJs, producers, performers, and elec...
+   https://testflight.apple.com/join/A7X9Sbqw
+5. DM2 MixPad
+   简介：DM2 MixPad is a hands-on live remix instrument for Mac, iPhone, and iPad, built for DJs, producers, performers, and elec...
+   https://testflight.apple.com/join/SD1hE1jh
+6. Genie Photo
+   简介：Genie Photo is a full featured photo editor for iPad and Mac via Catalyst.
+   https://testflight.apple.com/join/YwZ9v2nc
+7. Mic Captions
+   简介：Mic Captions is an offline live transcription and translation app for iPhone and iPad, built with iOS/iPadOS 27’s on-dev...
+   https://testflight.apple.com/join/pQKnQgZZ
+8. Riff Calendar
+   简介：A calendar you zoom instead of switching views. The whole calendar is one surface, from half a year down to a day. Hold....
+   https://testflight.apple.com/join/STV8Dtcm
+9. Water Tracker - IdroFlow
+   简介：Stay consistently hydrated without the hassle. IdroFlow makes drinking water part of your routine so you feel more energ...
+   https://testflight.apple.com/join/3ZCnXfjh
+10. Quorum Messenger
+   简介：Quorum Mobile is the everything privacy app: E2EE direct messages and group chats, mini apps, crypto wallet with support...
+   https://testflight.apple.com/join/PPzryGCU
+11. Fronts Wx
+   https://testflight.apple.com/join/VJ3hU1ZS
+12. Letterboxx: Newsletter Reader
+   https://testflight.apple.com/join/nnKwhSyf
+13. Lenna - Video Library Player
+   https://testflight.apple.com/join/bExxpaX1
+14. Trello: Daily Task Tracker
+   https://testflight.apple.com/join/cRWMcQsr
+15. TikTok -Global Video Community
+   https://testflight.apple.com/join/MnsYnB0s
+16. Cell to Singularity: Evolution
+   https://testflight.apple.com/join/RD9jGH9S
+17. Join the JeeConnect beta
+   https://testflight.apple.com/join/AOQfq8vx
+18. Snowdrop for Mastodon
+   https://testflight.apple.com/join/2KngGNBu
+19. ArtView CAM
+   https://testflight.apple.com/join/FGzRbrZu
