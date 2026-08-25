@@ -21,48 +21,57 @@
 7. Idea Think：思维整理器
    原价 ? → 免费
    https://apps.apple.com/cn/app/id1325419855
-8. MindFit - Your Brain Gym
+8. LockLines - Lock screen text designer
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6772349545
+9. AI To-Do List: Voice Planner
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6755624768
+10. Pill Counter
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6476245875
+11. swayp - gallery cleaner
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6760943637
+12. Minpick - Move one thing forward now
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6781131521
+13. Time to Paste
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id1634967005
+14. MindFit - Your Brain Gym
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6754932085
-9. Mycel - Foraging Map &amp; Journal
+15. Mycel - Foraging Map &amp; Journal
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6771742569
-10. Widgetik: Custom Widgets
+16. Widgetik: Custom Widgets
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6760586460
-11. Pinly - Polaroid Sticky Notes Pinly
+17. Pinly - Polaroid Sticky Notes Pinly
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6773016723
-12. HOAGuard: HOA Evidence Log
+18. HOAGuard: HOA Evidence Log
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6763749984
-13. PhotoMeow: Photo Organizer
+19. PhotoMeow: Photo Organizer
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6801683607
-14. iHabit: Habit Tracker &amp; Goals
+20. iHabit: Habit Tracker &amp; Goals
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id1046787451
-15. Lucky Day · Chinese Almanac
+21. Lucky Day · Chinese Almanac
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6762102654
-16. FoodyLife : The Food Diary App
+22. FoodyLife : The Food Diary App
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id1350599517
-17. SympNote - Symptom Tracker
+23. SympNote - Symptom Tracker
    原价 ? → 免费 | LTF
    https://apps.apple.com/app/id6746699466
-18. QR Code Pro: scan, generate
+24. QR Code Pro: scan, generate
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id550827263
-19. Riffer Madness
+25. Riffer Madness
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6762950087
-20. CardPecker
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6761355656
-21. Resume Maker: CV Maker
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6468965114
-22. PepCal: Peptide Calculator
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6467717437
