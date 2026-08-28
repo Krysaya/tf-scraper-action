@@ -1,80 +1,86 @@
 今日限免 (08/28)
 
-1. Bento: Focus Timer
-   原价 ¥25 → 免费 | 效率
-   https://apps.apple.com/cn/app/id1595945715
-2. Photo Editor Express+
+1. Photo Editor Express+
    原价 ¥38 → 免费 | 摄影与录像
    https://apps.apple.com/cn/app/id6458871674
-3. Art & Arti
+2. Art & Arti
    原价 ¥22 → 免费 | 游戏
    https://apps.apple.com/cn/app/id1661755875
-4. 冒险者的rogue之旅
-   原价 ¥12 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id6751223658
-5. LaTeX Editor Tex Pro
-   原价 ¥68 → 免费 | 效率,工具
-   https://apps.apple.com/cn/app/id1486802741
-6. 复得
-   原价 ¥8 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id1037784828
-7. Trinote
-   原价 ¥28 → 免费
-   https://apps.apple.com/cn/app/id6761228249
-8. Animation Desk® Draw & Animate
-   原价 ¥68 → 免费 | 娱乐
-   https://apps.apple.com/cn/app/id946346179
-9. 字体大全 - 手机字体下载安装与美化
-   原价 ¥3 → 免费 | 工具
-   https://apps.apple.com/cn/app/id6455258507
-10. Revolutionary Choices
-   原价 ¥68 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1523720802
-11. PXL - mosaic art
+3. iDaily 年度别册 · 2025 年度别册
+   原价 ¥3 → 免费 | 报刊杂志
+   https://apps.apple.com/cn/app/id1597677992
+4. HRZN
+   原价 ¥22 → 免费 | 摄影与录像
+   https://apps.apple.com/cn/app/id1398160182
+5. Wolow - 局域网唤醒
+   原价 ¥15 → 免费 | 工具
+   https://apps.apple.com/cn/app/id1500970060
+6. Brushstroke
+   原价 ¥38 → 免费 | 摄影与录像
+   https://apps.apple.com/cn/app/id824421012
+7. Tico-贴抠：拼贴｜手帐｜封面图
+   原价 ¥3 → 免费 | 图形与设计
+   https://apps.apple.com/cn/app/id6444690835
+8. pythoni - 运行脚本, 自动联想，代码颜色，类及方法
+   原价 ¥22 → 免费 | 软件开发工具
+   https://apps.apple.com/cn/app/id493505744
+9. GeoGebra 计算器套件
+   原价 ¥15 → 免费 | 教育
+   https://apps.apple.com/cn/app/id1504416652
+10. 大江湖之苍龙与白鸟
+   原价 ¥25 → 免费 | 角色扮演
+   https://apps.apple.com/cn/app/id6736354312
+11. Period Tracker - MoodSwings
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6755323633
+12. Thermo - hygrometer
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1191180935
-12. GangsCityTV
+   https://apps.apple.com/cn/app/id495546638
+13. MindAnchor - EasyCheck
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/app/id6757639692
+14. TutorLog: Tutor Lesson Tracker
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6763914691
+15. LeafRead - TXT/EPUB/MD Reader
+   原价 ? → 免费 | IAP
+   https://apps.apple.com/cn/app/id6767811417
+16. Countpad: Inventory Tracker
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6799657980
+17. Study Deck: Memory Flashcards
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6759115906
+18. Royal Poker Timer PRO
+   原价 ? → 免费 | LTF
+   https://apps.apple.com/cn/app/id6760047284
+19. GangsCityTV
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6745743051
-13. BrainHero: Brain Training
+20. BrainHero: Brain Training
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6779550221
-14. ZETA - Game Emulator
+21. ZETA - Game Emulator
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6762959682
-15. Photo Legacy
+22. Photo Legacy
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6760956965
-16. Speed Pro Tracker
+23. Speed Pro Tracker
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6749027480
-17. Chill: Self-Care Sanctuary
+24. Chill: Self-Care Sanctuary
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id1622262960
-18. CCG Deckbuilder Covenant Cards
+25. CCG Deckbuilder Covenant Cards
    原价 ? → 免费 | IAP
    https://apps.apple.com/app/id6759227375
-19. Styart - AI Photo Search
+26. Styart - AI Photo Search
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6739774075
-20. MP4 Video Player: All Formats
+27. MP4 Video Player: All Formats
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6780059206
-21. ID photo maker
+28. ID photo maker
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6760955397
-22. JobBook: Job Search Tracker
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6762557090
-23. FramePull Mobile
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6760546485
-24. UV Index Today – UV Forecast
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6755656935
-25. SleepNote - Night Talk &amp; Snore
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6761900494
-26. Receipts Helper
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6739758615
