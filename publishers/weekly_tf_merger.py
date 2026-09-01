@@ -31,6 +31,10 @@ TF_WECHAT_SENT = WORK_DIR / "tf_wechat_sent.json"
 TF_ISSUE_FILE = WORK_DIR / "tf_issue.txt"
 WEEKLY_LINKS = WORK_DIR / "tf_weekly_links.json"
 
+# 去重滚动窗口：只记住最近 N 期已发的 code，更早的链接可重新入集
+# （避免永久去重导致合集变空 / SCF 空推）
+SENT_WINDOW_ISSUES = 4
+
 
 # ============================================================
 # TestFlight 页面抓取（获取真实 App 名称 + 验证链接是否有效）
@@ -219,18 +223,68 @@ def merge_daily():
     return merged
 
 
-def generate_weekly_txt(new_apps, sent_codes):
-    """生成 TestFlight合集_第N期.txt（仅新 code）"""
-    new_tf = [a for a in new_apps if a["code"] not in sent_codes]
-    if not new_tf:
+def load_sent_by_issue():
+    """读取已发记录，兼容旧格式（纯 code 列表）。
+
+    返回 {'by_issue': {issue_str: [codes]}, 'window': N}
+    """
+    if TF_WECHAT_SENT.exists():
+        try:
+            data = json.loads(TF_WECHAT_SENT.read_text(encoding="utf-8"))
+        except Exception:
+            data = []
+        if isinstance(data, list):
+            # 旧格式：整体视为历史合集（issue 0），首次运行后会被窗口淘汰
+            return {"by_issue": {"0": data}, "window": SENT_WINDOW_ISSUES}
+        if isinstance(data, dict):
+            data.setdefault("window", SENT_WINDOW_ISSUES)
+            data.setdefault("by_issue", {})
+            return data
+    return {"by_issue": {}, "window": SENT_WINDOW_ISSUES}
+
+
+def active_sent_codes(sent, current_issue):
+    """窗口内（最近 window 期）的 code 集合"""
+    window = sent.get("window", SENT_WINDOW_ISSUES)
+    cutoff = current_issue - window + 1
+    codes = set()
+    for iss, cs in sent.get("by_issue", {}).items():
+        try:
+            iss_n = int(iss)
+        except Exception:
+            iss_n = 0
+        if iss_n >= cutoff:
+            codes.update(cs)
+    return codes
+
+
+def generate_weekly_txt(new_apps, sent, next_issue):
+    """生成 TestFlight合集_第N期.txt。
+
+    - 仅保留窗口内未发过的新 code（滚动去重，避免永久去重）
+    - 若新链接为空，兜底发布全量（仍有效）链接，保证合集不为空，避免 SCF 空推
+    返回 (fname, issue, used_apps, is_fallback) 或 None（merged 本身为空时）
+    """
+    act = active_sent_codes(sent, next_issue)
+    new_tf = [a for a in new_apps if a["code"] not in act]
+
+    used_apps = new_tf
+    is_fallback = False
+    if not used_apps:
+        # B: 兜底发全量（仍有效的全部合并结果），避免空推
+        is_fallback = True
+        used_apps = list(new_apps)
+        print("⚠️ 滚动窗口内无新链接，兜底发布全量（仍有效）链接，避免本期为空")
+
+    if not used_apps:
         return None
 
-    issue = get_issue() + 1
-    set_issue(issue)
-
-    fname = f"TestFlight合集_第{issue}期.txt"
-    lines = [f"TestFlight合集 第{issue}期", ""]
-    for i, entry in enumerate(new_tf, 1):
+    fname = f"TestFlight合集_第{next_issue}期.txt"
+    lines = [f"TestFlight合集 第{next_issue}期", ""]
+    if is_fallback:
+        lines.append("（本期含往期仍有效链接）")
+        lines.append("")
+    for i, entry in enumerate(used_apps, 1):
         lines.append(f"{i}. {entry['name']}")
         if entry.get("desc"):
             clean_desc = entry["desc"].replace("\n", " ").replace("\r", " ")[:200]
@@ -238,7 +292,7 @@ def generate_weekly_txt(new_apps, sent_codes):
         lines.append(f"   {entry['url']}")
 
     (WORK_DIR / fname).write_text("\n".join(lines) + "\n", encoding="utf-8")
-    return fname, issue, new_tf
+    return fname, next_issue, used_apps, is_fallback
 
 
 def main():
@@ -271,22 +325,32 @@ def main():
     save_json(merged, WEEKLY_LINKS)
     print(f"📝 已保存: {WEEKLY_LINKS.name} ({len(merged)} 条)")
 
-    # 3. 加载已发记录
-    sent_codes = set(load_json(TF_WECHAT_SENT))
+    # 3. 加载已发记录（按期存储，支持滚动窗口）
+    sent = load_sent_by_issue()
+    next_issue = get_issue() + 1
 
-    # 4. 生成新一期合集 TXT
-    result = generate_weekly_txt(merged, sent_codes)
+    # 4. 生成新一期合集 TXT（滚动去重 + 兜底全量）
+    result = generate_weekly_txt(merged, sent, next_issue)
     if result:
-        fname, issue, new_tf = result
-        print(f"📝 TXT: {fname} ({len(new_tf)} 款新, 第{issue}期)")
+        fname, issue, used_apps, is_fallback = result
+        print(f"📝 TXT: {fname} ({len(used_apps)} 款, 第{issue}期"
+              f"{' [兜底全量]' if is_fallback else ''})")
 
-        # 更新已发记录
-        for e in new_tf:
-            sent_codes.add(e["code"])
-        save_json(sorted(sent_codes), TF_WECHAT_SENT)
-        print(f"📝 已更新已发记录: {len(sent_codes)} 条")
+        # 记录本期 code，并按窗口淘汰过期期
+        sent.setdefault("by_issue", {})[str(issue)] = [e["code"] for e in used_apps]
+        window = sent.get("window", SENT_WINDOW_ISSUES)
+        cutoff = issue - window + 1
+        for iss in list(sent["by_issue"].keys()):
+            try:
+                if int(iss) < cutoff:
+                    del sent["by_issue"][iss]
+            except Exception:
+                pass
+        save_json(sent, TF_WECHAT_SENT)
+        set_issue(issue)
+        print(f"📝 已更新已发记录 (窗口内 {len(sent['by_issue'])} 期)")
     else:
-        print("✅ 无新的 TF 链接")
+        print("✅ 合并结果为空，无 TF 链接")
 
 
 if __name__ == "__main__":

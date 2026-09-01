@@ -2,7 +2,7 @@
 """
 TestFlight 每周合集内容生成器 —— 只生成，不调微信 API
 输入: TestFlight合集_第N期.txt
-输出: output/ 目录（cover.jpg + qr_N.png + article.html + article.json）
+输出: output_weekly/ 目录（cover.jpg + qr_N.png + article.html + article.json）
 用法: python tf_weekly_publisher.py TestFlight合集_第7期.txt
 """
 
@@ -26,7 +26,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 AUTHOR = "卡拉库姆猫"
 
 WORK_DIR = Path(__file__).resolve().parent.parent  # 仓库根目录
-OUTPUT_DIR = WORK_DIR / "output"
+OUTPUT_DIR = WORK_DIR / "output_weekly"
 
 # ============================================================
 # 字体查找（兼容 Linux GitHub Actions）

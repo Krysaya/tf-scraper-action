@@ -2,7 +2,7 @@
 """
 每日限免内容生成器 —— 只生成，不调微信 API
 输入: 每日限免MMDD.txt
-输出: output/ 目录（cover.jpg + qr_N.png + article.html + article.json）
+输出: output_daily/ 目录（cover.jpg + qr_N.png + article.html + article.json）
 用法: python daily_free_publisher.py 每日限免0727.txt
 """
 
@@ -38,7 +38,7 @@ except Exception as _e:
 AUTHOR = "卡拉库姆猫"
 
 WORK_DIR = Path(__file__).resolve().parent.parent  # 仓库根目录
-OUTPUT_DIR = WORK_DIR / "output"
+OUTPUT_DIR = WORK_DIR / "output_daily"
 DESC_PATH = WORK_DIR / "descriptions.json"
 
 CATEGORY_EMOJI = {

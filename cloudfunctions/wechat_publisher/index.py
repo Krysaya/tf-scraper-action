@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 腾讯云函数 SCF（定时触发）— 微信公众号草稿箱发布
-每 1 小时检查 GitHub output/article.json → 拉内容 → 调微信 API → 草稿箱
+检查待发布目录（output_weekly / output_daily）→ 拉内容 → 调微信 API → 草稿箱
 
 环境变量:
   WECHAT_APPID     - 微信公众号 AppID
@@ -24,6 +24,10 @@ WECHAT_DRAFT_URL = "https://api.weixin.qq.com/cgi-bin/draft/add"
 
 REPO = os.environ.get("GITHUB_REPO", "Krysaya/tf-scraper-action")
 BRANCH = "main"
+
+# 待发布目录：周合集与每日限免各自独立，避免互相清空；output 为旧目录兜底
+OUTPUT_DIRS = [d.strip() for d in os.environ.get(
+    "OUTPUT_DIRS", "output_weekly,output_daily,output").split(",") if d.strip()]
 
 
 # ============================================================
@@ -189,14 +193,14 @@ def create_draft(token, article):
 # ============================================================
 # 主流程
 # ============================================================
-def process_one_pending():
-    """处理一篇待发布文章"""
-    print("🔍 检查待发布 article.json ...")
+def process_one_pending(dir_name):
+    """处理一篇待发布文章（dir_name 为待发布目录，如 output_weekly）"""
+    print(f"🔍 检查待发布 {dir_name}/article.json ...")
 
     # 1. 读取 article.json
-    manifest_text = gh_get_file("output/article.json")
+    manifest_text = gh_get_file(f"{dir_name}/article.json")
     if manifest_text is None:
-        print("📭 没有待发布的 article.json")
+        print(f"📭 没有待发布的 {dir_name}/article.json")
         return None
 
     manifest = json.loads(manifest_text)
@@ -204,21 +208,21 @@ def process_one_pending():
     print(f"📄 找到: {title}")
 
     # 2. 读取 HTML
-    html = gh_get_file("output/article.html")
+    html = gh_get_file(f"{dir_name}/article.html")
     if html is None:
-        print("❌ article.html 缺失")
+        print(f"❌ {dir_name}/article.html 缺失")
         return None
 
     # 3. 读取封面图
-    cover_bytes = gh_get_binary(f"output/{manifest['cover_file']}")
+    cover_bytes = gh_get_binary(f"{dir_name}/{manifest['cover_file']}")
     if cover_bytes is None:
-        print(f"❌ {manifest['cover_file']} 缺失")
+        print(f"❌ {dir_name}/{manifest['cover_file']} 缺失")
         return None
 
     # 4. 读取 QR 码
     images = []
     for i, qr_name in enumerate(manifest.get("qr_files", [])):
-        qr_bytes = gh_get_binary(f"output/{qr_name}")
+        qr_bytes = gh_get_binary(f"{dir_name}/{qr_name}")
         if qr_bytes:
             images.append({"id": f"qr_{i}", "bytes": qr_bytes})
 
@@ -254,31 +258,34 @@ def process_one_pending():
     media_id = create_draft(token, article)
     print(f"✅ 草稿创建成功: {media_id}")
 
-    # 清空 output/ 目录（所有文件都通过 GitHub API 删除）
-    print("🧹 清理 output/ 目录 ...")
+    # 清空本目录（只删当前处理的 dir_name，避免误删另一条管线的内容）
+    print(f"🧹 清理 {dir_name}/ 目录 ...")
     deleted = 0
-    for filepath in gh_list_dir("output"):
+    for filepath in gh_list_dir(dir_name):
         sha = gh_get_sha(filepath)
         if sha:
             gh_delete_file(filepath, sha, f"Cleanup after publish: {title} [skip ci]")
             deleted += 1
-    print(f"🗑️ 已清理 {deleted} 个 output 文件")
+    print(f"🗑️ 已清理 {deleted} 个 {dir_name} 文件")
 
     return media_id
 
 
 def main_handler(event, context):
     """
-    SCF 定时触发入口
+    SCF 入口：依次检查各待发布目录，处理第一篇，删除对应目录
     """
-    try:
-        media_id = process_one_pending()
-        if media_id:
-            return {"success": True, "media_id": media_id}
-        return {"success": True, "msg": "no pending content"}
-    except urllib.error.HTTPError as e:
-        print(f"❌ HTTP 错误 [{e.code}]: {e.reason}")
-        return {"success": False, "error": f"HTTP {e.code}: {e.reason}"}
-    except Exception as e:
-        print(f"❌ 错误: {e}")
-        return {"success": False, "error": str(e)}
+    for dir_name in OUTPUT_DIRS:
+        try:
+            media_id = process_one_pending(dir_name)
+            if media_id:
+                return {"success": True, "media_id": media_id, "output_dir": dir_name}
+        except urllib.error.HTTPError as e:
+            print(f"❌ HTTP 错误 [{e.code}] in {dir_name}: {e.reason}")
+            return {"success": False, "error": f"HTTP {e.code}: {e.reason}"}
+        except Exception as e:
+            print(f"❌ 错误 in {dir_name}: {e}")
+            return {"success": False, "error": str(e)}
+    # D: 所有待发布目录均为空 → 显式失败，便于监控发现异常空推
+    return {"success": False, "msg": "no pending content (all output dirs empty)",
+            "checked": OUTPUT_DIRS}

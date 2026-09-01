@@ -24,7 +24,7 @@
 └─────────────────────────────────────────────────────┘
 
 功能:
-  每 10 分钟检查 GitHub 仓库的 output/article.json
+  每 10 分钟检查 GitHub 仓库的待发布目录（默认 output/，可用 OUTPUT_DIR 覆盖）
   如果有新内容 → 拉取 → 调微信 API → 草稿箱
 
 环境变量:
@@ -45,6 +45,8 @@ from pathlib import Path
 GITHUB_API = "https://api.github.com"
 REPO = "Krysaya/tf-scraper-action"
 BRANCH = "main"
+# 待发布目录（与 SCF 对齐），可用 OUTPUT_DIR 环境变量覆盖默认 output
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "output")
 WECHAT_TOKEN_URL = "https://api.weixin.qq.com/cgi-bin/token"
 WECHAT_MATERIAL_URL = "https://api.weixin.qq.com/cgi-bin/material/add_material"
 WECHAT_DRAFT_URL = "https://api.weixin.qq.com/cgi-bin/draft/add"
@@ -128,7 +130,7 @@ def wechat_create_draft(token, article):
 
 
 def process():
-    manifest_text = gh_get_file("output/article.json")
+    manifest_text = gh_get_file(f"{OUTPUT_DIR}/article.json")
     if manifest_text is None:
         return None
 
@@ -136,8 +138,8 @@ def process():
     title = manifest["title"]
     print(f"[{time.strftime('%H:%M:%S')}] 📄 {title}")
 
-    html = gh_get_file("output/article.html")
-    cover_bytes = gh_get_binary(f"output/{manifest['cover_file']}")
+    html = gh_get_file(f"{OUTPUT_DIR}/article.html")
+    cover_bytes = gh_get_binary(f"{OUTPUT_DIR}/{manifest['cover_file']}")
     if html is None or cover_bytes is None:
         print("  ❌ 文件不完整")
         return None
@@ -145,7 +147,7 @@ def process():
     # 拉 QR
     images = []
     for i, qr_name in enumerate(manifest.get("qr_files", [])):
-        qr_bytes = gh_get_binary(f"output/{qr_name}")
+        qr_bytes = gh_get_binary(f"{OUTPUT_DIR}/{qr_name}")
         if qr_bytes:
             images.append({"id": f"qr_{i}", "bytes": qr_bytes})
 
@@ -175,9 +177,9 @@ def process():
         print(f"  ✅ 草稿: {result['media_id']}")
 
         # 删 marker
-        article_json = gh_get_json("output/article.json")
+        article_json = gh_get_json(f"{OUTPUT_DIR}/article.json")
         if article_json and "sha" in article_json:
-            gh_delete("output/article.json", article_json["sha"])
+            gh_delete(f"{OUTPUT_DIR}/article.json", article_json["sha"])
             print("  🗑️ 已删除 marker")
         return result["media_id"]
     else:

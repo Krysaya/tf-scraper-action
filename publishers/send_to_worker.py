@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-打包 output/ 目录 → HTTP POST 到 Cloudflare Worker
+打包 output 目录（默认 output/，可用 OUTPUT_DIR 覆盖）→ HTTP POST 到 Cloudflare Worker
 环境变量: CF_WORKER_URL, CF_WORKER_SECRET
 用法: python send_to_worker.py
 """
@@ -17,7 +17,7 @@ import requests
 # 配置
 # ============================================================
 WORK_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_DIR = WORK_DIR / "output"
+OUTPUT_DIR = WORK_DIR / os.environ.get("OUTPUT_DIR", "output")
 
 WORKER_URL = os.environ.get("CF_WORKER_URL", "").strip().rstrip("/")
 WORKER_SECRET = os.environ.get("CF_WORKER_SECRET", "").strip()
@@ -40,7 +40,7 @@ def main():
     # 1. 读取元数据
     manifest_path = OUTPUT_DIR / "article.json"
     if not manifest_path.exists():
-        print("❌ 找不到 output/article.json，请先运行 publisher 脚本")
+        print(f"❌ 找不到 {OUTPUT_DIR}/article.json，请先运行 publisher 脚本")
         sys.exit(1)
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))

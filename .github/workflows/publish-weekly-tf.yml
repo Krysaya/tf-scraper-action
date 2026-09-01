@@ -56,6 +56,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/ 2>/dev/null || true
+          git add output_weekly/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "Generate TF article content [skip ci]"
           git push
+
+      - name: Trigger SCF publish
+        if: steps.find-txt.outputs.txt_file != ''
+        run: |
+          echo "🚀 触发 SCF 推送 (output_weekly)..."
+          curl -fsS -X POST "${SCF_PUBLISH_URL}" || echo "⚠️ SCF 触发失败，稍后定时触发兜底"
+        env:
+          SCF_PUBLISH_URL: ${{ secrets.SCF_PUBLISH_URL }}
