@@ -2,67 +2,70 @@
 
 1. Union - 融合和编辑照片
    原价 ¥38 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id849145835
-2. 游戏模拟器 - 掌机模拟器
+   https://apps.apple.com/app/id849145835
+2. 恐龙画画游戏-儿童动物填色游戏
+   原价 ¥8 → 免费
+   https://apps.apple.com/cn/app/id1464671358
+3. MusicHarbor - 追踪艺术家新发行
+   原价 ¥68 → 免费 | 音乐
+   https://apps.apple.com/app/id1440405750
+4. 游戏模拟器 - 掌机模拟器
    原价 ¥22 → 免费
    https://apps.apple.com/cn/app/id6517354474
-3. DrumToolz
+5. DrumToolz
    原价 ¥38 → 免费 | 音乐,教育
    https://apps.apple.com/cn/app/id1461677465
-4. 青蛙过河 : 一只很古老的游戏
+6. 青蛙过河 : 一只很古老的游戏
    原价 ¥8 → 免费 | 娱乐
    https://apps.apple.com/cn/app/id1058720663
-5. 情人节倒计时 2022:  最有爱的应用
+7. 情人节倒计时 2022:  最有爱的应用
    原价 ¥8 → 免费 | 生活
    https://apps.apple.com/cn/app/id495186255
-6. True Visage
+8. True Visage
    原价 ¥38 → 免费 | 健康健美
    https://apps.apple.com/cn/app/id378867398
-7. No Zero Days
+9. No Zero Days
    原价 ¥38 → 免费 | 效率
    https://apps.apple.com/cn/app/id1344518345
-8. 吉他，尤克里里琴和低音吉他调音器。
+10. 吉他，尤克里里琴和低音吉他调音器。
    原价 ¥48 → 免费 | 音乐
    https://apps.apple.com/cn/app/id1090819417
-9. Bouncy Flip
-   原价 ¥22 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id1147558030
-10. Duck Timer
+11. Duck Timer
    原价 ? → 免费 | 效率
    https://apps.apple.com/cn/app/id541364004
-11. 熊洞 (Bear Cave)
+12. 熊洞 (Bear Cave)
    原价 ? → 免费 | 工具
    https://apps.apple.com/cn/app/id6670725472
-12. Adelis : 笔记和清单
+13. Adelis : 笔记和清单
    原价 ? → 免费
    https://apps.apple.com/cn/app/id6795284592
-13. AI Crypto Portfolio: Koin PRO
+14. AI Crypto Portfolio: Koin PRO
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6775159112
-14. KungFuBack
+   https://apps.apple.com/us/app/id6775159112
+15. KungFuBack
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6751255497
-15. PresetCollection
+   https://apps.apple.com/app/id6751255497
+16. PresetCollection
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6798718530
-16. ToneFit: Color Analysis
+17. ToneFit: Color Analysis
    原价 ? → 免费 | LTF
    https://apps.apple.com/cn/app/id6757980449
-17. iSlip: Save now Forget later
+18. iSlip: Save now Forget later
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6791581762
-18. Unlimited Math Problems
+   https://apps.apple.com/app/id6791581762
+19. Unlimited Math Problems
    原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1244547440
-19. PDF Document Scanner - Captize
+   https://apps.apple.com/app/id1244547440
+20. PDF Document Scanner - Captize
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id1488667597
-20. Rereminder - Smart alarm
+21. Rereminder - Smart alarm
    原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6752551268
-21. Orbit: Small Business Orders
+   https://apps.apple.com/app/id6752551268
+22. Orbit: Small Business Orders
    原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6790637806
-22. Loopcheck: Daily Checklist
+   https://apps.apple.com/app/id6790637806
+23. Loopcheck: Daily Checklist
    原价 ? → 免费 | IAP
    https://apps.apple.com/cn/app/id6799032467
