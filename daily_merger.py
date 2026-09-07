@@ -2,14 +2,92 @@
 """
 每日限免合并器 — mergeek + oodata → 每日限免MMDD.txt
 只产出数据文件，不推送（推送由 tg_push.py / 公众号守护进程处理）
+
+修正说明（2026-09-07）：
+  - 抓取后实时核价：对每款 App 查 iTunes 中区(cn) + 美区(us) 当前价格，
+    两区均收费或无法核实(无 app_id) 的直接排除（"收费的不入"）。
+  - 中区免费 → 正文主列表；仅美区免费 → 单列「外区限免」一节（需切区下载）。
+  - TXT 携带双区价格行：中区:<状态>:<原价> | 美区:<状态>:<原价>
+    状态 ∈ {免费, 付费, 未知}；原价形如 ¥68 / $4.99 / ?
+  - 主列表(中区免费) App 若中区原价为 '?'（已核实免费但无原价可展示），
+    视为「价格不明确」直接剔除；外区限免 App 若美区原价也为 '?' 同样剔除。
 """
 import sys, os, json, time, re
 from datetime import datetime, timezone, timedelta
 BEIJING = timezone(timedelta(hours=8))
 from pathlib import Path
+from urllib.request import urlopen, Request
 
 import mergeek_scraper
 import oodata_scraper
+
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
+ITUNES_LOOKUP = "https://itunes.apple.com/lookup?id={}&country={}"
+
+
+# ============================================================
+# 实时核价（req3：抓取后必须先核实价格是否限免）
+# ============================================================
+def itunes_price(app_id, country):
+    """返回该区当前价格(float)。resultCount=0 或异常 → None。0.0 表示免费。"""
+    try:
+        url = ITUNES_LOOKUP.format(app_id, country)
+        req = Request(url, headers=UA)
+        resp = urlopen(req, timeout=8)
+        d = json.loads(resp.read())
+        if d.get("resultCount", 0) > 0:
+            return d["results"][0].get("price")
+    except Exception:
+        pass
+    return None
+
+
+def verify_region(app):
+    """核价中区+美区，返回带 region 字段的 dict；无法核实/两区均收费返回 None。
+
+    返回字段: name, category, price(mergeek原价或?), url, app_id, section,
+              cn_status, cn_orig, us_status, us_orig
+    """
+    app_id = app.get("app_id")
+    if not app_id:
+        return None  # 无 app_id → 无法核实 → 排除
+
+    cn_price = itunes_price(app_id, "cn")
+    us_price = itunes_price(app_id, "us")
+    time.sleep(0.3)  # 限速，别打爆 iTunes
+
+    cn_free = (cn_price == 0.0)
+    us_free = (us_price == 0.0)
+    if not (cn_free or us_free):
+        return None  # 两区都收费 → 排除
+
+    mergeek_price = app.get("price")  # "¥68" 或 "?"
+    # 原价展示：优先用 mergeek 页面原价；否则用 iTunes 当前价(>0)
+    cn_orig = mergeek_price if (mergeek_price and mergeek_price != "?") \
+        else (f"¥{cn_price}" if (cn_price and cn_price > 0) else "?")
+    us_orig = f"${us_price}" if (us_price and us_price > 0) else "?"
+
+    cn_status = "免费" if cn_free else ("付费" if cn_price is not None else "未知")
+    us_status = "免费" if us_free else ("付费" if us_price is not None else "未知")
+
+    if cn_free:
+        section = "main"
+        url = app["url"]
+    else:
+        # 仅美区免费：改用美区 URL，扫码跳到免费页
+        section = "external"
+        url = f"https://apps.apple.com/us/app/id{app_id}"
+
+    return {
+        "name": app["name"],
+        "category": app.get("category", ""),
+        "price": mergeek_price or "?",
+        "url": url,
+        "app_id": app_id,
+        "section": section,
+        "cn_status": cn_status, "cn_orig": cn_orig,
+        "us_status": us_status, "us_orig": us_orig,
+    }
 
 
 def merge_all():
@@ -71,17 +149,47 @@ def merge_all():
     return apps
 
 
-def write_txt(apps, filepath):
-    """写入 TXT 文件"""
+def price_clear(a):
+    """价格是否明确（主列表 + 外区节统一过滤）。
+
+    主列表(中区免费) App：中区原价已知(非 '?') 才算价格明确；
+    外区限免(App 仅美区免费) App：美区原价已知(非 '?') 才算价格明确。
+    原价 '?' 表示已核实免费但无法给出折扣幅度 → 视为「价格不明确」剔除。
+    注：外区 App 美区现价即 0，iTunes 查不到原价，故目前外区节恒为空；
+       若未来能拿到美区原价则可正常展示。
+    """
+    if a.get("section") == "external":
+        return a.get("us_orig", "?") != "?"
+    return a.get("cn_orig", "?") != "?"
+
+
+def _region_line(a):
+    line = f"   中区:{a['cn_status']}:{a['cn_orig']} | 美区:{a['us_status']}:{a['us_orig']}"
+    if a.get("category"):
+        line += f" | {a['category']}"
+    return line
+
+
+def _write_block(a, idx, lines):
+    lines.append(f"{idx}. {a['name']}")
+    lines.append(_region_line(a))
+    lines.append(f"   {a['url']}")
+
+
+def write_txt(main_apps, external_apps, filepath):
+    """写入 TXT：正文(中区免费) + 可选「外区限免」节(仅美区免费)"""
     today = datetime.now(BEIJING).strftime("%m/%d")
     lines = [f"今日限免 ({today})", ""]
-    for i, a in enumerate(apps, 1):
-        lines.append(f"{i}. {a['name']}")
-        price_part = f"原价 {a['price']} → 免费"
-        if a.get("category"):
-            price_part += f" | {a['category']}"
-        lines.append(f"   {price_part}")
-        lines.append(f"   {a['url']}")
+
+    for i, a in enumerate(main_apps, 1):
+        _write_block(a, i, lines)
+
+    if external_apps:
+        lines.append("")
+        lines.append("【外区限免 · 需切换 Apple ID 地区后下载】")
+        for i, a in enumerate(external_apps, 1):
+            _write_block(a, i, lines)
+
     filepath.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -106,22 +214,46 @@ def main():
         print("✅ 今日无新限免")
         return
 
+    # ── 实时核价 + 过滤（req3）──
+    verified = []
+    excluded = 0
+    for a in apps:
+        v = verify_region(a)
+        if v:
+            verified.append(v)
+        else:
+            excluded += 1
+    print(f"🔍 核价: {len(verified)} 款有效(中区或美区免费), 排除 {excluded} 款(两区均收费/无法核实)")
+    # ── 过滤价格不明确（主列表中区原价 ?）──
+    clear_apps = [a for a in verified if price_clear(a)]
+    unclear = len(verified) - len(clear_apps)
+    if unclear:
+        print(f"💲 价格不明(中区原价?): 去掉 {unclear} 款")
+    verified = clear_apps
+    if not verified:
+        print("✅ 今日无可核实的限免")
+        return
+
     # 跨天去重：去掉昨天已经出现过的 App
     yesterday_ids = load_yesterday_ids()
     if yesterday_ids:
-        before = len(apps)
-        apps = [a for a in apps if str(a["app_id"]) not in yesterday_ids]
-        removed = before - len(apps)
+        before = len(verified)
+        verified = [a for a in verified if str(a["app_id"]) not in yesterday_ids]
+        removed = before - len(verified)
         if removed:
-            names = [a["name"] for a in apps[:0]]  # 已过滤
             print(f"🔁 跨天去重: 去掉 {removed} 款昨日已出现")
 
-    if not apps:
+    if not verified:
         print("✅ 今日无新增限免（全部昨日已出现）")
         return
 
-    write_txt(apps, out)
-    print(f"📝 已生成: {out.name} ({len(apps)} 款)")
+    # 拆分双区
+    main_apps = [a for a in verified if a["section"] == "main"]
+    external_apps = [a for a in verified if a["section"] == "external"]
+    print(f"📊 中区免费 {len(main_apps)} 款 | 仅美区免费 {len(external_apps)} 款")
+
+    write_txt(main_apps, external_apps, out)
+    print(f"📝 已生成: {out.name} (中区 {len(main_apps)} + 外区 {len(external_apps)})")
 
 
 if __name__ == "__main__":
