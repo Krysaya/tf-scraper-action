@@ -1,7 +1,6 @@
 今日限免 (09/07)
 
 1. 壁酷
-<<<<<<< HEAD
 中区:免费:¥3 | 美区:免费:? | 工具
 https://apps.apple.com/cn/app/id1622157617
 2. 毛虫
@@ -25,86 +24,3 @@ https://apps.apple.com/cn/app/id1439683611
 8. PDF Max Pro - Edit, Sign PDFs
 中区:免费:¥68 | 美区:免费:? | 效率
 https://apps.apple.com/cn/app/id552664144
-
-=======
-   原价 ¥3 → 免费 | 工具
-   https://apps.apple.com/cn/app/id1622157617
-2. 毛虫
-   原价 ¥22 → 免费 | 游戏
-   https://apps.apple.com/cn/app/id430785167
-3. Block Ads Multi
-   原价 ¥8 → 免费 | 工具
-   https://apps.apple.com/cn/app/id1037619477
-4. Paint By Number Creator
-   原价 ¥38 → 免费 | 摄影与录像
-   https://apps.apple.com/cn/app/id1535640970
-5. Recipes for Filters & Presets
-   原价 ¥15 → 免费
-   https://apps.apple.com/cn/app/id474003191
-6. 檸檬樹-標準日本語【每日一句】生活實用篇
-   原价 ¥38 → 免费 | 教育
-   https://apps.apple.com/cn/app/id1131941339
-7. 赛博把脉·辨证脉象｜观相查体-智能手表实时把脉 随身诊脉
-   原价 ? → 免费 | 生活
-   https://apps.apple.com/cn/app/id6747979282
-8. ForceSync
-   原价 ¥15 → 免费 | 娱乐
-   https://apps.apple.com/cn/app/id1439683611
-9. 位置小组件
-   原价 ? → 免费 | 效率
-   https://apps.apple.com/cn/app/id6504747222
-10. PDF Max Pro - Edit, Sign PDFs
-   原价 ¥68 → 免费 | 效率
-   https://apps.apple.com/cn/app/id552664144
-11. Duck Timer
-   原价 ? → 免费 | 效率
-   https://apps.apple.com/cn/app/id541364004
-12. 熊洞 (Bear Cave)
-   原价 ? → 免费 | 工具
-   https://apps.apple.com/cn/app/id6670725472
-13. Adelis : 笔记和清单
-   原价 ? → 免费
-   https://apps.apple.com/cn/app/id6795284592
-14. Nagram
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6781000861
-15. Elixr - Supplement Tracker
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/app/id6762560637
-16. becool Wallpaper
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id1622157617
-17. Vintage Rhythm Machine Console
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6760660711
-18. Music for Seniors
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6756535570
-19. PromptDock AI
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/us/app/id6772130038
-20. Text Scanner AI: OCR &amp; Scan
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6748146382
-21. SmallFish Chess for Stockfish
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id675049147
-22. Network Usage Monitor
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6740433029
-23. Cyber pulse
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6747979282
-24. papry – Document Organizer
-   原价 ? → 免费 | IAP
-   https://apps.apple.com/cn/app/id6760818331
-25. To do cards by Frido
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6746710260
-26. Araya: Buddhist Meditation
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6802515797
-27. App Rank Tracker
-   原价 ? → 免费 | LTF
-   https://apps.apple.com/cn/app/id6803594126
->>>>>>> 405a7633c0e70b960522a0c38c40f94784253e63
