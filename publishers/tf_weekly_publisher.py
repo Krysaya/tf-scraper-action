@@ -403,6 +403,17 @@ def main():
         qr_paths.append(generate_qr(tf_url, i + 1))
     print(f"✅ QR: {len(qr_paths)}/{count}")
 
+    # 2.1 清理上次残留的孤儿二维码（本期数量比上期少时，多余 qr_N.png 仍占位）
+    import glob as _glob
+    for _f in _glob.glob(str(OUTPUT_DIR / "qr_*.png")):
+        try:
+            _idx = int(re.search(r"qr_(\d+)\.png", _f).group(1))
+            if _idx > count:
+                os.remove(_f)
+                print(f"  🧹 删除孤儿二维码 {os.path.basename(_f)}")
+        except Exception:
+            pass
+
     # 3. 生成 HTML（含占位符）
     print("🏗️ 构建 HTML...")
     html_content = build_html(apps, issue)
