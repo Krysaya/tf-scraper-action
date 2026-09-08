@@ -102,8 +102,12 @@ def fetch_tf_page_info(code):
             return name, True
 
     except urllib.error.HTTPError as e:
-        # 404/403/500 → 链接失效
-        return None, False
+        code = getattr(e, "code", None)
+        # 404/410 → 链接确实失效
+        if code in (404, 410):
+            return None, False
+        # 403/429 等通常是限流或地区限制，无法判定 → 保守保留，避免批量校验时误删有效链接
+        return None, None
     except Exception:
         # 网络错误 → 状态未知
         return None, None

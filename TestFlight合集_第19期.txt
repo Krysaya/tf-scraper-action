@@ -1,7 +1,5 @@
 TestFlight合集 第19期
 
-（本期含往期仍有效链接）
-
 1. 新闻：食品储藏室泛滥
    简介：穿过一波又一波的愤怒吐司、西红柿、罐头和其他奇怪的敌人。找到更好的武器，选择Powerf.
    https://testflight.apple.com/join/cxzdThqg
@@ -152,64 +150,60 @@ TestFlight合集 第19期
 65. NovaScale，专为 Tailscale 打造
    简介：NovaScale 是专为 Tailscale 打造的远程工作与服务器运维工具。在一个 App 中使用 SSH、主机监控、私有网页、SFTP 与远程 Codex，无需反复打开或关闭单独的 Tailscale VPN 连接。 内置 Tails...
    https://testflight.apple.com/join/tLcYLZJV
-66. 微博国际。
-   https://testflight.apple.com/join/2LslNUOW
-67. 小红书 - 你的生活兴趣社区
+66. 小红书 - 你的生活兴趣社区
    简介：欢迎来到小红书，这里是你专属的生活兴趣社区！ 在这里，热爱闪闪发光，好奇找到回响，一起来开启属于你的兴趣宇宙吧！ 发现精彩： 世界那么大，兴趣那么多！无数和你一样充满好奇心的人，在这里分享着他们的热爱与探索，等你来挖掘属于你的那份心动。无论...
    https://testflight.apple.com/join/XkGKTA71
-68. 优酷视频HD-《早春晴朗》全网独播
+67. 优酷视频HD-《早春晴朗》全网独播
    简介：【精品内容，尽在优酷】 《早春晴朗》井柏然孙千演绎高甜地下恋 《师兄太稳健》笑崩开局！抽象师兄疯闯洪荒 《师兄啊师兄》师兄最终季，封神大战再升级！ 《九门》张启山吴老狗共赴生死谜局 《一斩苍穹》菜刀砍神带队掀翻腐朽仙界 《悬案》17集2案！...
    https://testflight.apple.com/join/RDuRYxRE
-69. 资金追踪者：斯潘迪
+68. 资金追踪者：斯潘迪
    https://testflight.apple.com/join/qsfCtbEy
-70. 视网膜
+69. 视网膜
    https://testflight.apple.com/join/Q2P1cwS1
-71. 鲨鱼字节
+70. 鲨鱼字节
    https://testflight.apple.com/join/bZUNrzF4
-72. 跟踪我的版本
+71. 跟踪我的版本
    简介：Trace My Build是一个专门的网络应用程序，专为人们资助和跟踪来自.的家庭建设项目而设计
    https://testflight.apple.com/join/8ZgDAqGJ
-73. 港湾-您的安全之地
+72. 港湾-您的安全之地
    https://testflight.apple.com/join/98dDVSMD
-74. 艾丽丝照片：伴侣
+73. 艾丽丝照片：伴侣
    https://testflight.apple.com/join/1JaYeGCW
-75. put.io
+74. put.io
    https://testflight.apple.com/join/Sj8gx21t
-76. 细胞到奇异性：进化
+75. 细胞到奇异性：进化
    https://testflight.apple.com/join/RD9jGH9S
-77. 叶片天气
+76. 叶片天气
    简介：Vane是一个个性化的天气应用程序，它超越了预测，以帮助您了解天气实际上是如何变化的。
    https://testflight.apple.com/join/GHEW2GvN
-78. NATI健康
+77. NATI健康
    简介：我们正在测试NATI Health，这是一款针对Apple Watch用户的健康应用程序，可为您提供平静的日常睡眠、恢复、心脏..
    https://testflight.apple.com/join/YhGMDVwQ
-79. Iskrio：舒适的步行游戏
+78. Iskrio：舒适的步行游戏
    简介：在不同的地方寻找测试者Iskrio是一款舒适的步行游戏，其中小光点出现在……
    https://testflight.apple.com/join/nk4W2HNE
-80. 杜鹃花宠物
+79. 杜鹃花宠物
    简介：了解您的宠物的伴侣-健康帮助，记忆和与他们一起成长的记录
    https://testflight.apple.com/join/VgpEmwmD
-81. Anitabi动画巡礼
+80. Anitabi动画巡礼
    简介：Anitabi Map - 动画巡礼地图 告别繁琐的行前准备，轻松开启你的动画圣地巡礼之旅！ Anitabi Map 动画巡礼地图 是一款专为喜爱动画、漫画、游戏、小说等作品的你打造的圣地巡礼辅助工具。我们致力于汇集全球巡礼爱好者的力量，共...
    https://testflight.apple.com/join/Cds8dFMt
-82. Ralphy
+81. Ralphy
    简介：Rupy每天早上都会计算出一个诚实的数字：今天的支出限额，每张账单、卡付款和工资单……
    https://testflight.apple.com/join/YD6CKdCj
-83. OldOS 17
+82. OldOS 17
    简介：多年来OldOS的最大更新在这里：- iOS 4键盘-自动更正-预测触摸-文本建议-Mag.
    https://testflight.apple.com/join/VNduyVTG
-84. AudioRoo
+83. AudioRoo
    简介：AudioRoo是一款macOS音频转换器，捆绑了最新的编码器库-而不是像一些c.
    https://testflight.apple.com/join/JCFgBW83
-85. B.Roll -电影电视跟踪器
+84. B.Roll -电影电视跟踪器
    https://testflight.apple.com/join/CCAxqtzc
-86. Day Cam - 日常にそっと寄り添うカメラ
+85. Day Cam - 日常にそっと寄り添うカメラ
    https://testflight.apple.com/join/pdyCSkVY
-87. Clearway -里程碑
-   https://testflight.apple.com/join/UzXCFvBC
-88. 格鲁佐洛应用程序
+86. 格鲁佐洛应用程序
    https://testflight.apple.com/join/Szpmpeaw
-89. MatchFaces
+87. MatchFaces
    https://testflight.apple.com/join/VnUWvHFC
-90. PuzzleWorks -拼图应用程序
+88. PuzzleWorks -拼图应用程序
    https://testflight.apple.com/join/nBGAbkTd
