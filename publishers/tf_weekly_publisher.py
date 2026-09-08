@@ -28,6 +28,15 @@ AUTHOR = "卡拉库姆猫"
 WORK_DIR = Path(__file__).resolve().parent.parent  # 仓库根目录
 OUTPUT_DIR = WORK_DIR / "output_weekly"
 
+# 发布前复查：复用 weekly_tf_merger 的页面校验逻辑（判定满员/关闭/失效）
+import sys as _sys
+_sys.path.insert(0, str(WORK_DIR / "publishers"))
+try:
+    from weekly_tf_merger import fetch_tf_page_info
+except Exception as _e:
+    fetch_tf_page_info = None
+    print(f"⚠️ 未加载 fetch_tf_page_info（跳过复查）: {_e}")
+
 # ============================================================
 # 字体查找（兼容 Linux GitHub Actions）
 # ============================================================
@@ -90,6 +99,83 @@ def parse_tf_txt(filepath):
 
     print(f"📄 解析: {path.name} | 第{issue}期 | {len(apps)} 款")
     return issue, apps
+
+
+# ============================================================
+# 1.5 发布前复查（剔除满员/关闭/失效链接）
+# ============================================================
+def revalidate_apps(apps):
+    """发布前逐条复查链接是否仍可加入，剔除满员/关闭/失效的。
+
+    返回 (kept, dropped):
+      kept   — 过滤后的 (name, url, desc) 列表
+      dropped — 被剔除的 code 列表
+    规则：
+      is_active is False → 确认失效（404 或页面含失效文案），剔除
+      is_active is True  → 保留
+      is_active is None  → 网络异常无法判定，保守保留（避免抖动误删有效链接），仅告警
+    """
+    if fetch_tf_page_info is None:
+        print("⚠️ 无校验函数，跳过复查（保留全部）")
+        return apps, []
+
+    kept = []
+    dropped = []
+    for name, url, desc in apps:
+        m = re.search(r"/join/([A-Za-z0-9_-]+)", url)
+        code = m.group(1) if m else ""
+        if not code:
+            kept.append((name, url, desc))
+            continue
+        try:
+            _, is_active = fetch_tf_page_info(code)
+        except Exception:
+            is_active = None
+        if is_active is False:
+            print(f"  ❌ 剔除 {code}: 满员/关闭/失效（{name}）")
+            dropped.append(code)
+        elif is_active is None:
+            print(f"  ⚠️ {code}: 无法判定(网络异常)，保守保留（{name}）")
+            kept.append((name, url, desc))
+        else:
+            kept.append((name, url, desc))
+        time.sleep(0.4)  # 避免请求过快被苹果限流
+
+    if dropped:
+        print(f"  🧹 复查剔除 {len(dropped)} 条失效链接，保留 {len(kept)} 条")
+    else:
+        print(f"  ✅ 复查通过，{len(kept)} 条均可加入")
+    return kept, dropped
+
+
+def rewrite_tf_txt(path, issue, apps):
+    """用过滤后的 apps 重写 TXT（重新编号），保证产物与累计库一致。"""
+    lines = [f"TestFlight合集 第{issue}期", ""]
+    for i, (name, url, desc) in enumerate(apps, 1):
+        lines.append(f"{i}. {name}")
+        if desc:
+            lines.append(f"   简介：{desc}")
+        lines.append(f"   {url}")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"📝 已重写 TXT（剔除后 {len(apps)} 款）: {path.name}")
+
+
+def clean_cumulative(dropped_codes):
+    """从累计库 tf_weekly_links.json 删除被剔除的 code，避免兜底全量时再次带出。"""
+    p = WORK_DIR / "tf_weekly_links.json"
+    if not p.exists() or not dropped_codes:
+        return
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as _e:
+        print(f"⚠️ 读取累计库失败，跳过清理: {_e}")
+        return
+    before = len(data)
+    dropped = set(dropped_codes)
+    data = [e for e in data if e.get("code") not in dropped]
+    if len(data) != before:
+        p.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"📝 累计库剔除 {before - len(data)} 条 -> 剩余 {len(data)} 条")
 
 
 # ============================================================
@@ -294,6 +380,16 @@ def main():
     if not apps:
         print("❌ 未解析到 App")
         sys.exit(1)
+
+    # 1.5 发布前复查：剔除满员/关闭/失效链接（生成时校验过，发布前再确认一次）
+    print("🔍 发布前复查链接有效性 ...")
+    apps, dropped = revalidate_apps(apps)
+    if not apps:
+        print("❌ 复查后无有效链接，终止生成")
+        sys.exit(1)
+    if dropped:
+        rewrite_tf_txt(txt_path, issue, apps)
+        clean_cumulative(dropped)
 
     count = len(apps)
 
