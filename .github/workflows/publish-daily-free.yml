@@ -52,6 +52,9 @@ jobs:
       - name: Generate content
         if: steps.find-txt.outputs.txt_file != ''
         run: python publishers/daily_free_publisher.py "${{ steps.find-txt.outputs.txt_file }}"
+        env:
+          TENCENTCLOUD_SECRET_ID: ${{ secrets.TENCENTCLOUD_SECRET_ID }}
+          TENCENTCLOUD_SECRET_KEY: ${{ secrets.TENCENTCLOUD_SECRET_KEY }}
 
       - name: Commit generated content (for SCF to pick up)
         if: steps.find-txt.outputs.txt_file != ''

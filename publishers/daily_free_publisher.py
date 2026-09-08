@@ -30,7 +30,9 @@ _sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 try:
     import tf_translate as _tft
     _has_cjk  = _tft.has_cjk
-    _translate = _tft.gtx_translate
+    def _translate(text, **kw):
+        # 主用腾讯云 TMT，gtx 兜底；失败返回 None（不泄露英文）
+        return _tft.tmt_translate(text, **kw) or _tft.gtx_translate(text, **kw)
 except Exception as _e:
     _has_cjk  = lambda s: False
     _translate = lambda s, **kw: None

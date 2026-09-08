@@ -285,7 +285,8 @@ def generate_weekly_txt(new_apps, sent, next_issue):
         lines.append("（本期含往期仍有效链接）")
         lines.append("")
     for i, entry in enumerate(used_apps, 1):
-        lines.append(f"{i}. {entry['name']}")
+        title = entry.get("name_cn") or entry.get("name") or ""
+        lines.append(f"{i}. {title}")
         if entry.get("desc"):
             clean_desc = entry["desc"].replace("\n", " ").replace("\r", " ")[:200]
             lines.append(f"   简介：{clean_desc}")
@@ -307,10 +308,15 @@ def main():
         print("✅ 无数据")
         return
 
-    # 1.5 简介中文化（兜底：daily 阶段没翻成功的，这里再翻一次；缓存 descriptions.json）
+    # 1.5 简介 + 标题中文化（兜底：daily 阶段没翻成功的，这里再翻一次）
+    #      简介缓存 descriptions.json；标题缓存 tf_titles_cn.json
     if tf_translate is not None:
         try:
-            tf_translate.translate_entries(merged, cache_path=str(WORK_DIR / "descriptions.json"))
+            tf_translate.translate_entries(
+                merged,
+                cache_path=str(WORK_DIR / "descriptions.json"),
+                title_cache_path=str(WORK_DIR / "tf_titles_cn.json"),
+            )
         except Exception as _e:
             print(f"⚠️ 翻译步骤出错，跳过: {_e}")
 
