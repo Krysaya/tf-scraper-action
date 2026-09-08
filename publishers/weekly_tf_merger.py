@@ -59,14 +59,21 @@ def fetch_tf_page_info(code):
 
             html = resp.read().decode("utf-8", errors="ignore")
 
-            # 检测失效标志
-            if any(kw in html for kw in [
+            # 检测失效标志（大小写不敏感，覆盖常见失效文案）
+            expired_kw = [
                 "isn't accepting",
+                "is not accepting",
                 "no longer available",
                 "has been removed",
-                "This beta is full",
+                "this beta is full",
+                "beta isn't accepting",
                 "doesn't exist",
-            ]):
+                "beta has ended",
+                "beta has expired",
+                "not accepting new testers",
+            ]
+            low = html.lower()
+            if any(k in low for k in expired_kw):
                 return None, False
 
             # 提取 App 名称（按优先级尝试多种模式）
@@ -104,13 +111,16 @@ def fetch_tf_page_info(code):
 
 def enrich_and_validate(apps, skip_existing_names=True):
     """
-    对 App 列表进行名称补全和链接验证
+    对 App 列表【逐条】实时核验链接是否仍可加入，并补全名称。
 
-    skip_existing_names: True = 只补全占位名（TF_XXXX），跳过已有真名的
+    规则（每条都校验，不留死角）：
+      is_active is True  → 保留（needs_name 且有真实名才写回名字；已有真名不覆盖）
+      is_active is False → 已失效，剔除
+      is_active is None  → 网络异常无法判定，按「其他一律丢掉」剔除
+    skip_existing_names: 仅控制是否用页面名覆盖已有真名（不影响是否校验）
     """
     enriched = []
     expired = []
-    skipped = 0
 
     for entry in apps:
         name = entry.get("name", "")
@@ -118,37 +128,34 @@ def enrich_and_validate(apps, skip_existing_names=True):
 
         # 是否需要补全名称？
         needs_name = not name or name.startswith("TF_") or len(name) <= 8
-        if skip_existing_names and not needs_name:
-            enriched.append(entry)
-            skipped += 1
-            continue
 
         print(f"  🔍 {code[:8]}...", end=" ")
         real_name, is_active = fetch_tf_page_info(code)
 
-        if is_active is False:
-            print("❌ 已失效")
+        if is_active is not True:
+            reason = "已失效" if is_active is False else "无法判定(网络异常)"
+            print(f"❌ {reason}")
             expired.append(code)
             continue
 
-        if real_name:
+        # is_active is True：链接仍可加入
+        if needs_name and real_name:
             entry["name"] = real_name
             print(f"→ {real_name[:30]}")
-        elif needs_name:
-            # 页面活跃但无法获取名称 → 大概率无效链接，过滤掉
+        elif needs_name and not real_name:
+            # 页面活跃但拿不到名字 → 视为无效，剔除
             print("❌ 无法获取名称，视为无效")
             expired.append(code)
             continue
         else:
-            print(f"→ (名称获取失败)")
+            # 已有真名：保留，不覆盖
+            print(f"→ (有效, 保留原名)")
 
         enriched.append(entry)
         time.sleep(0.5)  # 避免请求过快被苹果限流
 
-    if skipped:
-        print(f"  ⏭️ 跳过 {skipped} 个已有真名")
     if expired:
-        print(f"  ❌ 过滤 {len(expired)} 个失效链接")
+        print(f"  ❌ 过滤 {len(expired)} 个失效/无法判定链接")
     return enriched, expired
 
 
