@@ -4,3 +4,6 @@ __pycache__/
 .venv/
 *.egg-info/
 .DS_Store
+
+# 本地记忆/配置，不入仓
+.workbuddy/

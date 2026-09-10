@@ -338,7 +338,10 @@ def _region_html(a, is_external):
             parts.append(f'<span style="text-decoration:line-through;color:#999999;font-size:13px;margin:0 4px;">原价 {a["us_orig"]}</span>')
         parts.append('</section>')
         parts.append('<section style="margin:0 0 10px;">')
-        parts.append(f'<span style="font-size:12px;color:#6b6b6b;">中区：原价 {a["cn_orig"]}（未限免）</span>')
+        if a["cn_orig"] != "?":
+            parts.append(f'<span style="font-size:12px;color:#6b6b6b;">中区：原价 {a["cn_orig"]}（未限免）</span>')
+        else:
+            parts.append(f'<span style="font-size:12px;color:#6b6b6b;">中区：未上架 / 未限免</span>')
         parts.append('</section>')
     else:
         # 中区免费（正文）
