@@ -1,17 +1,21 @@
 {
-  "title": "App Store 每日限免 · 09/15",
+  "title": "App Store 每日限免 · 09/16",
   "author": "卡拉库姆猫",
-  "digest": "09/15AppStore每日限免白嫖iOS限免随时结束·长按扫码下载·手慢无⬇中区3款限免·长按扫码下载⬇",
+  "digest": "09/16AppStore每日限免白嫖iOS限免随时结束·长按扫码下载·手慢无⬇中区5款限免·长按扫码下载⬇",
   "type": "daily_free",
-  "date": "09 / 15",
-  "count": 3,
-  "external_count": 0,
-  "total_value": 70,
+  "date": "09 / 16",
+  "count": 5,
+  "external_count": 2,
+  "total_value": 142,
   "cover_file": "cover.jpg",
   "html_file": "article.html",
   "qr_files": [
     "qr_1.png",
     "qr_2.png",
-    "qr_3.png"
+    "qr_3.png",
+    "qr_4.png",
+    "qr_5.png",
+    "qr_6.png",
+    "qr_7.png"
   ]
 }
