@@ -1,105 +1,50 @@
 [
   {
-    "name": "Косынка — пасьянс с альпакой",
-    "code": "2NnV6SK4",
-    "desc": "Kosynka是一款精美的Klondike纸牌游戏，以友好的羊驼为主题。它支持直观的拖动C.",
-    "url": "https://testflight.apple.com/join/2NnV6SK4"
+    "name": "HubTweak",
+    "code": "H4Wm8mBN",
+    "desc": "HubTweak社交媒体应用程序允许用户发布帖子，从而更好地控制社交媒体.",
+    "url": "https://testflight.apple.com/join/H4Wm8mBN"
   },
   {
-    "name": "Burden: Purchase Check",
-    "code": "ze5Bhrkc",
-    "desc": "负担可以帮助您在购买商品之前决定是否适合您的月份剩余时间。输入价格、可用资金.",
-    "url": "https://testflight.apple.com/join/ze5Bhrkc",
-    "name_cn": "负担：采购检查"
+    "name": "MealMate - Smart Grocery",
+    "code": "TGShtPTG",
+    "desc": "MealMate让膳食计划变得简单。发现食谱、保存收藏夹、创建膳食计划并生成购物清单.",
+    "url": "https://testflight.apple.com/join/TGShtPTG",
+    "name_cn": "MealMate -智能杂货店"
   },
   {
-    "name": "AmongFolk",
-    "code": "b8yaBG9R",
-    "desc": "AmongFolk是一个私人的，仅限邀请的空间，供家人和朋友分享照片，短视频，语音笔记和其他信息。",
-    "url": "https://testflight.apple.com/join/b8yaBG9R",
-    "name_cn": "蒙古民间"
+    "name": "My LifeAtlas",
+    "code": "AC2YKyyA",
+    "desc": "LifeAtlas将您的个人成就和日常生活变成一个不断增长的插图花园。每天记录小w.",
+    "url": "https://testflight.apple.com/join/AC2YKyyA",
+    "name_cn": "我的生活地图集"
   },
   {
-    "name": "get some: run every day",
-    "code": "yqYrtqNy",
-    "desc": "Get Some是一款私人iPhone跑步应用程序，适合那些想要通过完成一次诚实的3公里跑前夕来建立一致性的跑步者.",
-    "url": "https://testflight.apple.com/join/yqYrtqNy",
-    "name_cn": "获取一些：每天跑步"
+    "name": "SafeMeet: Personal Safety App",
+    "code": "GvH89YCS",
+    "desc": "SafeMeet是一款个人安全应用程序，专为约会、独自旅行或独自回家而设计。开始会话以分享您的.",
+    "url": "https://testflight.apple.com/join/GvH89YCS",
+    "name_cn": "SafeMeet：个人安全应用程序"
   },
   {
-    "name": "Dropwatch: New Music",
-    "code": "QtPZ8Wpt",
-    "desc": "Dropwatch -永远不要错过您已经喜爱的艺术家的作品Dropwatch扫描您的Apple Music库，查找每一个.",
-    "url": "https://testflight.apple.com/join/QtPZ8Wpt",
-    "name_cn": "Dropwatch：新音乐"
+    "name": "Booklook",
+    "code": "PY8GMkKa",
+    "desc": "Booklook是扫描您的图书收藏并与他人分享的一种方式。您将获得有关阅读内容的建议.",
+    "url": "https://testflight.apple.com/join/PY8GMkKa"
   },
   {
-    "name": "Trace My Build",
-    "code": "8ZgDAqGJ",
-    "desc": "Trace My Build是一个专门的网络应用程序，专为人们资助和跟踪来自.的家庭建设项目而设计",
-    "url": "https://testflight.apple.com/join/8ZgDAqGJ",
-    "name_cn": "跟踪我的版本"
+    "name": "Retono: Your Baby&#039;s Daily Plan",
+    "code": "HbRkDmJD",
+    "desc": "Retono是您宝宝的日常计划-六项与年龄相匹配的简短游戏活动、里程碑式签到和一键曲目.",
+    "url": "https://testflight.apple.com/join/HbRkDmJD",
+    "name_cn": "Retono：宝宝的日常计划"
   },
   {
-    "name": "Archived: Collection Tracker",
-    "code": "zY48DaKB",
-    "desc": "Archived是一款移动优先的应用程序，适合收集任何东西的人：手表、运动鞋、硬币、卡片、黑胶唱片、漫画、或什么.",
-    "url": "https://testflight.apple.com/join/zY48DaKB",
-    "name_cn": "存档：收藏追踪器"
-  },
-  {
-    "name": "Loopily: ADHD Routine Timer",
-    "code": "mcMmeWBb",
-    "desc": "循环地将例行公事分为步骤，每个步骤都有自己的倒计时，并在开始之前告诉您何时完成..",
-    "url": "https://testflight.apple.com/join/mcMmeWBb",
-    "name_cn": "Loopy：ADHD常规计时器"
-  },
-  {
-    "name": "FrogyBit",
-    "code": "ttwndjTK",
-    "desc": "FrogyBit是一个原产于索拉纳的SocialFi平台，将现代社交媒体与真正的链上实用程序相结合。用户可以.",
-    "url": "https://testflight.apple.com/join/ttwndjTK"
-  },
-  {
-    "name": "WatchMuse",
-    "code": "tsYGnyEf",
-    "desc": "WristMuse带来灵活的人工智能对话、图像分析、多个人工智能提供商、自定义服务器、iCloud备份、通知.",
-    "url": "https://testflight.apple.com/join/tsYGnyEf"
-  },
-  {
-    "name": "Airlock: Breathe &amp; Focus",
-    "code": "B6S5vU5q",
-    "desc": "Airlock是一款iPhone应用程序拦截器，引导呼吸可以赚取通话时间。您可以选择何时使用它以及解锁多长时间.",
-    "url": "https://testflight.apple.com/join/B6S5vU5q",
-    "name_cn": "气锁：呼吸焦点"
-  },
-  {
-    "name": "Glimshelf",
-    "code": "eCSAAcQF",
-    "desc": "Glimshelf是一款适用于iPhone和iPad的漫画和漫画阅读器。打开您自己的文件或连接到Komga、Kavita或ODDS li.",
-    "url": "https://testflight.apple.com/join/eCSAAcQF",
-    "name_cn": "微光书架"
-  },
-  {
-    "name": "Voyager Quest: Travel Trivia",
-    "code": "STBbSJcX",
-    "desc": "Voyager Quest是一个旅行琐事冒险：一个问答游戏包裹在世界各地的旅程，在那里你知道的是你的生活。",
-    "url": "https://testflight.apple.com/join/STBbSJcX",
-    "name_cn": "旅行者探索：旅行琐事"
-  },
-  {
-    "name": "YourMeal: Calorie Tracker AI",
-    "code": "2UNUYagj",
-    "desc": "版本1.8.9中的新内容-膳食和配料清单的新设计-集成食品数据库-实施条形码扫描仪.",
-    "url": "https://testflight.apple.com/join/2UNUYagj",
-    "name_cn": "YourMeal：卡路里追踪人工智能"
-  },
-  {
-    "name": "Sage - Right Place, Right Time",
-    "code": "7d9ncVZ5",
-    "desc": "Sage记住您不想忘记的事情-零输入和零云处理。传统任务应用程序fai.",
-    "url": "https://testflight.apple.com/join/7d9ncVZ5",
-    "name_cn": "Sage -天时地利人和"
+    "name": "Call Them: Call to Unlock",
+    "code": "CWZWHGZ3",
+    "desc": "把屏幕时间变成真正的连接。设置应用限制，选择你的人，当时间到了，打一个真正的电话，以获得.",
+    "url": "https://testflight.apple.com/join/CWZWHGZ3",
+    "name_cn": "呼叫他们：呼叫收件箱"
   },
   {
     "name": "记忆花园",
@@ -178,13 +123,6 @@
     "name_cn": "marknow：Markdown人工智能"
   },
   {
-    "name": "Bulletide: Pantry Overrun",
-    "code": "cxzdThqg",
-    "desc": "穿过一波又一波的愤怒吐司、西红柿、罐头和其他奇怪的敌人。找到更好的武器，选择Powerf.",
-    "url": "https://testflight.apple.com/join/cxzdThqg",
-    "name_cn": "公告：食品储藏室超支"
-  },
-  {
     "name": "Ōree",
     "code": "v3zbr8YC",
     "desc": "",
@@ -192,69 +130,17 @@
     "name_cn": "布里"
   },
   {
-    "name": "CounterUps: Push-Ups Tracker",
+    "name": "CounterUps: Push Up Counter",
     "code": "myFEz6DW",
     "desc": "",
     "url": "https://testflight.apple.com/join/myFEz6DW",
-    "name_cn": "反击：俯卧撑追踪器"
+    "name_cn": "反击：俯卧撑柜台"
   },
   {
     "name": "PingRoom",
     "code": "UW186HBe",
     "desc": "轻点一下，人人知晓。 PingRoom 帮助家人、朋友、室友和团队及时了解需要关注的事。创建房间，通过邀请码、链接或二维码邀请他人，再轻点一下，就能通知所有人。 创建第一个房间前，可和 Pingo 练习 Ping 和提问。从“提示”中可以再...",
     "url": "https://testflight.apple.com/join/UW186HBe"
-  },
-  {
-    "name": "Reddit",
-    "code": "b9jMyOWt",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/b9jMyOWt"
-  },
-  {
-    "name": "Ninja Sage",
-    "code": "vagbsVJM",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/vagbsVJM",
-    "name_cn": "忍者圣人"
-  },
-  {
-    "name": "BumpWords",
-    "code": "MbQdyhVw",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/MbQdyhVw"
-  },
-  {
-    "name": "Tabs: Subscription Tracker",
-    "code": "5kyPqh7J",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/5kyPqh7J",
-    "name_cn": "标签：订阅跟踪器"
-  },
-  {
-    "name": "抖音",
-    "code": "ZILJgZhU",
-    "desc": "抖音，记录美好生活 每天，都有亿万人打开抖音，让生活变得更加美好。 ● 看精彩直播 屏幕里的美好现场，陪伴你的每分每秒。 ● 追上头短剧 剧情高能不断，看得开心，追得过瘾。 ● 玩爆款特效 丰富装扮效果，上一秒甜美，下一秒酷炫。 ● 看抖音...",
-    "url": "https://testflight.apple.com/join/ZILJgZhU"
-  },
-  {
-    "name": "Tide Run",
-    "code": "uxF3JSHH",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/uxF3JSHH",
-    "name_cn": "潮跑"
-  },
-  {
-    "name": "LensCast",
-    "code": "gtTDsv4s",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/gtTDsv4s"
-  },
-  {
-    "name": "Gophr",
-    "code": "Vr3y3Jww",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Vr3y3Jww",
-    "name_cn": "戈弗尔"
   },
   {
     "name": "My Luna: Cycle Tracker",
@@ -270,58 +156,94 @@
     "url": "https://testflight.apple.com/join/q6gm0qgr"
   },
   {
-    "name": "Remote for Fire TV + Watch",
+    "name": "Fire Stick TV Remote + Watch",
     "code": "t47uRDd6",
     "desc": "",
     "url": "https://testflight.apple.com/join/t47uRDd6",
-    "name_cn": "Fire TV +观看遥控器"
+    "name_cn": "Fire Stick电视遥控器+观看"
   },
   {
-    "name": "Tally • Quick Counter",
-    "code": "zbUiqcxg",
+    "name": "LilyOna",
+    "code": "fWp3tR2n",
     "desc": "",
-    "url": "https://testflight.apple.com/join/zbUiqcxg",
-    "name_cn": "塔利·快速计数器"
+    "url": "https://testflight.apple.com/join/fWp3tR2n",
+    "name_cn": "莉莉奥娜"
   },
   {
-    "name": "Elevate - Brain Training Games",
-    "code": "IGNkcVTL",
+    "name": "Orso",
+    "code": "DUEdFUFk",
     "desc": "",
-    "url": "https://testflight.apple.com/join/IGNkcVTL",
-    "name_cn": "提升-大脑训练游戏"
+    "url": "https://testflight.apple.com/join/DUEdFUFk",
+    "name_cn": "职业退休"
   },
   {
-    "name": "TrainerRoad",
-    "code": "XMVCGAOW",
+    "name": "Ducks App - Communities &amp; Chat",
+    "code": "RXXYH8bz",
     "desc": "",
-    "url": "https://testflight.apple.com/join/XMVCGAOW"
+    "url": "https://testflight.apple.com/join/RXXYH8bz",
+    "name_cn": "鸭子应用程序-社区聊天"
   },
   {
-    "name": "Dropbox: Cloud Storage Backup",
-    "code": "LBZaRq4I",
+    "name": "Saracroche : bloqueur d&#39;appels",
+    "code": "CFCjF6d2",
     "desc": "",
-    "url": "https://testflight.apple.com/join/LBZaRq4I",
-    "name_cn": "Dropbox：云存储备份"
+    "url": "https://testflight.apple.com/join/CFCjF6d2",
+    "name_cn": "萨拉克罗什：blogrr d appels"
   },
   {
-    "name": "TikTok -Global Video Community",
-    "code": "MnsYnB0s",
+    "name": "Efficient TTC Beta",
+    "code": "nMmZSEwB",
     "desc": "",
-    "url": "https://testflight.apple.com/join/MnsYnB0s",
-    "name_cn": "TikTok -全球视频社区"
+    "url": "https://testflight.apple.com/join/nMmZSEwB",
+    "name_cn": "高效TTC测试版"
   },
   {
-    "name": "Tailscale",
-    "code": "tLcYLZJV",
-    "desc": "NovaScale 是专为 Tailscale 打造的远程工作与服务器运维工具。在一个 App 中使用 SSH、主机监控、私有网页、SFTP 与远程 Codex，无需反复打开或关闭单独的 Tailscale VPN 连接。 内置 Tails...",
-    "url": "https://testflight.apple.com/join/tLcYLZJV",
-    "name_cn": "NovaScale，专为 Tailscale 打造"
+    "name": "Aster: Org Agenda",
+    "code": "jysrbAEa",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/jysrbAEa",
+    "name_cn": "阿斯特：收件箱议程"
   },
   {
-    "name": "小红书 - 你的生活兴趣社区",
-    "code": "XkGKTA71",
-    "desc": "欢迎来到小红书，这里是你专属的生活兴趣社区！ 在这里，热爱闪闪发光，好奇找到回响，一起来开启属于你的兴趣宇宙吧！ 发现精彩： 世界那么大，兴趣那么多！无数和你一样充满好奇心的人，在这里分享着他们的热爱与探索，等你来挖掘属于你的那份心动。无论...",
-    "url": "https://testflight.apple.com/join/XkGKTA71"
+    "name": "PlanPilot: AI Planner",
+    "code": "GeHW2D6j",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/GeHW2D6j",
+    "name_cn": "计划飞行员：人工智能计划员"
+  },
+  {
+    "name": "Косынка — пасьянс с альпакой",
+    "code": "2NnV6SK4",
+    "desc": "Kosynka是一款精美的Klondike纸牌游戏，以友好的羊驼为主题。它支持直观的拖动C.",
+    "url": "https://testflight.apple.com/join/2NnV6SK4"
+  },
+  {
+    "name": "Burden: Purchase Check",
+    "code": "ze5Bhrkc",
+    "desc": "负担可以帮助您在购买商品之前决定是否适合您的月份剩余时间。输入价格、可用资金.",
+    "url": "https://testflight.apple.com/join/ze5Bhrkc",
+    "name_cn": "负担：采购检查"
+  },
+  {
+    "name": "AmongFolk",
+    "code": "b8yaBG9R",
+    "desc": "AmongFolk是一个私人的，仅限邀请的空间，供家人和朋友分享照片，短视频，语音笔记和其他信息。",
+    "url": "https://testflight.apple.com/join/b8yaBG9R",
+    "name_cn": "蒙古民间"
+  },
+  {
+    "name": "get some: run every day",
+    "code": "yqYrtqNy",
+    "desc": "Get Some是一款私人iPhone跑步应用程序，适合那些想要通过完成一次诚实的3公里跑前夕来建立一致性的跑步者.",
+    "url": "https://testflight.apple.com/join/yqYrtqNy",
+    "name_cn": "获取一些：每天跑步"
+  },
+  {
+    "name": "Dropwatch: New Music",
+    "code": "QtPZ8Wpt",
+    "desc": "Dropwatch -永远不要错过您已经喜爱的艺术家的作品Dropwatch扫描您的Apple Music库，查找每一个.",
+    "url": "https://testflight.apple.com/join/QtPZ8Wpt",
+    "name_cn": "Dropwatch：新音乐"
   },
   {
     "name": "Google Chrome",
@@ -330,11 +252,49 @@
     "url": "https://testflight.apple.com/join/LPQmtkUs"
   },
   {
-    "name": "CalSlashD: Calorie Countdown",
-    "code": "V9QgjdCW",
-    "desc": "大多数卡路里追踪器都会严格限制您的每日摄入量。CalSlashD跟踪您的日均值，因此忙碌的一天.",
-    "url": "https://testflight.apple.com/join/V9QgjdCW",
-    "name_cn": "CalSlashD：卡路里倒计时"
+    "name": "Trace My Build",
+    "code": "8ZgDAqGJ",
+    "desc": "Trace My Build 是一款专门的网络应用程序，专为人们资助和跟踪来自国外的房屋建设项目而设计。该应用程序充当共享数字分类帐和记录保存者，通过跟踪费用和交易，使项目所有者及其当地团队保持在同一页面上。",
+    "url": "https://testflight.apple.com/join/8ZgDAqGJ",
+    "name_cn": "跟踪我的版本"
+  },
+  {
+    "name": "Archived: Collection Tracker",
+    "code": "zY48DaKB",
+    "desc": "Archived 是一款移动优先的应用程序，适合收集任何东西的人：手表、运动鞋、硬币、卡片、黑胶唱片、漫画或您喜欢的任何其他东西。您记录每件作品的照片、状况和您支付的费用，并且存档会跟踪其实时估计价值，以便您始终知道您的...",
+    "url": "https://testflight.apple.com/join/zY48DaKB",
+    "name_cn": "存档：收藏追踪器"
+  },
+  {
+    "name": "Loopily: ADHD Routine Timer",
+    "code": "mcMmeWBb",
+    "desc": "Loopily 将例行程序分解为多个步骤，每个步骤都有自己的倒计时，并在开始之前告诉您何时完成。当您放下手机时，实时活动会将时钟保留在锁定屏幕上。在一个台阶上跑过去，Loopily 只会移动你的完成时间。 一种例行公事，而不是 SE...",
+    "url": "https://testflight.apple.com/join/mcMmeWBb",
+    "name_cn": "Loopy：ADHD常规计时器"
+  },
+  {
+    "name": "优酷视频HD-《无可替代》全网独播",
+    "code": "RDuRYxRE",
+    "desc": "【精品内容，尽在优酷】 《冬城猎凶》暴徒逃罪13年双面人生 《无可替代》职场双强致命吸引 《一瓯春》权臣黑莲花双强极爽复仇 《沧元图》看孟川执刀斩妖邪 雷霆护众生 《光阴之外 年番》末世疯味！许青带你狠爽全年 《早春晴朗》井柏然孙千演绎高甜...",
+    "url": "https://testflight.apple.com/join/RDuRYxRE"
+  },
+  {
+    "name": "FrogyBit",
+    "code": "ttwndjTK",
+    "desc": "FrogyBit是一个原产于索拉纳的SocialFi平台，将现代社交媒体与真正的链上实用程序相结合。用户可以.",
+    "url": "https://testflight.apple.com/join/ttwndjTK"
+  },
+  {
+    "name": "LensCast",
+    "code": "gtTDsv4s",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/gtTDsv4s"
+  },
+  {
+    "name": "WatchMuse",
+    "code": "tsYGnyEf",
+    "desc": "WristMuse 为您的 Apple Watch 带来灵活的 AI 对话、图像分析、多个 AI 提供商、自定义服务器、iCloud 备份、通知等。 支持页面： htts://watchm.dunxin13.com",
+    "url": "https://testflight.apple.com/join/tsYGnyEf"
   },
   {
     "name": "TerraMine",
@@ -344,24 +304,22 @@
   },
   {
     "name": "Join the Copcup beta",
-    "code": "I0939Yj3",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/I0939Yj3",
-    "name_cn": "加入Copcup测试版"
-  },
-  {
-    "name": "ChurchSuite Tap to Donate",
     "code": "t0FFzTZ3",
     "desc": "",
     "url": "https://testflight.apple.com/join/t0FFzTZ3",
-    "name_cn": "ChurchSuite点击捐赠"
+    "name_cn": "加入Copcup测试版"
   },
   {
-    "name": "Join the ChurchSuite Tap to Donate beta",
+    "name": "Anitabi动画巡礼",
     "code": "KJDJq8S8",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/KJDJq8S8",
-    "name_cn": "加入ChurchSuite Tap捐赠测试版"
+    "desc": "Anitabi Map - 动画巡礼地图 告别繁琐的行前准备，轻松开启你的动画圣地巡礼之旅！ Anitabi Map 动画巡礼地图 是一款专为喜爱动画、漫画、游戏、小说等作品的你打造的圣地巡礼辅助工具。我们致力于汇集全球巡礼爱好者的力量，共...",
+    "url": "https://testflight.apple.com/join/KJDJq8S8"
+  },
+  {
+    "name": "Join the Anitabi动画巡礼 beta",
+    "code": "IsQQ9YyQ",
+    "desc": "Anitabi Map - 动画巡礼地图 告别繁琐的行前准备，轻松开启你的动画圣地巡礼之旅！ Anitabi Map 动画巡礼地图 是一款专为喜爱动画、漫画、游戏、小说等作品的你打造的圣地巡礼辅助工具。我们致力于汇集全球巡礼爱好者的力量，共...",
+    "url": "https://testflight.apple.com/join/IsQQ9YyQ"
   },
   {
     "name": "Bavvo - AI Translator",
@@ -377,17 +335,16 @@
     "url": "https://testflight.apple.com/join/JQw5bjEz"
   },
   {
+    "name": "AirAP",
+    "code": "8aeqD8Q2",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/8aeqD8Q2"
+  },
+  {
     "name": "KRVR",
     "code": "gNNdfEzx",
     "desc": "",
     "url": "https://testflight.apple.com/join/gNNdfEzx"
-  },
-  {
-    "name": "WEB.DE - Mail, Cloud &amp; News",
-    "code": "Do48rouk",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Do48rouk",
-    "name_cn": "Web.DE -邮件、云新闻"
   },
   {
     "name": "Takeback: Doomscroll Bootcamp",
@@ -403,11 +360,17 @@
     "name_cn": "Mira生育周期追踪器"
   },
   {
-    "name": "HLS Viewer",
-    "code": "CjAr111q",
+    "name": "Facebook",
+    "code": "C1a3MRG4",
+    "desc": "与真实的人交流互动，畅享无限趣味。淘二手装备、向秒懂的人转发 Reels、分享 AI 生成的爆笑趣图，解锁多重玩法，不用去别处，就来 Facebook。 探索和拓展你的兴趣爱好： * 让 Meta AI 搜索你感兴趣的主题，即刻获得比纯文本...",
+    "url": "https://testflight.apple.com/join/C1a3MRG4"
+  },
+  {
+    "name": "WEB.DE - Mail, Cloud &amp; News",
+    "code": "Do48rouk",
     "desc": "",
-    "url": "https://testflight.apple.com/join/CjAr111q",
-    "name_cn": "莫吉克"
+    "url": "https://testflight.apple.com/join/Do48rouk",
+    "name_cn": "Web.DE -邮件、云新闻"
   },
   {
     "name": "Sign In",
@@ -417,37 +380,51 @@
     "name_cn": "登录"
   },
   {
-    "name": "The Stack - Notes To Self",
-    "code": "unjNz9fh",
+    "name": "HLS Viewer",
+    "code": "CjAr111q",
     "desc": "",
-    "url": "https://testflight.apple.com/join/unjNz9fh",
-    "name_cn": "堆栈-给自己的笔记"
+    "url": "https://testflight.apple.com/join/CjAr111q",
+    "name_cn": "HLS查看器"
   },
   {
-    "name": "阿沃Avopet - 宠物日常记录、成长相册与健康档案",
-    "code": "7X8BD62j",
-    "desc": "阿沃Avopet，是给毛孩子家庭使用的长期照护与健康档案。 把每天自然发生的事记下来：吃饭、喝水、体重、排泄、运动、用药、疫苗、驱虫、医疗、开销和自定义事项。再把日历、提醒、相册、健康资料和家庭协作放在同一只毛孩子身边，少靠记忆，也少让信息...",
-    "url": "https://testflight.apple.com/join/7X8BD62j"
-  },
-  {
-    "name": "AI Chat Client – PowerChat",
-    "code": "fq5yM3QS",
-    "desc": "强大的BYOK AI聊天客户端，适用于Anthropic，OpenAI，Deepseek等文本和图像模式。Google Dr.",
-    "url": "https://testflight.apple.com/join/fq5yM3QS",
-    "name_cn": "人工智能聊天客户端- PowerChat"
-  },
-  {
-    "name": "ChurchSuite Tap to Donate",
+    "name": "JeeConnect",
     "code": "luZsKILI",
     "desc": "",
-    "url": "https://testflight.apple.com/join/luZsKILI",
-    "name_cn": "ChurchSuite点击捐赠"
+    "url": "https://testflight.apple.com/join/luZsKILI"
   },
   {
-    "name": "Anitabi动画巡礼",
+    "name": "Cherry Studio App",
+    "code": "2ryzjB66",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/2ryzjB66",
+    "name_cn": "樱桃工作室应用程序"
+  },
+  {
+    "name": "put.io",
+    "code": "Sj8gx21t",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/Sj8gx21t"
+  },
+  {
+    "name": "Cell to Singularity: Evolution",
+    "code": "RD9jGH9S",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/RD9jGH9S",
+    "name_cn": "细胞到奇异性：进化"
+  },
+  {
+    "name": "Airlock: Breathe &amp; Focus",
+    "code": "B6S5vU5q",
+    "desc": "Airlock是一款iPhone应用程序拦截器，引导呼吸可以赚取通话时间。您可以选择何时使用它以及解锁多长时间.",
+    "url": "https://testflight.apple.com/join/B6S5vU5q",
+    "name_cn": "气锁：呼吸焦点"
+  },
+  {
+    "name": "Join the JeeConnect beta",
     "code": "Cds8dFMt",
-    "desc": "Anitabi Map - 动画巡礼地图 告别繁琐的行前准备，轻松开启你的动画圣地巡礼之旅！ Anitabi Map 动画巡礼地图 是一款专为喜爱动画、漫画、游戏、小说等作品的你打造的圣地巡礼辅助工具。我们致力于汇集全球巡礼爱好者的力量，共...",
-    "url": "https://testflight.apple.com/join/Cds8dFMt"
+    "desc": "",
+    "url": "https://testflight.apple.com/join/Cds8dFMt",
+    "name_cn": "加入JeeConnect测试版"
   },
   {
     "name": "P!PE",
@@ -456,51 +433,10 @@
     "url": "https://testflight.apple.com/join/EQ8qeGd8"
   },
   {
-    "name": "AnnaRevive",
-    "code": "vKtZzBGn",
+    "name": "The Stack - Notes To Self",
+    "code": "unjNz9fh",
     "desc": "",
-    "url": "https://testflight.apple.com/join/vKtZzBGn",
-    "name_cn": "安娜复兴"
-  },
-  {
-    "name": "VPN - Uni Connect",
-    "code": "1m6dhDYK",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/1m6dhDYK"
-  },
-  {
-    "name": "Vestigo: Movie and TV Tracker",
-    "code": "zbvP2WEx",
-    "desc": "Vestigo是一个iOS应用程序，用于跟踪和推荐电影和电视节目。功能：-为您：建立一个电影和系列的列表.",
-    "url": "https://testflight.apple.com/join/zbvP2WEx",
-    "name_cn": "Vestigo：电影和电视追踪器"
-  },
-  {
-    "name": "Wuxen2 Online",
-    "code": "HPYgSqp1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/HPYgSqp1",
-    "name_cn": "五克森2在线"
-  },
-  {
-    "name": "Marked. Swipe Photo Deleter",
-    "code": "uNjVXBby",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/uNjVXBby",
-    "name_cn": "标记。滑动照片删除器"
-  },
-  {
-    "name": "Grana",
-    "code": "qzDVsm2v",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/qzDVsm2v",
-    "name_cn": "基粒"
-  },
-  {
-    "name": "Documents - File Manager",
-    "code": "EOPEVoDA",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/EOPEVoDA",
-    "name_cn": "文档-文件管理器"
+    "url": "https://testflight.apple.com/join/unjNz9fh",
+    "name_cn": "堆栈-给自己的笔记"
   }
 ]
