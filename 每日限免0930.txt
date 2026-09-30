@@ -1,7 +1,7 @@
 今日限免 (09/30)
 
 1. Video Upscaler
-   中区:免费:¥38 | 美区:免费:?
+   中区:免费:¥38 | 美区:付费:$4.99
    https://apps.apple.com/cn/app/id6757842205
 2. 实时天气雷达Pro - 降雨预报
    中区:免费:¥128 | 美区:免费:? | 天气
@@ -11,6 +11,9 @@
    https://apps.apple.com/cn/app/id659883519
 
 【外区限免 · 需切换 Apple ID 地区后下载】
-1. Walltank - A living ocean on your desktop [macOS]
+1. Sports Scoreboard for OBS
+   中区:付费:¥148.0 | 美区:免费:? | LTF
+   https://apps.apple.com/us/app/id1579159150
+2. Walltank - A living ocean on your desktop [macOS]
    中区:未知:? | 美区:免费:? | IAP
    https://apps.apple.com/us/app/id6792116686
