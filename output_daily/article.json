@@ -5,7 +5,7 @@
   "type": "daily_free",
   "date": "09 / 30",
   "count": 3,
-  "external_count": 1,
+  "external_count": 2,
   "total_value": 181,
   "cover_file": "cover.jpg",
   "html_file": "article.html",
@@ -13,6 +13,7 @@
     "qr_1.png",
     "qr_2.png",
     "qr_3.png",
-    "qr_4.png"
+    "qr_4.png",
+    "qr_5.png"
   ]
 }
