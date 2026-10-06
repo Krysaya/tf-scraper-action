@@ -5,8 +5,8 @@
   "type": "daily_free",
   "date": "10 / 06",
   "count": 2,
-  "external_count": 6,
-  "total_value": 23,
+  "external_count": 5,
+  "total_value": 30,
   "cover_file": "cover.jpg",
   "html_file": "article.html",
   "qr_files": [
@@ -16,7 +16,6 @@
     "qr_4.png",
     "qr_5.png",
     "qr_6.png",
-    "qr_7.png",
-    "qr_8.png"
+    "qr_7.png"
   ]
 }
