@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Apex Lucis: Photography Pro",
+    "code": "rP9NAGc1",
+    "desc": "Apex Lucis 将潮汐、光线和预报与预订、客户和欠款显示在同一屏幕上。 如果您是一名摄影师，需要在计划拍摄并考虑天气情况的同时兼顾业务方面的事务...",
+    "url": "https://testflight.apple.com/join/rP9NAGc1"
+  },
+  {
+    "name": "Petizen",
+    "code": "jGxDJYS4",
+    "desc": "Petizen 是一款简单的应用程序，用于为您的宠物创建和管理数字护照。添加宠物详细信息、疫苗接种记录、ID 信息，并将所有内容整理在一处。此 TestFlight 版本用于测试核心护照体验、数据输入和整体可用性。",
+    "url": "https://testflight.apple.com/join/jGxDJYS4"
+  },
+  {
+    "name": "InfoBlocks",
+    "code": "DNSDKATq",
+    "desc": "唯一一款将与某个主题相关的一切都集中存放的iOS整理应用 — 您的笔记、链接、文件、照片、位置、任务,以及您的联系人。 v2新功能:地图和待办卡片类型 将位置固定到Apple Maps。使用内置清单跟踪任务。如今在一款简洁美观的应用中拥有七...",
+    "url": "https://testflight.apple.com/join/DNSDKATq"
+  },
+  {
+    "name": "Rumskrot Navigator",
+    "code": "QYkfF8fT",
+    "desc": "在 iPhone、iPad 和 Apple TV 上直接通过 SMB 或 SFTP 浏览您自己的 NAS 或服务器上的文件。预览照片和文档、浏览档案、管理文件并使用适当的传输队列移动数据。没有云中继或帐户。寻找 NAS 和家庭实验室用户，尤...",
+    "url": "https://testflight.apple.com/join/QYkfF8fT"
+  },
+  {
+    "name": "Rumskrot Terminal",
+    "code": "HPbm2kWx",
+    "desc": "适用于 iPhone、iPad 和 Apple Watch 的合适 SSH 终端，具有 GPU 渲染、多个会话、tmux 管理、SFTP 和实时服务器仪表板。专为需要在没有笔记本电脑的情况下随时随地工作的管理员和开发人员而设计。寻找有关 S...",
+    "url": "https://testflight.apple.com/join/HPbm2kWx"
+  },
+  {
+    "name": "Ripplock",
+    "code": "XmMWptBh",
+    "desc": "您可以敲击 137 BPM 而不会听到节拍吗？ Ripplock 是一款无声友好的节奏游戏，每次点击都会产生涟漪。当你的时机和一致性与目标节奏相匹配时，波浪就会锁定在一起。在 iPhone、iPad 或 Apple Watch 上追逐分数和...",
+    "url": "https://testflight.apple.com/join/XmMWptBh"
+  },
+  {
+    "name": "Syndicate – RSS Reader",
+    "code": "93aCvJSA",
+    "desc": "具有真正独立 Apple Watch 体验的 RSS 阅读器。导入 OPML 或与 FreshRSS、Miniflux 和其他 Google Reader API 服务同步。阅读简洁、完整的文章并获取设备上的标题摘要。在 iPhone、iP...",
+    "url": "https://testflight.apple.com/join/93aCvJSA"
+  },
+  {
+    "name": "ManaScope",
+    "code": "61NFgjWW",
+    "desc": "ManaScope 将万智牌从卡牌盒带到了指挥官之夜。扫描卡片并识别准确的印刷、组织收藏、构建经过合法性检查的牌组并查找裁决。它的多人游戏生命计数器让整个桌子可以通过二维码加入，甚至可以通过浏览器加入。厕所...",
+    "url": "https://testflight.apple.com/join/61NFgjWW"
+  },
+  {
+    "name": "Leaph",
+    "code": "2fCuz1AN",
+    "desc": "Leaph 可以帮助您缩小想要服药和实际服用之间的差距。 如果您每天服用多种药物，您就会知道情况如何。提醒在一个糟糕的时刻到来，你计划在一分钟内接受它，然后一分钟就过去了。莉芙平静地再次询问，直到你回答……",
+    "url": "https://testflight.apple.com/join/2fCuz1AN"
+  },
+  {
+    "name": "Anvil – Offline AI Assistant",
+    "code": "5JGCZpxt",
+    "desc": "Anvil 是一款在 iPhone 上运行的私人人工智能助手，因此没有消息限制、没有图像上限、也没有帐户。通过 WiFi 下载 Anvil Core，然后离线聊天、使用语音并处理笔记、任务、照片和文档。在应用程序中下载 Anvil Drea...",
+    "url": "https://testflight.apple.com/join/5JGCZpxt"
+  },
+  {
+    "name": "Stremio Player",
+    "code": "p3NgUX3H",
+    "desc": "适用于您的 Stremio 帐户的本机 iPhone 和 iPad 播放器。您的资料库、继续观看和插件与您的其他设备同步，内置播放器可处理 MKV、HEVC、HDR 以及多个音频和字幕轨道。 一个独立的应用程序，不隶属于 Stremio。",
+    "url": "https://testflight.apple.com/join/p3NgUX3H"
+  },
+  {
+    "name": "Remolo: Mac Screen &amp; Remote",
+    "code": "e4JNpMT4",
+    "desc": "Remolo 将 Mac 的屏幕放在 iPhone 或 iPad 上，让您可以在那里控制它：带有 macOS 手势的触控板、键盘、Mac 的 Dock 和窗口、带有笔记、文件和剪贴板的 Keynote。在家中或任何地方，端到端加密，无需帐户...",
+    "url": "https://testflight.apple.com/join/e4JNpMT4"
+  },
+  {
+    "name": "Stickler Pack",
+    "code": "3SWKTbvt",
+    "desc": "Stickler 是 Neat Freaks 的贴纸管理应用程序。 你的贴纸托盘一团糟。用斯蒂克勒来驯服它。创建、复制、移动、删除或以其他方式将您的贴纸放入包中，您可以将其备份到 iCloud、在您的个人设备之间同步，并很快与任何人共享.....",
+    "url": "https://testflight.apple.com/join/3SWKTbvt"
+  },
+  {
+    "name": "The Fall of The House of Bog",
+    "code": "h9Z5E9gG",
+    "desc": "“选一张牌”、“任何牌”、“错误”。 这是一个明信片应用程序。有点儿。奇怪、扭曲、黑暗的明信片应用程序，开启一段有趣的旅程。 生命和财富有时取决于牌的转动。 想想 1965 年《辛辛那提小子》诺曼·杰维森 (Norman Jewison)...",
+    "url": "https://testflight.apple.com/join/h9Z5E9gG"
+  },
+  {
+    "name": "White Noise: Focus &amp; Sleep",
+    "code": "bhyGy1JA",
+    "desc": "白噪声和数学音乐播放引擎。 计划是添加数百甚至数千首歌曲。这不是使用人工智能，而是使用数学、音乐和音频工程来生成数学推导的乐谱的播放，以获得平静的环境背景音乐……",
+    "url": "https://testflight.apple.com/join/bhyGy1JA"
+  },
+  {
+    "name": "DocVeli",
+    "code": "FXzAtQyb",
+    "desc": "DocVeli 可以帮助您整理 iPhone 上的重要文档，并通过提醒来跟踪过期日期。加入测试版并分享有关添加文档、管理日期和使用提醒的反馈。",
+    "url": "https://testflight.apple.com/join/FXzAtQyb"
+  },
+  {
+    "name": "Muneris: Job Application Track",
+    "code": "Nsqz2mRC",
+    "desc": "适用于 iOS 和 macOS 的职位申请跟踪器 - 通过面试、录用、拒绝和自定义阶段跟踪职位；记录笔记和里程碑日期；为每个职位附上简历和求职信；并审查您的应用程序管道。 您可以保留多份简历...",
+    "url": "https://testflight.apple.com/join/Nsqz2mRC"
+  },
+  {
+    "name": "Chore Agenda",
+    "code": "9uNvM8uR",
+    "desc": "Chore Agenda 是一款家庭杂务和零花钱应用，孩子们可以在 iPhone、Mac 和 Apple TV 上核对工作，而父母则可以跟踪收入和支出。",
+    "url": "https://testflight.apple.com/join/9uNvM8uR"
+  },
+  {
+    "name": "Meal Buddy Planner",
+    "code": "mZDqVn4u",
+    "desc": "Meal Buddy Planner 是一款 iPhone 和 iPad 应用程序，用于计划一周的膳食、保存食谱以及构建通过 iCloud 同步的购物清单 - 一次性购买，无需订阅。",
+    "url": "https://testflight.apple.com/join/mZDqVn4u"
+  },
+  {
+    "name": "FamTimer",
+    "code": "8jsyuKBb",
+    "desc": "FamTimer 可让家长启动在孩子设备上响铃的计时器，这样屏幕时间、家务和家庭作业就可以结束，而无需不断地唠叨。",
+    "url": "https://testflight.apple.com/join/8jsyuKBb"
+  },
+  {
+    "name": "VersionSlate",
+    "code": "5fBJUWkx",
+    "desc": "开发人员可以使用一个板来跟踪 Mac 和 iPhone 上的实时 App Store 版本、TestFlight 版本以及 Xcode Cloud 状态。",
+    "url": "https://testflight.apple.com/join/5fBJUWkx"
+  },
+  {
+    "name": "Petmigo App",
+    "code": "SJhNdYvv",
+    "desc": "Petmigo 是一款面向宠物主人的 iOS 测试版社交应用：创建宠物档案、发现其他宠物并通过互动和聊天进行联系。需要 Petmigo 帐户。 在 14 个实际测试日中定期使用该应用程序，并发送有关注册、个人资料、发现、聊天等方面的诚实反馈...",
+    "url": "https://testflight.apple.com/join/SJhNdYvv"
+  },
+  {
+    "name": "Yo Lo Tengo",
+    "code": "3T48vsKb",
+    "desc": "我们是 YOLOTENGO 开发团队，我们正在寻找志愿者来帮助通过 TestFlight 测试我们的 iPhone 测试版。拥有兼容 iPhone 的 18 岁以上成年人可以通过 5 至 10 分钟的课程提供帮助，内容包括设置、业务或产品搜...",
+    "url": "https://testflight.apple.com/join/3T48vsKb"
+  },
+  {
+    "name": "Oxbit",
+    "code": "P2WqdUYS",
+    "desc": "Oxbit 是一款适用于 iPhone 和 iPad 的免费开源代码编辑器。 从“文件”或 iCloud 打开任何文件夹。 TypeScript 和 JavaScript 在设备上完成和诊断，Git 内置用于提交和分支。 Oxbit 在其他...",
+    "url": "https://testflight.apple.com/join/P2WqdUYS"
+  },
+  {
+    "name": "ZenMark",
+    "code": "ZCYJDb5z",
+    "desc": "ZenMark 是一款简单、优雅且快速的 MarkDown 应用程序，可以按原样显示文本。已经发布了 iOS 版本，这是 macOS 版本。请下载、测试并提供反馈。",
+    "url": "https://testflight.apple.com/join/ZCYJDb5z"
+  },
+  {
+    "name": "Tagklar",
+    "code": "5CTmdjUt",
+    "desc": "Tagklar 将共享购物清单、重复性家务、食谱、约会和植物护理集成到一款 iPhone 应用程序中。搜索可视产品目录并将配方成分添加到您的列表中。 36 秒演示（英文字幕，德文应用屏幕）： https://api.tagklar-app....",
+    "url": "https://testflight.apple.com/join/5CTmdjUt"
+  },
+  {
+    "name": "Life Metro",
+    "code": "xcNYxzp1",
+    "desc": "Life Metro 将任务、事件和笔记放在一起。按时间或项目查看它们，然后使用评论将您的记录转化为后续步骤。 界面支持50种语言变体；教程视频目前仍为中文。自然语言日期识别目前支持...",
+    "url": "https://testflight.apple.com/join/xcNYxzp1"
+  }
+]
