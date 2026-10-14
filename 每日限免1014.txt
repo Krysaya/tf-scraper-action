@@ -17,15 +17,15 @@
    https://apps.apple.com/cn/app/id1503033745
 
 【外区限免 · 需切换 Apple ID 地区后下载】
-1. Solitaire Whizz
+1. Art Puzzle: Cezelle
+   中区:未知:? | 美区:免费:? | IAP
+   https://apps.apple.com/us/app/id6789066714
+2. Solitaire Whizz
    中区:未知:? | 美区:免费:? | LTF
    https://apps.apple.com/us/app/id630340539
-2. Corto: Geography Map Game
+3. Corto: Geography Map Game
    中区:未知:? | 美区:免费:? | IAP
    https://apps.apple.com/us/app/id6786200231
-3. Kalender in Bewegung: DaySpin
+4. Kalender in Bewegung: DaySpin
    中区:未知:? | 美区:免费:? | IAP
    https://apps.apple.com/us/app/id6808622622
-4. Mayor 4000: City Builder
-   中区:未知:? | 美区:免费:? | IAP
-   https://apps.apple.com/us/app/id6782534123
