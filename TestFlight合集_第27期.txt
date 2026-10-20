@@ -1,0 +1,429 @@
+TestFlight合集 第27期
+
+1. 部落控制
+   简介：部落控制 建立你的军队。指挥你的部落。征服战场！ 欢迎来到《Horde Control》，这是一款充满动感的街机策略游戏，在实时物理驱动下，大量部落在混乱的战斗中相互碰撞。派出你的特工，释放强大的能力，智胜……
+   https://testflight.apple.com/join/vkaCN44H
+2. LIONPLAYTV：IPTV节目列表文件，包括M3U格式的数据，适用于机顶盒和XTREAM设备。
+   简介：🏁 最终测试飞行版本 — 应用商店即将推出！ Build 16 是 LIONPLAY TV 在 App Store 上发布之前的最终候选版本。我们即将进入最后的 21 天测试期，您的反馈至关重要。 此版本带来了 AetherEngine 优...
+   https://testflight.apple.com/join/8uTxgBmH
+3. 缪斯：香气档案
+   简介：应用商店中最适合香水爱好者的应用
+   https://testflight.apple.com/join/RCRUntac
+4. Helicon：PDF和EPUB格式阅读器
+   简介：适用于 iPad 和 iPhone 的 PDF 和 EPUB 阅读器。按住边距，一根大头针就会落在线旁边；该图钉会打开一条笔记，您可以使用 Apple Pencil 键入或书写。还有快速阅读指南、笔记审阅、Markdown 导出和 iClo...
+   https://testflight.apple.com/join/mejbZYrA
+5. 谁？——一款著名的身份识别游戏
+   简介：是吗？是一款有趣的希伯来名人猜谜游戏。测试测试版并帮助我们改进它！
+   https://testflight.apple.com/join/ZbHRaDQF
+6. NestHealth
+   简介：当家里有人身体不好时，就很难记住谁在什么时候得了什么病。 NestHealth 将一切都集中在一处。 登录秒 • 使用简单的滑块或 - / + 按钮记录温度：耳朵、嘴巴、腋下或前额 • 记录药物和记录，例如液体、睡眠……
+   https://testflight.apple.com/join/REbwpe6V
+7. 肖奎兹
+   简介：Shoquiz 是一款用于学习/记忆学校材料的应用程序。该应用程序适合二年级大学。
+   https://testflight.apple.com/join/wffB5fqq
+8. 图尔
+   简介：免费收听广播：Tunr 将来自 200 多个国家/地区的数万个广播电台和最受欢迎的播客带到您的 iPhone、iPad、Mac、Apple TV、汽车、Android 设备、电视和浏览器上。本地、全球、按类型或只是地图上的某个位置。
+   https://testflight.apple.com/join/Fvr4DAP6
+9. 宾格瑞
+   简介：将您的 IPTV 订阅或个人媒体服务器转变为美妙的流媒体体验。在一个应用程序中欣赏直播电视、电影、连续剧和您自己的媒体库。 **主要特点** • Xtream 代码、M3U、Stalker、Plex、Jellyfin、Emby 和 Stre...
+   https://testflight.apple.com/join/JW915fdA
+10. 法尔胜
+   简介：Farsun 是一款适用于 iPhone 和 iPad 的免费重力街机射击游戏。恒星、黑洞和脉冲星都会弯曲你的和他们的每一个镜头。进行逐个区域的航行，与指定的精英和老板较量，在异步的日常决斗中挑战对手，并在季节性的星座中...
+   https://testflight.apple.com/join/yxWGRu1e
+11. DineCue
+   简介：DineCue 是一款 iPhone 和 iPad 测试版应用程序，用于扫描食物照片、打印菜单和标签，以及可编辑的食物成分。尝试扫描、查看并更正结果，并通过 TestFlight 报告任何不准确或令人困惑的情况。测试期间免费使用；需要 iO...
+   https://testflight.apple.com/join/ZK37EWBX
+12. TasteBud 味觉杂志
+   简介：TasteBud 可以帮助您记住您喜爱的菜肴，而不仅仅是餐厅。 评价菜肴、保存照片和笔记、记住定制内容，并关注朋友和美食影响者，看看他们推荐什么。 当您在餐厅时，TasteBud 可以显示相关菜肴推荐...
+   https://testflight.apple.com/join/yZ65pzR1
+13. Yap：听写与语音转文字功能
+   简介：iPhone 版 Yap 是一款语音键盘：点击 Yap 键盘上的“开始”，说话，您的单词就会输入到任何应用程序中。语音在手机上得到识别（NVIDIA Parakeet 型号，下载一次，大约 800 MB），因此音频永远不会离开设备。英语和....
+   https://testflight.apple.com/join/uc2u5VXe
+14. 法定人数通知员
+   简介：Quorum Mobile 是一切隐私应用程序：E2EE 直接消息和群聊、迷你应用程序、支持各种网络的加密钱包。
+   https://testflight.apple.com/join/PPzryGCU
+15. 更大的利益：生存与成长
+   简介：握住则上升，松开则下沉。吃掉所有比你小的鱼，避开比你大的鱼，然后成长，直到你成为周围最大的鱼。五个水下世界和 75 个关卡，有弹跳你的水母、免费食物的鱼钩，以及漆黑的深海，每个...
+   https://testflight.apple.com/join/qQ2FCuPa
+16. 余烬停留的地方
+   简介：《余烬之家》是一款自上而下的生存冒险游戏，讲述米拉、特拉维斯和他们的狗幸运的故事。探索、收集资源、制作设备并建立营地，同时管理食物、水和防止寒冷夜晚的火种。具有风格化的 2D 视觉效果和关于...的故事
+   https://testflight.apple.com/join/5Keeasvq
+17. 《砸碎大理石：再来一次》
+   简介：Bust A Marble: Encore 是一款适用于 iPhone 和 iPad 的弹珠链益智游戏。拖动匹配的邻居，释放以粉碎链条，并在得分时构建配乐。 Play 20 levels, each with its own song.当您...
+   https://testflight.apple.com/join/frZu1aTR
+18. 钱虫
+   简介：适用于 MacOS 的时间跟踪和发票：无帐户，无需订阅。 MoneyBug 可让您控制 Mac 上的数据、客户和工作，并可选择加密同步到您的个人 iCloud。你开具发票，而不是我们，MoneyBug 通过一次性购买解锁...
+   https://testflight.apple.com/join/49zD3cmA
+19. 触摸草地——声音疗愈
+   简介：敲响碗、敲锣或敲钟，观察声音塑造活沙的形状。 Touch Grass 结合了七个可触摸演奏的乐器系列、不断发展的环境会话和受 Physarum 启发的生动视觉模拟。 我们正在寻找关于学习手势有多么容易的测试版反馈，嗯...
+   https://testflight.apple.com/join/a5jT7hhA
+20. 睡两
+   简介：就寝时间不同的夫妻不必满足于糟糕的睡眠。两人睡眠可以帮助您协调全天的睡眠并兑现起床的承诺。 选择唤醒窗口并围绕估计的睡眠周期计划闹钟。如果您的夜晚被打扰，只需轻轻一按即可...
+   https://testflight.apple.com/join/V6M5gCXF
+21. 谜题：每天约125道谜题
+   简介：谜题——您已经玩过的日常谜题的地方。 这不是一个益智游戏。它可以在发行商自己的网站上打开 Wordle、Connections、Strands、LinkedIn 游戏、Puzzmo、Framed 以及大约 115 个其他游戏，以您的身份登录...
+   https://testflight.apple.com/join/7rWrz224
+22. 《独居者：每天一页》
+   简介：仅限 18 岁以上的美国成年人。 Cloister 是一个安静的地方，每天可以用您选择的名字写一页；其他人可以阅读它，没有点赞、评论或照片。免费测试版，独立开发者。
+   https://testflight.apple.com/join/yrtHYVtq
+23. 斯波哈德
+   简介：滑动浏览您的照片并决定：保留、移至文件夹或放开。 Spohad 将杂乱的相机胶卷、驱动器或 NAS 变成整洁的个人档案 — 无需帐户、无需云、无需跟踪。您的文件永远不会离开您的设备。 测试内容：对几百张照片进行排序，然后点击“保存...”
+   https://testflight.apple.com/join/TBxWaPBr
+24. 吉奥
+   简介：DNS 污水坑和 Wireguard VPN 连接器。使用 dnscrypt 或 DoH。对于 dnscrypt，您还可以使用匿名中继。使用阻止列表根据用户定义的阻止列表来阻止广告或跟踪器。
+   https://testflight.apple.com/join/dQbw7aDW
+25. NetCheck – 菜单栏监控工具
+   简介：从这里开始。 Mac 版 NetCheck 3.0 是两个应用程序测试版的一半：您需要此 Mac 应用程序和 iPhone 或 iPad 上的 NetCheck Relay。 新功能：心跳中继。当您的 Mac 失去互联网连接时，您的 iPh...
+   https://testflight.apple.com/join/TAkQKJGs
+26. 真实可靠
+   简介：Authentk 使用加密证明对您的照片进行签名，以便任何人都可以验证它们是否是您的真实身份 - 不是人工智能生成的，不是旧的，也不是假的。从市场聚会到在线约会，了解谁是真正的另一方。
+   https://testflight.apple.com/join/sjkzkdu8
+27. 采访/发言
+   简介：Intervite 是一款专为 Z 世代打造的全新社交媒体和活动应用程序，可将人们在网上和现实生活中聚集在一起。 分享照片、发布短视频、开始对话、向朋友发送消息以及自定义您的个人资料，使其真正属于您。与您的学校社区联系，发现...
+   https://testflight.apple.com/join/DJafXM3h
+28. NovaSwift
+   简介：NOVA Swift 是 Escape Velocity Nova 引擎（Ambrosia Software，2002）的重新实现，通过对原始可执行文件的逆向工程读取而用 Swift 编写。它可以在 macOS、iPadOS、iOS 和 t...
+   https://testflight.apple.com/join/hmAMCbjP
+29. CherriCuts
+   https://testflight.apple.com/join/psBVeFjn
+30. RedWallet XBT
+   https://testflight.apple.com/join/UuExh5RP
+31. 欧洲足球经理游戏
+   https://testflight.apple.com/join/ctfyfnwc
+32. 欧洲足球经理游戏
+   https://testflight.apple.com/join/MppX3FTZ
+33. Sliptab：拆分账单与分段付款
+   https://testflight.apple.com/join/JfFwCEU3
+34. 所有的戴
+   https://testflight.apple.com/join/qN1ZWzx2
+35. 脚网球：足球对对战
+   https://testflight.apple.com/join/eYsHSzQc
+36. Cherry Studio - 全能 AI 工作站
+   简介：Cherry Studio 是面向 iPhone 和 iPad 的 AI 工作空间，将多模型对话、智能体、图像创作和工具连接整合在一起。 连接你选择的模型 配置模型服务与服务密钥，在同一应用中管理多个模型，为不同任务选择合适的能力。模型可用...
+   https://testflight.apple.com/join/2ryzjB66
+37. SleepHole
+   简介：SleepHole 将常规的就寝时间变成了一座小镇。晚上你开始建造一座建筑，手机休息一晚，当你确认早上起床时，建筑就完工了。夜复一夜，一座低多边形城镇逐渐壮大。 它是温和的，而不是严格的：看看锁......
+   https://testflight.apple.com/join/yvMAfAKs
+38. NetCheck中继系统
+   简介：需要一台 Mac。 NetCheck Relay 是两个应用程序测试版的一半，它本身不执行任何操作：您还需要 Mac 上的 NetCheck 3.0 测试版。从这里开始：https://departures.to/apps/23707 当您...
+   https://testflight.apple.com/join/vfgnaKC1
+39. 分娩
+   https://testflight.apple.com/join/Sdryd6uQ
+40. 打印机精灵
+   https://testflight.apple.com/join/xzWMyf4J
+41. PrinterPalCamera
+   https://testflight.apple.com/join/7pjeUe2D
+42. 裁员岛：生存之道
+   https://testflight.apple.com/join/j54CP8E9
+43. 《电视骑士》
+   https://testflight.apple.com/join/vqhtc4S1
+44. 蒂拉
+   https://testflight.apple.com/join/YMMtMJGQ
+45. Exoscale的观测仪
+   https://testflight.apple.com/join/BsSd1jh1
+46. SprinTelex：聊天与转账功能
+   https://testflight.apple.com/join/KsvJERxs
+47. HumanTuner
+   https://testflight.apple.com/join/7NmzpNGB
+48. 哈勒：训练与恢复
+   https://testflight.apple.com/join/ta54RYVf
+49. ABC——更好的相机
+   https://testflight.apple.com/join/fdEu7Ky8
+50. PowerXOne：加密货币钱包
+   https://testflight.apple.com/join/SnJgWTnv
+51. 每日日历
+   https://testflight.apple.com/join/sKcmUdAq
+52. DayPilot：一次只处理一项任务
+   https://testflight.apple.com/join/PtV4A4f5
+53. 长笔记
+   https://testflight.apple.com/join/Mg9xcerF
+54. OpenChamber
+   https://testflight.apple.com/join/5ek6GU1E
+55. 3订阅：不仅仅是简单的订阅服务
+   https://testflight.apple.com/join/j4X5pp2Z
+56. 隐藏文件夹：剪贴板与代码片段
+   https://testflight.apple.com/join/E1grGsF9
+57. EveryCord：屏幕录制器
+   https://testflight.apple.com/join/fWAHxtFp
+58. RepoGo
+   https://testflight.apple.com/join/pEVSEhCu
+59. SoquShield
+   https://testflight.apple.com/join/a8tZaHU7
+60. 斯塔克普特
+   https://testflight.apple.com/join/ahdY9BTb
+61. REK
+   https://testflight.apple.com/join/kEMR9Y6k
+62. QOLV 商业笔记簿
+   https://testflight.apple.com/join/jjXcKQRz
+63. Anvil -离线人工智能助手
+   https://testflight.apple.com/join/ghfKmDWc
+64. 第五群
+   https://testflight.apple.com/join/HXj3z253
+65. RTLBridge
+   https://testflight.apple.com/join/jUDtSBmb
+66. 点：你的生活，用点来表示
+   https://testflight.apple.com/join/JxycnXpN
+67. 复杂的海军事务
+   https://testflight.apple.com/join/j9ZwEndx
+68. 端测试
+   https://testflight.apple.com/join/zgEGdJag
+69. 小兄弟：AI代理之家
+   https://testflight.apple.com/join/YQ8tm45B
+70. 首页展示
+   https://testflight.apple.com/join/XHXrT1Dq
+71. QuickTUI：人工智能代理终端
+   简介：你的 AI 编程 Agent，随时触手可及。 QuickTUI 是连接你自己的电脑或服务器的 iPhone 和 iPad 客户端。启动 Claude Code、Codex、Gemini 或任何长时间运行的终端任务——然后转身就走。会话持续在...
+   https://testflight.apple.com/join/5YnER2Q9
+72. 法定人数
+   https://testflight.apple.com/join/sgQv95fZ
+73. 邻近市场
+   https://testflight.apple.com/join/YEeTwn8h
+74. 超锁定应用
+   https://testflight.apple.com/join/YwZeS2cR
+75. Ringly
+   https://testflight.apple.com/join/6TtssMsS
+76. 迪克西特：请评价一下我的……
+   https://testflight.apple.com/join/TRBzvWYj
+77. 节奏塔戈
+   https://testflight.apple.com/join/dpaYy7Bx
+78. rc对
+   https://testflight.apple.com/join/jECT6VHj
+79. WeWire
+   https://testflight.apple.com/join/WjGcQYEW
+80. dNeyed
+   https://testflight.apple.com/join/Q6VNApQ1
+81. dNted
+   https://testflight.apple.com/join/fFQQhPRU
+82. 余烬：火中的故事
+   https://testflight.apple.com/join/S4ykmrte
+83. 德卡维
+   https://testflight.apple.com/join/eGj1eyTM
+84. QNet钱包
+   https://testflight.apple.com/join/EeBbs439
+85. FivePort
+   https://testflight.apple.com/join/yDv22HzE
+86. Reddit
+   https://testflight.apple.com/join/b9jMyOWt
+87. 安基尔
+   简介：将你阅读过的文字转化为Anki闪卡的形式，同时保留原有的上下文信息。Anki是一款适用于iPhone和iPad的应用程序，用于记忆卡片等工具。
+   https://testflight.apple.com/join/FMysFfnv
+88. X1钱包
+   https://testflight.apple.com/join/sxpTfavs
+89. 已检测：发现人工智能的存在
+   https://testflight.apple.com/join/dYK6bDkB
+90. RevenueCat 移动版
+   https://testflight.apple.com/join/svmmerBQ
+91. 完全采用节点式结构
+   https://testflight.apple.com/join/a6GWxet2
+92. 复出之王
+   https://testflight.apple.com/join/kvZVPNRt
+93. Cala
+   https://testflight.apple.com/join/cdRbKDjr
+94. 潘诺——重温你的旅行时光
+   https://testflight.apple.com/join/kV8P9grK
+95. Draftseed
+   https://testflight.apple.com/join/7g2B7vv5
+96. 帕尔马大师
+   https://testflight.apple.com/join/bphs5aPN
+97. 缓冲器：计划与调度信息记录
+   https://testflight.apple.com/join/2ehsjU11
+98. 伊菲拉：临床推理
+   https://testflight.apple.com/join/Cnjg1GW6
+99. 天气真是棒极了，YoWindow
+   https://testflight.apple.com/join/DVWn28qs
+100. 斯皮奇阅读器
+   https://testflight.apple.com/join/GqBfUz2R
+101. 音乐墙：专辑播放器
+   https://testflight.apple.com/join/Hz9BuGK5
+102. 波浪：艺术与时钟
+   https://testflight.apple.com/join/nZGUq3mh
+103. 柯利犬，属于她的宠物。
+   https://testflight.apple.com/join/nSK8k88A
+104. PewPew：霓虹光效太空射手
+   https://testflight.apple.com/join/e8aQjBz8
+105. 哦不，火车啊！
+   https://testflight.apple.com/join/xpuhE8Xt
+106. 埃克科工作室
+   简介：Ekko Studio 是一款面向 AI Agent 的跨设备连接、管理与协作工具。连接运行在电脑或服务器上的 Ekko Studio 后，你可以在手机上继续与自己的 Agent 对话、处理任务、调用工具和管理文件，随时掌握工作进度。 无论...
+   https://testflight.apple.com/join/Xh5TCUJ4
+107. 费用追踪工具——实时显示各项开支情况
+   https://testflight.apple.com/join/92yS5Yd8
+108. WillPath
+   https://testflight.apple.com/join/SQMNe3Zn
+109. 为Bandcamp提供的露营设备
+   https://testflight.apple.com/join/bvYwZpPp
+110. PyBLOCK Blake2b
+   https://testflight.apple.com/join/dtAY8qcz
+111. 园艺知识
+   https://testflight.apple.com/join/fr5TW3Sb
+112. 通过Belweave进行通知
+   https://testflight.apple.com/join/1MDYPc7a
+113. 弹球大师！
+   https://testflight.apple.com/join/RTwyPYYY
+114. 贝里树
+   https://testflight.apple.com/join/w81MbzMD
+115. TechTunes推出的Radio Retro产品
+   https://testflight.apple.com/join/9r7qem8M
+116. ノワールと世界のコーヒー
+   https://testflight.apple.com/join/EnDJ4jx6
+117. 阅读追踪器：用于记录阅读情况的工具
+   https://testflight.apple.com/join/WAkrkgPq
+118. 通用输入
+   https://testflight.apple.com/join/hEuvzMs7
+119. MiniCPM-V 演示版
+   https://testflight.apple.com/join/yNKyFZwW
+120. 群岛：闲置的农场
+   https://testflight.apple.com/join/dsq5YDSu
+121. 奇怪的口袋
+   https://testflight.apple.com/join/Keg5X2df
+122. 群岛：闲置的农场
+   https://testflight.apple.com/join/nvzKZw1S
+123. DCC – 开发命令中心
+   https://testflight.apple.com/join/MN7DT4Q5
+124. 时代变迁：朝代的更迭
+   https://testflight.apple.com/join/d6GUkW8S
+125. 穆社会
+   https://testflight.apple.com/join/wu6pujg8
+126. tldraw 笔记工具
+   https://testflight.apple.com/join/yDN7KW8s
+127. 已完成：任务与习惯
+   https://testflight.apple.com/join/GaQMKfqC
+128. 艾达简易快速每日计划表
+   https://testflight.apple.com/join/fvCG4swt
+129. 亚怀耶
+   https://testflight.apple.com/join/R4rZ4Uhu
+130. TokenPulse
+   https://testflight.apple.com/join/jrHbrKmH
+131. 夜景相机
+   https://testflight.apple.com/join/Jtppv1Xc
+132. ここプリ
+   https://testflight.apple.com/join/qt72UeMs
+133. Hypurr制作的《Atlas》
+   https://testflight.apple.com/join/eUsUJBDU
+134. OnFoot：请小心行走。
+   https://testflight.apple.com/join/3bbRwhrc
+135. TextSentry：人工智能垃圾邮件拦截器
+   https://testflight.apple.com/join/SZhSRws4
+136. 齐莫玛
+   https://testflight.apple.com/join/eSgYEGyy
+137. Korban
+   https://testflight.apple.com/join/pa9hMHMj
+138. 总次数：总共进行的课程数量
+   https://testflight.apple.com/join/WcJsrQ8y
+139. Movli.xyz
+   https://testflight.apple.com/join/bj22pD3f
+140. NTS音乐版
+   https://testflight.apple.com/join/zcPC7Qty
+141. 纽约市成为焦点
+   https://testflight.apple.com/join/c5p1DZWS
+142. 山羊们正在重新创造着一切
+   https://testflight.apple.com/join/Z4tatYJw
+143. 子视图
+   https://testflight.apple.com/join/jzHKzNhe
+144. AirSIM
+   简介：AIRSIM ROAM App 让你轻易地管理 AIRSIM 帐户、购买数据套餐及充值，一张 AIRSIM 便可于全球超过130国家及地区享用数据漫游服务。 AIRSIM 是一张特制 SIM卡，配合 Soft SIM 及 OTA 空中下载技...
+   https://testflight.apple.com/join/RwJynmKq
+145. 偶遇：关于壁纸的笔记
+   https://testflight.apple.com/join/4cdS43re
+146. 斯蒂格：带有秘密的贴纸
+   https://testflight.apple.com/join/gmSnX3Xe
+147. EchoChiasm圣经应用
+   https://testflight.apple.com/join/QyxXP1r7
+148. 马科斯
+   https://testflight.apple.com/join/FmnPqV1N
+149. Sunsear：鸟类战斗
+   https://testflight.apple.com/join/xbS1ArdX
+150. 篮筐正在检查中
+   https://testflight.apple.com/join/sTwECNxQ
+151. 深度：一起阅读
+   https://testflight.apple.com/join/fFBSG7j2
+152. 超级简单的时间控制工具
+   https://testflight.apple.com/join/1jm4arcH
+153. 本尼钱包
+   https://testflight.apple.com/join/dUXtPk2m
+154. 卡比瓦比阿凡达
+   https://testflight.apple.com/join/JNwvMDwn
+155. PhotoMaid
+   https://testflight.apple.com/join/zFpBW7dG
+156. 备用短信服务
+   https://testflight.apple.com/join/uaUMqEVq
+157. 米拉——人工智能造型师
+   https://testflight.apple.com/join/31ecB8zk
+158. 投票伙伴
+   https://testflight.apple.com/join/4XFRXj48
+159. 通过Private Internet Access提供的VPN服务
+   https://testflight.apple.com/join/cT7GLn1I
+160. ReadOS
+   https://testflight.apple.com/join/AkUXPqvY
+161. Vibeit社交平台
+   https://testflight.apple.com/join/n93HjBgd
+162. Chand
+   https://testflight.apple.com/join/WBukYge4
+163. 机器人宝贝
+   https://testflight.apple.com/join/ZqxmnExn
+164. 海外旅行
+   https://testflight.apple.com/join/Gs4UWbTA
+165. 洛卡特伦特——手工艺人及更多服务
+   https://testflight.apple.com/join/tnbMg2ge
+166. KAKU6
+   https://testflight.apple.com/join/PzccBY8d
+167. ECLIPSE AI
+   https://testflight.apple.com/join/tfcfsSEJ
+168. 棱镜货币
+   https://testflight.apple.com/join/PqDUKt5Z
+169. 没有具有融合能力的专业相机
+   https://testflight.apple.com/join/j6jRdxa1
+170. EchoNav
+   https://testflight.apple.com/join/VD26WDU9
+171. 药水伙伴：水之排序
+   https://testflight.apple.com/join/Z3zPD8qJ
+172. 堆叠粉碎！
+   https://testflight.apple.com/join/hs8kmpeA
+173. 外传：竞技场交易
+   https://testflight.apple.com/join/JQjUDAdu
+174. LINUX DO社区
+   https://testflight.apple.com/join/UH7yJbK4
+175. 特维奇
+   https://testflight.apple.com/join/LzGJGa5X
+176. Songfeed – 音乐追踪工具
+   https://testflight.apple.com/join/GwmbENwr
+177. Agito：人工智能代理SSH终端工具
+   https://testflight.apple.com/join/UF2PGy8a
+178. FUT狙击机器人
+   https://testflight.apple.com/join/t7766iRc
+179. 主演
+   https://testflight.apple.com/join/Q62zkagx
+180. 到处
+   https://testflight.apple.com/join/Vkbpzxex
+181. 后退一点
+   https://testflight.apple.com/join/HkWjn9mn
+182. 愤怒的南瓜
+   https://testflight.apple.com/join/GNTr6fKm
+183. Hookpager：警报信息提示器
+   https://testflight.apple.com/join/zpYwCk8A
+184. 酿造的社交关系
+   https://testflight.apple.com/join/w2kTnQcX
+185. 数字版《医学之书》
+   https://testflight.apple.com/join/bY5Fkkgd
+186. PoolMonitor
+   https://testflight.apple.com/join/WpdCBpaZ
+187. 分割——朋友之间的支出分配
+   https://testflight.apple.com/join/y9QTt4Hd
+188. 海狸果
+   https://testflight.apple.com/join/DYeEY49k
+189. 一起游戏——同步聆听
+   https://testflight.apple.com/join/fG1MXAXm
+190. 救援飞行VR
+   https://testflight.apple.com/join/hD2J8neM
+191. 漢字の時間
+   https://testflight.apple.com/join/gn6qKBdn
+192. 摩擦性
+   https://testflight.apple.com/join/PVm2hD27
+193. 卡尔的山谷
+   https://testflight.apple.com/join/UrpvHUPK
+194. iVenza：火车、轨道、竞争
+   https://testflight.apple.com/join/8KHF4y69
+195. LILT——合成器
+   https://testflight.apple.com/join/ZCwpMHS4
+196. 质子通行证——密码管理器
+   https://testflight.apple.com/join/GiTMzX3I
