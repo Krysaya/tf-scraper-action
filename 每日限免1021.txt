@@ -1,22 +1,31 @@
 今日限免 (10/21)
 
-1. Sensnap: 海拔气压与轨迹
+1. 实时天气雷达Pro - 降雨预报
+   中区:免费:¥118 | 美区:免费:? | 天气
+   https://apps.apple.com/cn/app/id488674899
+2. Sensnap: 海拔气压与轨迹
    中区:免费:¥18 | 美区:免费:? | 旅游,导航
    https://apps.apple.com/cn/app/id1149956692
-2. 电子相册大师(专业版)
-   中区:免费:¥22 | 美区:免费:? | 摄影与录像
-   https://apps.apple.com/cn/app/id1225490847
-3. Rulify
-   中区:免费:¥6 | 美区:免费:?
-   https://apps.apple.com/cn/app/id6777870960
-4. Rollvane: Film Exposure Log
-   中区:免费:¥8 | 美区:免费:?
-   https://apps.apple.com/cn/app/id6777542801
+3. Duplicate Manager Pro
+   中区:免费:¥38 | 美区:免费:? | 商务
+   https://apps.apple.com/cn/app/id6450598019
+4. Days until my birthday
+   中区:免费:¥8 | 美区:免费:? | 娱乐
+   https://apps.apple.com/cn/app/id627831738
+5. Kard: Loyalty Card Wallet
+   中区:免费:¥15 | 美区:免费:? | 购物
+   https://apps.apple.com/cn/app/id1546599818
+6. Auto Colorize Pro
+   中区:免费:¥15 | 美区:免费:? | 摄影与录像
+   https://apps.apple.com/cn/app/id626142953
+7. AdBlock Guard: 广告拦截
+   中区:免费:¥22 | 美区:免费:?
+   https://apps.apple.com/cn/app/id1576858756
 
 【外区限免 · 需切换 Apple ID 地区后下载】
-1. ShadowClip
+1. Retro Air Hockey: Level Run
+   中区:未知:? | 美区:免费:? | LTF
+   https://apps.apple.com/us/app/id6766718149
+2. ShadowClip
    中区:未知:? | 美区:免费:? | LTF
    https://apps.apple.com/us/app/id6769406635
-2. Dominex: Hex Strategy
-   中区:未知:? | 美区:免费:? | IAP
-   https://apps.apple.com/us/app/id6778509055
