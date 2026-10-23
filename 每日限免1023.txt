@@ -6,23 +6,26 @@
 2. Sensnap: 海拔气压与轨迹
    中区:免费:¥18 | 美区:免费:? | 旅游,导航
    https://apps.apple.com/cn/app/id1149956692
-3. Formelrad E-Technik
+3. 天天计算器 - 备忘录计算器
+   中区:免费:¥22 | 美区:免费:? | 效率
+   https://apps.apple.com/cn/app/id1299622541
+4. Formelrad E-Technik
    中区:免费:¥22 | 美区:未知:?
    https://apps.apple.com/cn/app/id1427283152
-4. Duplicate Manager Pro
+5. Duplicate Manager Pro
    中区:免费:¥38 | 美区:免费:? | 商务
    https://apps.apple.com/cn/app/id6450598019
-5. Kard: Loyalty Card Wallet
+6. Kard: Loyalty Card Wallet
    中区:免费:¥15 | 美区:免费:? | 购物
    https://apps.apple.com/cn/app/id1546599818
-6. Auto Colorize Pro
-   中区:免费:¥15 | 美区:免费:? | 摄影与录像
-   https://apps.apple.com/cn/app/id626142953
 
 【外区限免 · 需切换 Apple ID 地区后下载】
-1. DotBot - Learn Morse Code
+1. Magic PiP
+   中区:未知:? | 美区:免费:? | LTF
+   https://apps.apple.com/us/app/id1613046504
+2. DotBot - Learn Morse Code
    中区:未知:? | 美区:免费:? | IAP
    https://apps.apple.com/us/app/id6819235842
-2. Tiny Garden Days
+3. Tiny Garden Days
    中区:未知:? | 美区:免费:? | IAP
    https://apps.apple.com/us/app/id6821144578
