@@ -1,5 +1,101 @@
 [
   {
+    "name": "Twinkle&#039;s Little Worlds",
+    "code": "ry6HwnCY",
+    "desc": "我创建了 Twinkle’s Little Worlds，这是一款神奇的互动游戏，最初是为我三岁的侄女制作的。观看她的表演改变了一切，从装饰纸杯蛋糕、喂养动物朋友，到下雨和举办舞会庆祝。她是我最关心的...",
+    "url": "https://testflight.apple.com/join/ry6HwnCY",
+    "name_cn": "Twinkle的小世界"
+  },
+  {
+    "name": "SEQD Training",
+    "code": "Xa5r4356",
+    "desc": "SEQD Training 是一款围绕渐进性和连续性构建的力量训练应用程序。 准确地了解您上次做了什么，知道今天要克服什么，并按顺序进行训练，而不是局限于周一至周日的时间表。 SEQD 帮助举重运动员记录锻炼，...",
+    "url": "https://testflight.apple.com/join/Xa5r4356",
+    "name_cn": "SEQD培训"
+  },
+  {
+    "name": "DevTools",
+    "code": "x2H6vgKe",
+    "desc": "Safari网页调试利器。 1，Console - 脚本控制台，执行命令，查看输出 2，Elements - 网页元素、dom结构、CSS样式 3，Network - 网络请求列表 4，Resources - 查看 localStorage...",
+    "url": "https://testflight.apple.com/join/x2H6vgKe"
+  },
+  {
+    "name": "Timestamp Camera: EverStamp",
+    "code": "YysaHd8m",
+    "desc": "EverStamp 将照片和视频转化为值得信赖、可验证的证据。通过加密保护、合格的时间戳和独立验证来记录财产状况、损坏、检查、移交等，证明您的记录的创建时间和地点以及...",
+    "url": "https://testflight.apple.com/join/YysaHd8m",
+    "name_cn": "时间戳相机：EverStamp"
+  },
+  {
+    "name": "Stremio Player",
+    "code": "p3NgUX3H",
+    "desc": "适用于您的 Stremio 帐户的本机 iPhone 和 iPad 播放器。您的资料库、继续观看和插件与您的其他设备同步，内置播放器可处理 MKV、HEVC、HDR 以及多个音频和字幕轨道。 一个独立的应用程序，不隶属于 Stremio。",
+    "url": "https://testflight.apple.com/join/p3NgUX3H",
+    "name_cn": "斯特雷米奥球员"
+  },
+  {
+    "name": "Maps tvOS",
+    "code": "n5dRXnby",
+    "desc": "通过 Maps tvOS 在 Apple TV 上探索世界。 在标准地图、卫星地图和混合地图之间切换。搜索地点，发现附近的咖啡、美食、公园和公交站，并在 350 KB 已保存地点数据限制内保留最多 50 个已保存地点。",
+    "url": "https://testflight.apple.com/join/n5dRXnby",
+    "name_cn": "地图应用，适用于tvOS平台"
+  },
+  {
+    "name": "Zapline: Live TV Player",
+    "code": "PXNkADRc",
+    "desc": "Zapline 是 Apple TV 的直播电视，专为那些宁愿观看而不是等待的人们而设计。 带上您自己的提供商（登录、播放列表链接、门户或 HDHomeRun 调谐器），Zapline 让您在电视上感觉宾至如归： • 快速频道切换，永不黑屏...",
+    "url": "https://testflight.apple.com/join/PXNkADRc",
+    "name_cn": "Zapline：实时电视播放器"
+  },
+  {
+    "name": "Stash: Envelope Budget",
+    "code": "hxHzqKN7",
+    "desc": "Stash 是一个信封预算，显示您的资金动向。每一块钱都能找到一份工作。您填写租金和杂货等信封，记录您的支出，并始终知道什么是安全的支出。 一切都保留在您的 iPhone 和您自己的 iCloud 中。无需创建帐户，无需...",
+    "url": "https://testflight.apple.com/join/hxHzqKN7",
+    "name_cn": "存钱罐：信封式预算工具"
+  },
+  {
+    "name": "Sgully – The ScreenGull",
+    "code": "C4W2FvRU",
+    "desc": "Sgully，ScreenGull：一款免费的 iPhone 应用程序，让您保持离线状态。设置一个计时器（1分钟到4小时），你的分散注意力的应用程序就会被屏蔽，离线的每一分钟都会为戴着无檐小便帽的海鸥赚取薯条，从鸡蛋长到海鸥。工作人员（家人...",
+    "url": "https://testflight.apple.com/join/C4W2FvRU",
+    "name_cn": "斯古利——屏幕上的小岛"
+  },
+  {
+    "name": "ByteCache",
+    "code": "rpmeVJW6",
+    "desc": "ByteCache：缓存字节。 ByteStash 的本机 iPhone、iPad 和 Mac 客户端，自托管代码片段管理器。",
+    "url": "https://testflight.apple.com/join/rpmeVJW6",
+    "name_cn": "字节缓存"
+  },
+  {
+    "name": "AstroMoji: AI Emoji Playground",
+    "code": "Ag1BHGP9",
+    "desc": "AstroMoji 是一家由人工智能驱动的太空主题表情符号工作室。描述你想要什么，然后看着你的话语落入黑洞，然后以专为你制作的全新表情符号的形式出现。 你能做什么 ✍️ 从文本创建：输入一个想法，例如“猫宇航员喝咖啡”，然后得到...",
+    "url": "https://testflight.apple.com/join/Ag1BHGP9",
+    "name_cn": "AstroMoji：人工智能表情符号创作平台"
+  },
+  {
+    "name": "Ya-Kitty Chat",
+    "code": "T9bndd2h",
+    "desc": "与来自世界各地的人们聊天并交朋友。加入新人休息室、文化体验、音乐和卡拉 OK 以及旅行故事等主题房间，开始私人聊天，并与朋友进行视频通话。有 14 种语言版本。每个人都通过快速自拍照和身份证件进行验证...",
+    "url": "https://testflight.apple.com/join/T9bndd2h",
+    "name_cn": "雅-基蒂聊天"
+  },
+  {
+    "name": "Daily Diner",
+    "code": "kCRY6Rkj",
+    "desc": "Daily Diner 是一款舒适的习惯追踪器，可让您按照自己的节奏制定小习惯。跟踪日常习惯、选择特定日期或设定每周目标。检查应用程序中或主屏幕小部件中的每个小步骤，并通过每日记录回顾您的进度。没有连胜预...",
+    "url": "https://testflight.apple.com/join/kCRY6Rkj",
+    "name_cn": "每日食堂"
+  },
+  {
+    "name": "这图能改",
+    "code": "GK8ht2vv",
+    "desc": "This Pic Can Change (这图能改) is an iPhone photo and video utility (iOS 17+) from indie studio HugeHard Studio. This beta f...",
+    "url": "https://testflight.apple.com/join/GK8ht2vv"
+  },
+  {
     "name": "Horde Control",
     "code": "vkaCN44H",
     "desc": "部落控制 建立你的军队。指挥你的部落。征服战场！ 欢迎来到《Horde Control》，这是一款充满动感的街机策略游戏，在实时物理驱动下，大量部落在混乱的战斗中相互碰撞。派出你的特工，释放强大的能力，智胜……",
@@ -11,14 +107,14 @@
     "code": "8uTxgBmH",
     "desc": "🏁 最终测试飞行版本 — 应用商店即将推出！ Build 16 是 LIONPLAY TV 在 App Store 上发布之前的最终候选版本。我们即将进入最后的 21 天测试期，您的反馈至关重要。 此版本带来了 AetherEngine 优...",
     "url": "https://testflight.apple.com/join/8uTxgBmH",
-    "name_cn": "LIONPLAYTV：IPTV节目列表文件，包括M3U格式的数据，适用于机顶盒和XTREAM设备。"
+    "name_cn": "LIONPLAYTV：IPTV频道列表，包括M3U文件、机顶盒以及XTREAM产品。"
   },
   {
-    "name": "Muse: Fragrance Archive",
+    "name": "Muse: Fragrance Assistant",
     "code": "RCRUntac",
     "desc": "应用商店中最适合香水爱好者的应用",
     "url": "https://testflight.apple.com/join/RCRUntac",
-    "name_cn": "缪斯：香气档案"
+    "name_cn": "缪斯：香气助手"
   },
   {
     "name": "Helicon: PDF &amp; EPUB Reader",
@@ -62,6 +158,33 @@
     "name_cn": "宾格瑞"
   },
   {
+    "name": "Origamo: Folding Mini Games",
+    "code": "BJdP3yV4",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/BJdP3yV4",
+    "name_cn": "Origamo：可折叠的迷你游戏"
+  },
+  {
+    "name": "Paperclip XBT Wallet",
+    "code": "GJNNFBEj",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/GJNNFBEj",
+    "name_cn": "纸夹式XBT钱包"
+  },
+  {
+    "name": "MTVP",
+    "code": "PXzTBAeB",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/PXzTBAeB"
+  },
+  {
+    "name": "TractorTrack",
+    "code": "Qa72TuqS",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/Qa72TuqS",
+    "name_cn": "拖拉机轨道"
+  },
+  {
     "name": "Farsun",
     "code": "yxWGRu1e",
     "desc": "Farsun 是一款适用于 iPhone 和 iPad 的免费重力街机射击游戏。恒星、黑洞和脉冲星都会弯曲你的和他们的每一个镜头。进行逐个区域的航行，与指定的精英和老板较量，在异步的日常决斗中挑战对手，并在季节性的星座中...",
@@ -93,7 +216,7 @@
     "code": "PPzryGCU",
     "desc": "Quorum Mobile 是一切隐私应用程序：E2EE 直接消息和群聊、迷你应用程序、支持各种网络的加密钱包。",
     "url": "https://testflight.apple.com/join/PPzryGCU",
-    "name_cn": "法定人数通知员"
+    "name_cn": "法定人数通讯员"
   },
   {
     "name": "Bigger Fish: Eat &amp; Grow",
@@ -107,12 +230,12 @@
     "code": "5Keeasvq",
     "desc": "《余烬之家》是一款自上而下的生存冒险游戏，讲述米拉、特拉维斯和他们的狗幸运的故事。探索、收集资源、制作设备并建立营地，同时管理食物、水和防止寒冷夜晚的火种。具有风格化的 2D 视觉效果和关于...的故事",
     "url": "https://testflight.apple.com/join/5Keeasvq",
-    "name_cn": "余烬停留的地方"
+    "name_cn": "余烬停留之处"
   },
   {
     "name": "Bust A Marble: Encore",
     "code": "frZu1aTR",
-    "desc": "Bust A Marble: Encore 是一款适用于 iPhone 和 iPad 的弹珠链益智游戏。拖动匹配的邻居，释放以粉碎链条，并在得分时构建配乐。 Play 20 levels, each with its own song.当您...",
+    "desc": "Bust A Marble: Encore 是一款适用于 iPhone 和 iPad 的弹珠链益智游戏。拖动匹配的邻居，释放以粉碎链条，并在得分时构建配乐。 玩 20 个关卡，每个关卡都有自己的歌曲。当您接近目标时，构建模式会增加音乐层次。...",
     "url": "https://testflight.apple.com/join/frZu1aTR",
     "name_cn": "《砸碎大理石：再来一次》"
   },
@@ -138,841 +261,44 @@
     "name_cn": "睡两"
   },
   {
-    "name": "Puzzlement: ~125 daily puzzles",
-    "code": "7rWrz224",
-    "desc": "谜题——您已经玩过的日常谜题的地方。 这不是一个益智游戏。它可以在发行商自己的网站上打开 Wordle、Connections、Strands、LinkedIn 游戏、Puzzmo、Framed 以及大约 115 个其他游戏，以您的身份登录...",
-    "url": "https://testflight.apple.com/join/7rWrz224",
-    "name_cn": "谜题：每天约125道谜题"
+    "name": "早明浦ダム 貯水率モニタ",
+    "code": "rczGbqTJ",
+    "desc": "四国地方、とりわけ香川県の生活と産業を支える「四国の水がめ」早明浦ダムの貯水率を、 リアルタイムでグラフィカルに可視化する早明浦ダム専用アプリです。 【主な機能】 ◆ 一目で分かる波型メーター 円形のグラスの中で実際の貯水率の高さまで水が溜...",
+    "url": "https://testflight.apple.com/join/rczGbqTJ"
   },
   {
-    "name": "Cloister: One Page a Day",
-    "code": "yrtHYVtq",
-    "desc": "仅限 18 岁以上的美国成年人。 Cloister 是一个安静的地方，每天可以用您选择的名字写一页；其他人可以阅读它，没有点赞、评论或照片。免费测试版，独立开发者。",
-    "url": "https://testflight.apple.com/join/yrtHYVtq",
-    "name_cn": "《独居者：每天一页》"
-  },
-  {
-    "name": "Spohad",
-    "code": "TBxWaPBr",
-    "desc": "滑动浏览您的照片并决定：保留、移至文件夹或放开。 Spohad 将杂乱的相机胶卷、驱动器或 NAS 变成整洁的个人档案 — 无需帐户、无需云、无需跟踪。您的文件永远不会离开您的设备。 测试内容：对几百张照片进行排序，然后点击“保存...”",
-    "url": "https://testflight.apple.com/join/TBxWaPBr",
-    "name_cn": "斯波哈德"
-  },
-  {
-    "name": "Geaux",
-    "code": "dQbw7aDW",
-    "desc": "DNS 污水坑和 Wireguard VPN 连接器。使用 dnscrypt 或 DoH。对于 dnscrypt，您还可以使用匿名中继。使用阻止列表根据用户定义的阻止列表来阻止广告或跟踪器。",
-    "url": "https://testflight.apple.com/join/dQbw7aDW",
-    "name_cn": "吉奥"
-  },
-  {
-    "name": "NetCheck - Menu Bar Monitor",
-    "code": "TAkQKJGs",
-    "desc": "从这里开始。 Mac 版 NetCheck 3.0 是两个应用程序测试版的一半：您需要此 Mac 应用程序和 iPhone 或 iPad 上的 NetCheck Relay。 新功能：心跳中继。当您的 Mac 失去互联网连接时，您的 iPh...",
-    "url": "https://testflight.apple.com/join/TAkQKJGs",
-    "name_cn": "NetCheck – 菜单栏监控工具"
-  },
-  {
-    "name": "Authentk",
-    "code": "sjkzkdu8",
-    "desc": "Authentk 使用加密证明对您的照片进行签名，以便任何人都可以验证它们是否是您的真实身份 - 不是人工智能生成的，不是旧的，也不是假的。从市场聚会到在线约会，了解谁是真正的另一方。",
-    "url": "https://testflight.apple.com/join/sjkzkdu8",
-    "name_cn": "真实可靠"
-  },
-  {
-    "name": "Intervite",
-    "code": "DJafXM3h",
-    "desc": "Intervite 是一款专为 Z 世代打造的全新社交媒体和活动应用程序，可将人们在网上和现实生活中聚集在一起。 分享照片、发布短视频、开始对话、向朋友发送消息以及自定义您的个人资料，使其真正属于您。与您的学校社区联系，发现...",
-    "url": "https://testflight.apple.com/join/DJafXM3h",
-    "name_cn": "采访/发言"
-  },
-  {
-    "name": "NovaSwift",
-    "code": "hmAMCbjP",
-    "desc": "NOVA Swift 是 Escape Velocity Nova 引擎（Ambrosia Software，2002）的重新实现，通过对原始可执行文件的逆向工程读取而用 Swift 编写。它可以在 macOS、iPadOS、iOS 和 t...",
-    "url": "https://testflight.apple.com/join/hmAMCbjP"
-  },
-  {
-    "name": "CherriCuts",
-    "code": "psBVeFjn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/psBVeFjn"
-  },
-  {
-    "name": "RedWallet XBT",
-    "code": "UuExh5RP",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/UuExh5RP"
-  },
-  {
-    "name": "Eurofutbol Manager",
-    "code": "ctfyfnwc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ctfyfnwc",
-    "name_cn": "欧洲足球经理游戏"
-  },
-  {
-    "name": "Eurofutbol Manager",
-    "code": "MppX3FTZ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/MppX3FTZ",
-    "name_cn": "欧洲足球经理游戏"
-  },
-  {
-    "name": "Palco",
-    "code": "CmMDthAC",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/CmMDthAC",
-    "name_cn": "帕尔科"
-  },
-  {
-    "name": "Sliptab: Split Bills &amp; Trips",
-    "code": "JfFwCEU3",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JfFwCEU3",
-    "name_cn": "Sliptab：拆分账单与分段付款"
-  },
-  {
-    "name": "Kareer&#039;s Walls",
-    "code": "dGZB1nFx",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dGZB1nFx",
-    "name_cn": "卡雷尔之墙"
-  },
-  {
-    "name": "All Dai",
-    "code": "qN1ZWzx2",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/qN1ZWzx2",
-    "name_cn": "所有的戴"
-  },
-  {
-    "name": "Foot Tennis: Soccer Volley 1v1",
-    "code": "eYsHSzQc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/eYsHSzQc",
-    "name_cn": "脚网球：足球对对战"
-  },
-  {
-    "name": "Cherry Studio - 全能 AI 工作站",
-    "code": "2ryzjB66",
-    "desc": "Cherry Studio 是面向 iPhone 和 iPad 的 AI 工作空间，将多模型对话、智能体、图像创作和工具连接整合在一起。 连接你选择的模型 配置模型服务与服务密钥，在同一应用中管理多个模型，为不同任务选择合适的能力。模型可用...",
-    "url": "https://testflight.apple.com/join/2ryzjB66"
-  },
-  {
-    "name": "PlayerBox",
-    "code": "R6vSpzVP",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/R6vSpzVP"
-  },
-  {
-    "name": "SleepHole",
-    "code": "yvMAfAKs",
-    "desc": "SleepHole 将常规的就寝时间变成了一座小镇。晚上你开始建造一座建筑，手机休息一晚，当你确认早上起床时，建筑就完工了。夜复一夜，一座低多边形城镇逐渐壮大。 它是温和的，而不是严格的：看看锁......",
-    "url": "https://testflight.apple.com/join/yvMAfAKs"
-  },
-  {
-    "name": "NetCheck Relay",
-    "code": "vfgnaKC1",
-    "desc": "需要一台 Mac。 NetCheck Relay 是两个应用程序测试版的一半，它本身不执行任何操作：您还需要 Mac 上的 NetCheck 3.0 测试版。从这里开始：https://departures.to/apps/23707 当您...",
-    "url": "https://testflight.apple.com/join/vfgnaKC1",
-    "name_cn": "NetCheck中继系统"
-  },
-  {
-    "name": "Parto",
-    "code": "Sdryd6uQ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Sdryd6uQ",
-    "name_cn": "分娩"
-  },
-  {
-    "name": "Printer-pal",
-    "code": "xzWMyf4J",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xzWMyf4J",
-    "name_cn": "打印机精灵"
-  },
-  {
-    "name": "PrinterPalCamera",
-    "code": "7pjeUe2D",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/7pjeUe2D"
-  },
-  {
-    "name": "Layoff Island: Survival",
-    "code": "j54CP8E9",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/j54CP8E9",
-    "name_cn": "裁员岛：生存之道"
-  },
-  {
-    "name": "Hermes Fleet",
-    "code": "SRp1Z7Sb",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/SRp1Z7Sb",
-    "name_cn": "爱马仕舰队"
-  },
-  {
-    "name": "TV Knight",
-    "code": "vqhtc4S1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/vqhtc4S1",
-    "name_cn": "《电视骑士》"
-  },
-  {
-    "name": "Teara",
-    "code": "YMMtMJGQ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YMMtMJGQ",
-    "name_cn": "蒂拉"
-  },
-  {
-    "name": "Exoscope for Exoscale",
-    "code": "BsSd1jh1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/BsSd1jh1",
-    "name_cn": "Exoscale的观测仪"
-  },
-  {
-    "name": "SprinTelex: Chat &amp; Send Money",
-    "code": "KsvJERxs",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/KsvJERxs",
-    "name_cn": "SprinTelex：聊天与转账功能"
-  },
-  {
-    "name": "HumanTuner",
-    "code": "7NmzpNGB",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/7NmzpNGB"
-  },
-  {
-    "name": "Hale: Training &amp; Recovery",
-    "code": "ta54RYVf",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ta54RYVf",
-    "name_cn": "哈勒：训练与恢复"
-  },
-  {
-    "name": "RecipeTables",
-    "code": "ugNxeR9p",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ugNxeR9p",
-    "name_cn": "食谱表"
-  },
-  {
-    "name": "ABC – A Better Camera",
-    "code": "fdEu7Ky8",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fdEu7Ky8",
-    "name_cn": "ABC——更好的相机"
-  },
-  {
-    "name": "PowerXOne: Crypto Wallet",
-    "code": "SnJgWTnv",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/SnJgWTnv",
-    "name_cn": "PowerXOne：加密货币钱包"
-  },
-  {
-    "name": "DailyCal",
-    "code": "sKcmUdAq",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/sKcmUdAq",
-    "name_cn": "每日日历"
-  },
-  {
-    "name": "DayPilot: One Task at a Time",
-    "code": "PtV4A4f5",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/PtV4A4f5",
-    "name_cn": "DayPilot：一次只处理一项任务"
-  },
-  {
-    "name": "Longnote",
-    "code": "Mg9xcerF",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Mg9xcerF",
-    "name_cn": "长笔记"
-  },
-  {
-    "name": "OpenChamber",
-    "code": "5ek6GU1E",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/5ek6GU1E"
-  },
-  {
-    "name": "Apex Lucis: Photography Pro",
-    "code": "rP9NAGc1",
-    "desc": "Apex Lucis将潮汐、光明和预测与预订、客户和余额放在同一屏幕上.",
-    "url": "https://testflight.apple.com/join/rP9NAGc1",
-    "name_cn": "Apex Lucis：摄影专业"
-  },
-  {
-    "name": "Petizen: Pet Passport &amp; ID",
-    "code": "jGxDJYS4",
-    "desc": "Petizen是一个简单的应用程序，可以为您的宠物创建和管理数字护照。添加宠物详细信息，疫苗接种记录，ID I...",
-    "url": "https://testflight.apple.com/join/jGxDJYS4",
-    "name_cn": "宠物护照与身份证：Petizen"
-  },
-  {
-    "name": "3Sub: More than subscription",
-    "code": "j4X5pp2Z",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/j4X5pp2Z",
-    "name_cn": "3订阅：不仅仅是简单的订阅服务"
-  },
-  {
-    "name": "Stash: Clipboard &amp; Snippets",
-    "code": "E1grGsF9",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/E1grGsF9",
-    "name_cn": "隐藏文件夹：剪贴板与代码片段"
-  },
-  {
-    "name": "EveryCord: Screen Recorder",
-    "code": "fWAHxtFp",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fWAHxtFp",
-    "name_cn": "EveryCord：屏幕录制器"
-  },
-  {
-    "name": "RepoGo",
-    "code": "pEVSEhCu",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/pEVSEhCu"
-  },
-  {
-    "name": "SoquShield",
-    "code": "a8tZaHU7",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/a8tZaHU7"
-  },
-  {
-    "name": "Starkept: Stop Night Scrolling",
-    "code": "ahdY9BTb",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ahdY9BTb",
-    "name_cn": "斯塔克普特"
-  },
-  {
-    "name": "REK",
-    "code": "kEMR9Y6k",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/kEMR9Y6k"
-  },
-  {
-    "name": "QOLV The Business Notebook",
-    "code": "jjXcKQRz",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jjXcKQRz",
-    "name_cn": "QOLV 商业笔记簿"
-  },
-  {
-    "name": "Anvil – Offline AI Assistant",
-    "code": "ghfKmDWc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ghfKmDWc",
-    "name_cn": "Anvil -离线人工智能助手"
-  },
-  {
-    "name": "Flock Five",
-    "code": "HXj3z253",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/HXj3z253",
-    "name_cn": "第五群"
-  },
-  {
-    "name": "Nightwick",
-    "code": "7XN7JBYz",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/7XN7JBYz",
-    "name_cn": "夜威克"
-  },
-  {
-    "name": "RTLBridge",
-    "code": "jUDtSBmb",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jUDtSBmb"
-  },
-  {
-    "name": "Dot: Your life, in dots",
-    "code": "JxycnXpN",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JxycnXpN",
-    "name_cn": "点：你的生活，用点来表示"
-  },
-  {
-    "name": "Knotty Navy",
-    "code": "j9ZwEndx",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/j9ZwEndx",
-    "name_cn": "复杂的海军事务"
-  },
-  {
-    "name": "Portal Beta",
-    "code": "zgEGdJag",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zgEGdJag",
-    "name_cn": "端测试"
-  },
-  {
-    "name": "Oyelo: Text to Speech Reader",
-    "code": "CY8x1q1h",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/CY8x1q1h",
-    "name_cn": "Oyelo：文本到语音的阅读器"
-  },
-  {
-    "name": "YNOW!",
-    "code": "yrFJcIz5",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/yrFJcIz5",
-    "name_cn": "耶！"
-  },
-  {
-    "name": "littlebro: AI Agent Home",
-    "code": "YQ8tm45B",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YQ8tm45B",
-    "name_cn": "小兄弟：AI代理之家"
-  },
-  {
-    "name": "Meadow",
-    "code": "YaWctb12",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YaWctb12",
-    "name_cn": "草甸"
-  },
-  {
-    "name": "HomeDisplay",
-    "code": "XHXrT1Dq",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/XHXrT1Dq",
-    "name_cn": "首页展示"
-  },
-  {
-    "name": "Notion: Notes, Tasks, AI",
-    "code": "YSo8aVCS",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YSo8aVCS",
-    "name_cn": "概念：笔记、任务、人工智能"
-  },
-  {
-    "name": "QuickTUI: AI Agent Terminal",
-    "code": "5YnER2Q9",
-    "desc": "你的 AI 编程 Agent，随时触手可及。 QuickTUI 是连接你自己的电脑或服务器的 iPhone 和 iPad 客户端。启动 Claude Code、Codex、Gemini 或任何长时间运行的终端任务——然后转身就走。会话持续在...",
-    "url": "https://testflight.apple.com/join/5YnER2Q9",
-    "name_cn": "QuickTUI：人工智能代理终端"
-  },
-  {
-    "name": "Quorum",
-    "code": "sgQv95fZ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/sgQv95fZ",
-    "name_cn": "法定人数"
-  },
-  {
-    "name": "Proximate Marketplace",
-    "code": "YEeTwn8h",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YEeTwn8h",
-    "name_cn": "邻近市场"
-  },
-  {
-    "name": "HyperLock App",
-    "code": "YwZeS2cR",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/YwZeS2cR",
-    "name_cn": "超锁定应用"
-  },
-  {
-    "name": "Ringly",
-    "code": "6TtssMsS",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/6TtssMsS"
-  },
-  {
-    "name": "dixit: rate my…",
-    "code": "TRBzvWYj",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/TRBzvWYj",
-    "name_cn": "迪克西特：请评价一下我的……"
-  },
-  {
-    "name": "RhythmTago",
-    "code": "dpaYy7Bx",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dpaYy7Bx",
-    "name_cn": "节奏塔戈"
-  },
-  {
-    "name": "InfoBlocks",
-    "code": "DNSDKATq",
-    "desc": "唯一一款将与某个主题相关的一切都集中存放的iOS整理应用 — 您的笔记、链接、文件、照片、位置、任务,以及您的联系人。 v2新功能:地图和待办卡片类型 将位置固定到Apple Maps。使用内置清单跟踪任务。如今在一款简洁美观的应用中拥有七...",
-    "url": "https://testflight.apple.com/join/DNSDKATq",
-    "name_cn": "信息块"
-  },
-  {
-    "name": "Rumskrot Navigator",
-    "code": "QYkfF8fT",
-    "desc": "在iPhone、iPad和Apple TV上，直接通过SME或SRTP浏览您自己的NAS或服务器上的文件。预览照片和文档.",
-    "url": "https://testflight.apple.com/join/QYkfF8fT",
-    "name_cn": "拉姆斯克罗导航员"
-  },
-  {
-    "name": "Rumskrot Terminal",
-    "code": "HPbm2kWx",
-    "desc": "适用于iPhone、iPad和Apple Watch的合适的SSH终端，具有图形处理器渲染、多个会话、tmux管理、SRTP和.",
-    "url": "https://testflight.apple.com/join/HPbm2kWx",
-    "name_cn": "拉姆斯克罗终点站"
-  },
-  {
-    "name": "Ripplock",
-    "code": "XmMWptBh",
-    "desc": "您能在不听到节拍的情况下点击137 BPM吗？Ripplock是一款安静友好的节奏游戏，每次敲击都会产生涟漪..",
-    "url": "https://testflight.apple.com/join/XmMWptBh",
-    "name_cn": "里普洛克"
-  },
-  {
-    "name": "Syndicate – RSS Reader",
-    "code": "93aCvJSA",
-    "desc": "一款具有真正独立Apple Watch体验的RSS阅读器。导入OPML或与FreshRSS、Miniflux等同步.",
-    "url": "https://testflight.apple.com/join/93aCvJSA",
-    "name_cn": "辛迪加- RSS阅读器"
-  },
-  {
-    "name": "ManaScope",
-    "code": "61NFgjWW",
-    "desc": "ManaScope将《魔法：聚会》从卡盒带到了指挥官之夜。扫描卡片并识别确切的印刷、器官.",
-    "url": "https://testflight.apple.com/join/61NFgjWW"
-  },
-  {
-    "name": "Leaph",
-    "code": "2fCuz1AN",
-    "desc": "Leaph帮助您缩小服用剂量的意义和服用剂量之间的差距。如果您每天服用多种药物，您就可以.",
-    "url": "https://testflight.apple.com/join/2fCuz1AN",
-    "name_cn": "利弗"
-  },
-  {
-    "name": "RC Pair",
-    "code": "jECT6VHj",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jECT6VHj",
-    "name_cn": "rc对"
-  },
-  {
-    "name": "WeWire",
-    "code": "WjGcQYEW",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/WjGcQYEW"
-  },
-  {
-    "name": "dNeyed",
-    "code": "Q6VNApQ1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Q6VNApQ1"
-  },
-  {
-    "name": "dNted",
-    "code": "fFQQhPRU",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fFQQhPRU"
-  },
-  {
-    "name": "Mackinac Social",
-    "code": "jDdGrMBk",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jDdGrMBk",
-    "name_cn": "麦基诺社交"
-  },
-  {
-    "name": "Oscar°",
-    "code": "xf5iJcHh",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xf5iJcHh",
-    "name_cn": "奥斯卡°"
-  },
-  {
-    "name": "OpenCode",
-    "code": "EnFsKYQ1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/EnFsKYQ1",
-    "name_cn": "开放代码"
-  },
-  {
-    "name": "Embers: Stories In Fire",
-    "code": "S4ykmrte",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/S4ykmrte",
-    "name_cn": "余烬：火中的故事"
-  },
-  {
-    "name": "DeCave",
-    "code": "eGj1eyTM",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/eGj1eyTM",
-    "name_cn": "德卡维"
-  },
-  {
-    "name": "QNet Wallet",
-    "code": "EeBbs439",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/EeBbs439",
-    "name_cn": "QNet钱包"
-  },
-  {
-    "name": "FivePort",
-    "code": "yDv22HzE",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/yDv22HzE"
-  },
-  {
-    "name": "Reddit",
-    "code": "b9jMyOWt",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/b9jMyOWt"
-  },
-  {
-    "name": "Ankier",
-    "code": "FMysFfnv",
-    "desc": "将你阅读过的文字转化为Anki闪卡的形式，同时保留原有的上下文信息。Anki是一款适用于iPhone和iPad的应用程序，用于记忆卡片等工具。",
-    "url": "https://testflight.apple.com/join/FMysFfnv",
-    "name_cn": "安基尔"
-  },
-  {
-    "name": "Anvil – Offline AI Assistant",
-    "code": "5JGCZpxt",
-    "desc": "Anvil是一款在iPhone上运行的私人人工智能助手，因此没有消息限制、没有图像上限、也没有帐户..",
-    "url": "https://testflight.apple.com/join/5JGCZpxt",
-    "name_cn": "Anvil -离线人工智能助手"
-  },
-  {
-    "name": "Stremio Player",
-    "code": "p3NgUX3H",
-    "desc": "适用于您的Stremio帐户的原生iPhone和iPad播放器。您的库、继续观看和附加项与您的其他人同步.",
-    "url": "https://testflight.apple.com/join/p3NgUX3H",
-    "name_cn": "斯特雷米奥球员"
-  },
-  {
-    "name": "Remolo: Remote Desktop for Mac",
-    "code": "e4JNpMT4",
-    "desc": "Remolo将Mac屏幕放在iPhone或iPad上，让您在那里控制它：带有macOS功能的触控板.",
-    "url": "https://testflight.apple.com/join/e4JNpMT4",
-    "name_cn": "Remolo：适用于Mac的远程桌面"
-  },
-  {
-    "name": "One Letter: Quiet Notes",
-    "code": "WCjsE8cq",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/WCjsE8cq",
-    "name_cn": "一封信：安静的笔记"
-  },
-  {
-    "name": "X1 Wallet",
-    "code": "sxpTfavs",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/sxpTfavs",
-    "name_cn": "X1钱包"
-  },
-  {
-    "name": "Detected: Spot the AI",
-    "code": "dYK6bDkB",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dYK6bDkB",
-    "name_cn": "已检测：发现人工智能的存在"
-  },
-  {
-    "name": "RevenueCat Mobile",
-    "code": "svmmerBQ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/svmmerBQ",
-    "name_cn": "RevenueCat 移动版"
-  },
-  {
-    "name": "Fully Noded",
-    "code": "a6GWxet2",
+    "name": "ソデマネ｜推し活の予定とお金",
+    "code": "eBkx9GGY",
     "desc": "",
-    "url": "https://testflight.apple.com/join/a6GWxet2",
-    "name_cn": "完全采用节点式结构"
+    "url": "https://testflight.apple.com/join/eBkx9GGY"
   },
   {
-    "name": "Comeback King",
-    "code": "kvZVPNRt",
+    "name": "Mapliva",
+    "code": "UYYcMZZF",
     "desc": "",
-    "url": "https://testflight.apple.com/join/kvZVPNRt",
-    "name_cn": "复出之王"
+    "url": "https://testflight.apple.com/join/UYYcMZZF",
+    "name_cn": "马普利瓦"
   },
   {
-    "name": "Cala",
-    "code": "cdRbKDjr",
+    "name": "Roadtrip: Gas Cost Calculator",
+    "code": "4xwTadNZ",
     "desc": "",
-    "url": "https://testflight.apple.com/join/cdRbKDjr"
+    "url": "https://testflight.apple.com/join/4xwTadNZ",
+    "name_cn": "公路旅行：汽油费用计算器"
   },
   {
-    "name": "Desk: Trade Perps on Monad",
-    "code": "zjQdZzMX",
+    "name": "Reelback: Private Video Feed",
+    "code": "JV5JAAtZ",
     "desc": "",
-    "url": "https://testflight.apple.com/join/zjQdZzMX",
-    "name_cn": "服务台：在Monad上交易罪犯"
+    "url": "https://testflight.apple.com/join/JV5JAAtZ",
+    "name_cn": "回顾：私人视频流"
   },
   {
-    "name": "Lens - Browser",
+    "name": "Lens: Simple, Private Browser",
     "code": "5jr4KsAm",
     "desc": "",
     "url": "https://testflight.apple.com/join/5jr4KsAm",
-    "name_cn": "镜头 – 浏览器"
-  },
-  {
-    "name": "Pano - Relive your Travels",
-    "code": "kV8P9grK",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/kV8P9grK",
-    "name_cn": "潘诺——重温你的旅行时光"
-  },
-  {
-    "name": "Draftseed",
-    "code": "7g2B7vv5",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/7g2B7vv5"
-  },
-  {
-    "name": "ParmaMaster",
-    "code": "bphs5aPN",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/bphs5aPN",
-    "name_cn": "帕尔马大师"
-  },
-  {
-    "name": "Buffer: Plan &amp; Schedule Posts",
-    "code": "2ehsjU11",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/2ehsjU11",
-    "name_cn": "缓冲器：计划与调度信息记录"
-  },
-  {
-    "name": "Infera: Clinical Reasoning",
-    "code": "Cnjg1GW6",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Cnjg1GW6",
-    "name_cn": "伊菲拉：临床推理"
-  },
-  {
-    "name": "Awesome Weather YoWindow",
-    "code": "DVWn28qs",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/DVWn28qs",
-    "name_cn": "天气真是棒极了，YoWindow"
-  },
-  {
-    "name": "Lorefy",
-    "code": "kj7FQReT",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/kj7FQReT",
-    "name_cn": "洛雷菲"
-  },
-  {
-    "name": "Spitch Reader",
-    "code": "GqBfUz2R",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GqBfUz2R",
-    "name_cn": "斯皮奇阅读器"
-  },
-  {
-    "name": "Music Wall: Album Player",
-    "code": "Hz9BuGK5",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Hz9BuGK5",
-    "name_cn": "音乐墙：专辑播放器"
-  },
-  {
-    "name": "Swell: Art &amp; Clock",
-    "code": "nZGUq3mh",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/nZGUq3mh",
-    "name_cn": "波浪：艺术与时钟"
-  },
-  {
-    "name": "Collie for herdr",
-    "code": "nSK8k88A",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/nSK8k88A",
-    "name_cn": "柯利犬，属于她的宠物。"
-  },
-  {
-    "name": "PewPew: Neon Space Shooter",
-    "code": "e8aQjBz8",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/e8aQjBz8",
-    "name_cn": "PewPew：霓虹光效太空射手"
-  },
-  {
-    "name": "OH NO, TRAINS!",
-    "code": "xpuhE8Xt",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xpuhE8Xt",
-    "name_cn": "哦不，火车啊！"
-  },
-  {
-    "name": "Ekko Studio",
-    "code": "Xh5TCUJ4",
-    "desc": "Ekko Studio 是一款面向 AI Agent 的跨设备连接、管理与协作工具。连接运行在电脑或服务器上的 Ekko Studio 后，你可以在手机上继续与自己的 Agent 对话、处理任务、调用工具和管理文件，随时掌握工作进度。 无论...",
-    "url": "https://testflight.apple.com/join/Xh5TCUJ4",
-    "name_cn": "埃克科工作室"
-  },
-  {
-    "name": "Expense Tracker — Pullar",
-    "code": "92yS5Yd8",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/92yS5Yd8",
-    "name_cn": "费用追踪工具——实时显示各项开支情况"
-  },
-  {
-    "name": "WillPath",
-    "code": "SQMNe3Zn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/SQMNe3Zn"
-  },
-  {
-    "name": "Camper for Bandcamp",
-    "code": "bvYwZpPp",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/bvYwZpPp",
-    "name_cn": "为Bandcamp提供的露营设备"
-  },
-  {
-    "name": "PyBLOCK Blake2b",
-    "code": "dtAY8qcz",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dtAY8qcz"
-  },
-  {
-    "name": "Garden Lore",
-    "code": "fr5TW3Sb",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fr5TW3Sb",
-    "name_cn": "园艺知识"
-  },
-  {
-    "name": "Notify by belweave",
-    "code": "1MDYPc7a",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/1MDYPc7a",
-    "name_cn": "通过Belweave进行通知"
-  },
-  {
-    "name": "Pinball Whiz!",
-    "code": "RTwyPYYY",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/RTwyPYYY",
-    "name_cn": "弹球大师！"
-  },
-  {
-    "name": "BerryTree",
-    "code": "w81MbzMD",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/w81MbzMD",
-    "name_cn": "贝里树"
+    "name_cn": "镜头：简单、私密的网络浏览器"
   },
   {
     "name": "Radio Retro by TechTunes",
@@ -982,38 +308,46 @@
     "name_cn": "TechTunes推出的Radio Retro产品"
   },
   {
-    "name": "ノワールと世界のコーヒー",
-    "code": "EnDJ4jx6",
+    "name": "Transcend: Free Body Timelapse",
+    "code": "naeVTyga",
     "desc": "",
-    "url": "https://testflight.apple.com/join/EnDJ4jx6"
+    "url": "https://testflight.apple.com/join/naeVTyga",
+    "name_cn": "超越极限：自由体时间延时摄影"
   },
   {
-    "name": "2orbs TV",
-    "code": "UJ1qsaST",
+    "name": "Phridge",
+    "code": "mpQxJQZz",
     "desc": "",
-    "url": "https://testflight.apple.com/join/UJ1qsaST",
-    "name_cn": "2球电视"
+    "url": "https://testflight.apple.com/join/mpQxJQZz",
+    "name_cn": "弗里奇"
   },
   {
-    "name": "Lecturameter: Reading Tracker",
-    "code": "WAkrkgPq",
+    "name": "anonnnns",
+    "code": "VbCjqjEr",
     "desc": "",
-    "url": "https://testflight.apple.com/join/WAkrkgPq",
-    "name_cn": "阅读追踪器：用于记录阅读情况的工具"
+    "url": "https://testflight.apple.com/join/VbCjqjEr",
+    "name_cn": "匿名者"
   },
   {
-    "name": "General Input",
-    "code": "hEuvzMs7",
+    "name": "arx: where ideas become trades",
+    "code": "dxcKE8aY",
     "desc": "",
-    "url": "https://testflight.apple.com/join/hEuvzMs7",
-    "name_cn": "通用输入"
+    "url": "https://testflight.apple.com/join/dxcKE8aY",
+    "name_cn": "Arx：在这里，想法可以转化为商业机会。"
   },
   {
-    "name": "MiniCPM-V Demo",
-    "code": "yNKyFZwW",
+    "name": "Mellon: Social Screen Time",
+    "code": "bF7ctScW",
     "desc": "",
-    "url": "https://testflight.apple.com/join/yNKyFZwW",
-    "name_cn": "MiniCPM-V 演示版"
+    "url": "https://testflight.apple.com/join/bF7ctScW",
+    "name_cn": "梅隆：社交屏幕时间"
+  },
+  {
+    "name": "Vardum Private Messaging",
+    "code": "Aqay7XH2",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/Aqay7XH2",
+    "name_cn": "瓦尔杜姆私密通信系统"
   },
   {
     "name": "Archipelago: Idle Farming",
@@ -1023,66 +357,11 @@
     "name_cn": "群岛：闲置的农场"
   },
   {
-    "name": "Oddpocket",
-    "code": "Keg5X2df",
+    "name": "nExecution",
+    "code": "sRaFqN1y",
     "desc": "",
-    "url": "https://testflight.apple.com/join/Keg5X2df",
-    "name_cn": "奇怪的口袋"
-  },
-  {
-    "name": "Archipelago: Idle Farming",
-    "code": "nvzKZw1S",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/nvzKZw1S",
-    "name_cn": "群岛：闲置的农场"
-  },
-  {
-    "name": "Match Caddie: Golf GPS",
-    "code": "qJHkrAVV",
-    "desc": "全球超过 500 万高尔夫球手信赖的第一高尔夫 GPS 应用和测距仪。Hole19 为您提供精准码数、AI 驱动的击球追踪、数字记分卡和差点追踪，一切尽在您的 iPhone 和 Apple Watch。 无论您是想首次打进 90 杆，还是要...",
-    "url": "https://testflight.apple.com/join/qJHkrAVV",
-    "name_cn": "比赛球童：高尔夫GPS"
-  },
-  {
-    "name": "DCC - Dev Command Center",
-    "code": "MN7DT4Q5",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/MN7DT4Q5",
-    "name_cn": "DCC – 开发命令中心"
-  },
-  {
-    "name": "LovedLoop",
-    "code": "8V1NRnrG",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/8V1NRnrG"
-  },
-  {
-    "name": "Epochfall: Dynasties",
-    "code": "d6GUkW8S",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/d6GUkW8S",
-    "name_cn": "时代变迁：朝代的更迭"
-  },
-  {
-    "name": "mu social",
-    "code": "wu6pujg8",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/wu6pujg8",
-    "name_cn": "穆社会"
-  },
-  {
-    "name": "tldraw notes",
-    "code": "yDN7KW8s",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/yDN7KW8s",
-    "name_cn": "tldraw 笔记工具"
-  },
-  {
-    "name": "Got Done: Tasks &amp; Habits",
-    "code": "GaQMKfqC",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GaQMKfqC",
-    "name_cn": "已完成：任务与习惯"
+    "url": "https://testflight.apple.com/join/sRaFqN1y",
+    "name_cn": "执行"
   },
   {
     "name": "Aida Simple Fast Daily Planner",
@@ -1092,738 +371,10 @@
     "name_cn": "艾达简易快速每日计划表"
   },
   {
-    "name": "YAWYE",
-    "code": "R4rZ4Uhu",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/R4rZ4Uhu",
-    "name_cn": "亚怀耶"
-  },
-  {
-    "name": "TokenPulse",
-    "code": "jrHbrKmH",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jrHbrKmH"
-  },
-  {
-    "name": "Camera Nocta",
-    "code": "Jtppv1Xc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Jtppv1Xc",
-    "name_cn": "夜景相机"
-  },
-  {
-    "name": "ここプリ",
-    "code": "qt72UeMs",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/qt72UeMs"
-  },
-  {
-    "name": "Atlas by Hypurr",
-    "code": "eUsUJBDU",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/eUsUJBDU",
-    "name_cn": "Hypurr制作的《Atlas》"
-  },
-  {
-    "name": "OnFoot: Walk Safe",
-    "code": "3bbRwhrc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/3bbRwhrc",
-    "name_cn": "OnFoot：请小心行走。"
-  },
-  {
-    "name": "TextSentry: AI Spam Blocker",
-    "code": "SZhSRws4",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/SZhSRws4",
-    "name_cn": "TextSentry：人工智能垃圾邮件拦截器"
-  },
-  {
-    "name": "Zimoma",
-    "code": "eSgYEGyy",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/eSgYEGyy",
-    "name_cn": "齐莫玛"
-  },
-  {
-    "name": "Korban",
-    "code": "pa9hMHMj",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/pa9hMHMj"
-  },
-  {
-    "name": "Totli : total de courses",
-    "code": "WcJsrQ8y",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/WcJsrQ8y",
-    "name_cn": "总次数：总共进行的课程数量"
-  },
-  {
-    "name": "Movli.xyz",
-    "code": "bj22pD3f",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/bj22pD3f"
-  },
-  {
-    "name": "NTS to Music",
-    "code": "zcPC7Qty",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zcPC7Qty",
-    "name_cn": "NTS音乐版"
-  },
-  {
-    "name": "NYC IN FOCUS",
-    "code": "c5p1DZWS",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/c5p1DZWS",
-    "name_cn": "纽约市成为焦点"
-  },
-  {
-    "name": "GOATS Recreate",
-    "code": "Z4tatYJw",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Z4tatYJw",
-    "name_cn": "山羊们正在重新创造着一切"
-  },
-  {
-    "name": "Subview",
-    "code": "jzHKzNhe",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jzHKzNhe",
-    "name_cn": "子视图"
-  },
-  {
-    "name": "AirSIM",
-    "code": "RwJynmKq",
-    "desc": "AIRSIM ROAM App 让你轻易地管理 AIRSIM 帐户、购买数据套餐及充值，一张 AIRSIM 便可于全球超过130国家及地区享用数据漫游服务。 AIRSIM 是一张特制 SIM卡，配合 Soft SIM 及 OTA 空中下载技...",
-    "url": "https://testflight.apple.com/join/RwJynmKq"
-  },
-  {
-    "name": "Encounter: Notes on Wallpaper",
-    "code": "4cdS43re",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/4cdS43re",
-    "name_cn": "偶遇：关于壁纸的笔记"
-  },
-  {
-    "name": "Giraph",
-    "code": "ukqk3Xrr",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ukqk3Xrr"
-  },
-  {
-    "name": "Liloa one",
-    "code": "4ZK5aw3z",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/4ZK5aw3z",
-    "name_cn": "莉莉阿一号"
-  },
-  {
-    "name": "Stiger: Stickers with Secrets",
-    "code": "gmSnX3Xe",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/gmSnX3Xe",
-    "name_cn": "斯蒂格：带有秘密的贴纸"
-  },
-  {
-    "name": "EchoChiasm Bible App",
-    "code": "QyxXP1r7",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/QyxXP1r7",
-    "name_cn": "EchoChiasm圣经应用"
-  },
-  {
-    "name": "MATCHOS",
-    "code": "FmnPqV1N",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/FmnPqV1N",
-    "name_cn": "马科斯"
-  },
-  {
-    "name": "Sunsear: Avian Combat",
-    "code": "xbS1ArdX",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xbS1ArdX",
-    "name_cn": "Sunsear：鸟类战斗"
-  },
-  {
-    "name": "Basket Under Review",
-    "code": "sTwECNxQ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/sTwECNxQ",
-    "name_cn": "篮筐正在检查中"
-  },
-  {
-    "name": "Depth: Read together",
-    "code": "fFBSG7j2",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fFBSG7j2",
-    "name_cn": "深度：一起阅读"
-  },
-  {
-    "name": "Super Easy Timer",
-    "code": "1jm4arcH",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/1jm4arcH",
-    "name_cn": "超级简单的时间控制工具"
-  },
-  {
-    "name": "Benny Wallet",
-    "code": "dUXtPk2m",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dUXtPk2m",
-    "name_cn": "本尼钱包"
-  },
-  {
-    "name": "Karbywarby Avatar",
-    "code": "JNwvMDwn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JNwvMDwn",
-    "name_cn": "卡比瓦比阿凡达"
-  },
-  {
-    "name": "PhotoMaid",
-    "code": "zFpBW7dG",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zFpBW7dG"
-  },
-  {
-    "name": "SpareSMS",
-    "code": "uaUMqEVq",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/uaUMqEVq",
-    "name_cn": "备用短信服务"
-  },
-  {
-    "name": "Mila – AI Stylist",
-    "code": "31ecB8zk",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/31ecB8zk",
-    "name_cn": "米拉——人工智能造型师"
-  },
-  {
-    "name": "Seedless Labs",
-    "code": "Kh9KNnhh",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Kh9KNnhh",
-    "name_cn": "无籽实验室"
-  },
-  {
-    "name": "VotePeer",
-    "code": "4XFRXj48",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/4XFRXj48",
-    "name_cn": "投票伙伴"
-  },
-  {
-    "name": "VPN by Private Internet Access",
-    "code": "cT7GLn1I",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/cT7GLn1I",
-    "name_cn": "通过Private Internet Access提供的VPN服务"
-  },
-  {
-    "name": "ReadOS",
-    "code": "AkUXPqvY",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/AkUXPqvY"
-  },
-  {
-    "name": "Vibeit Social",
-    "code": "n93HjBgd",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/n93HjBgd",
-    "name_cn": "Vibeit社交平台"
-  },
-  {
-    "name": "Chand",
-    "code": "WBukYge4",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/WBukYge4"
-  },
-  {
-    "name": "Droidtty",
-    "code": "ZqxmnExn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ZqxmnExn",
-    "name_cn": "机器人宝贝"
-  },
-  {
-    "name": "WorldAway",
-    "code": "Gs4UWbTA",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Gs4UWbTA",
-    "name_cn": "海外旅行"
-  },
-  {
-    "name": "lokatalent-handyman &amp; more",
-    "code": "tnbMg2ge",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/tnbMg2ge",
-    "name_cn": "洛卡特伦特——手工艺人及更多服务"
-  },
-  {
-    "name": "KAKU6",
-    "code": "PzccBY8d",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/PzccBY8d"
-  },
-  {
-    "name": "ECLIPSE AI",
-    "code": "tfcfsSEJ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/tfcfsSEJ"
-  },
-  {
-    "name": "Prism Money",
-    "code": "PqDUKt5Z",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/PqDUKt5Z",
-    "name_cn": "棱镜货币"
-  },
-  {
-    "name": "No Fusion-Powerful Pro Cam",
-    "code": "j6jRdxa1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/j6jRdxa1",
-    "name_cn": "没有具有融合能力的专业相机"
-  },
-  {
-    "name": "EchoNav",
-    "code": "VD26WDU9",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/VD26WDU9"
-  },
-  {
-    "name": "PotionPals: Water Sort",
-    "code": "Z3zPD8qJ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Z3zPD8qJ",
-    "name_cn": "药水伙伴：水之排序"
-  },
-  {
-    "name": "Stack Smash!",
-    "code": "hs8kmpeA",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/hs8kmpeA",
-    "name_cn": "堆叠粉碎！"
-  },
-  {
-    "name": "Exfil: Trading Arena",
-    "code": "JQjUDAdu",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JQjUDAdu",
-    "name_cn": "外传：竞技场交易"
-  },
-  {
-    "name": "LINUX DO Community",
-    "code": "UH7yJbK4",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/UH7yJbK4",
-    "name_cn": "LINUX DO社区"
-  },
-  {
-    "name": "Twetch",
-    "code": "LzGJGa5X",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/LzGJGa5X",
-    "name_cn": "特维奇"
-  },
-  {
-    "name": "Songfeed - Music Tracker",
-    "code": "GwmbENwr",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GwmbENwr",
-    "name_cn": "Songfeed – 音乐追踪工具"
-  },
-  {
-    "name": "Agito: AI Agent SSH Terminal",
-    "code": "UF2PGy8a",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/UF2PGy8a",
-    "name_cn": "Agito：人工智能代理SSH终端工具"
-  },
-  {
-    "name": "FUT Sniping Bot",
-    "code": "t7766iRc",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/t7766iRc",
-    "name_cn": "FUT狙击机器人"
-  },
-  {
-    "name": "JXHY",
-    "code": "Q62zkagx",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Q62zkagx",
-    "name_cn": "主演"
-  },
-  {
-    "name": "overrrrhere",
-    "code": "Vkbpzxex",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Vkbpzxex",
-    "name_cn": "到处"
-  },
-  {
-    "name": "Esquerdate",
-    "code": "HkWjn9mn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/HkWjn9mn",
-    "name_cn": "后退一点"
-  },
-  {
-    "name": "AngryPumpkin",
-    "code": "GNTr6fKm",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GNTr6fKm",
-    "name_cn": "愤怒的南瓜"
-  },
-  {
-    "name": "Hookpager: Alert Pager",
-    "code": "zpYwCk8A",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zpYwCk8A",
-    "name_cn": "Hookpager：警报信息提示器"
-  },
-  {
-    "name": "Chapeleiro",
-    "code": "TG8zewaB",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/TG8zewaB",
-    "name_cn": "查佩莱罗"
-  },
-  {
-    "name": "Kyo: School Planner",
-    "code": "UFuSfSRS",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/UFuSfSRS",
-    "name_cn": "京：学校规划师"
-  },
-  {
-    "name": "Start Speaking: Voice Up",
-    "code": "QYdCB4cJ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/QYdCB4cJ",
-    "name_cn": "开始说话：提高嗓门"
-  },
-  {
-    "name": "Vibrate - Vibe, Rate, Share",
-    "code": "pDGR9JAe",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/pDGR9JAe",
-    "name_cn": "振动-振动、率、份额"
-  },
-  {
-    "name": "GoonSahur",
-    "code": "MPYwAhQb",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/MPYwAhQb",
-    "name_cn": "贡·萨胡尔"
-  },
-  {
-    "name": "RelayCrest",
-    "code": "tfKfefC1",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/tfKfefC1"
-  },
-  {
-    "name": "grep: your personal assistant",
-    "code": "gSTRQSNH",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/gSTRQSNH",
-    "name_cn": "grep：您的私人助理"
-  },
-  {
-    "name": "Pointless Talk",
-    "code": "xYcEqR2D",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xYcEqR2D",
-    "name_cn": "毫无意义的谈话"
-  },
-  {
-    "name": "The Last Echo : Idle RPG",
-    "code": "JUWXPSD2",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JUWXPSD2",
-    "name_cn": "最后的回声：空闲RPG"
-  },
-  {
-    "name": "Podwise: Podcasts, Notes, AI",
-    "code": "7h14gGwU",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/7h14gGwU",
-    "name_cn": "播客：播客、笔记、人工智能"
-  },
-  {
-    "name": "Space Alchemist",
-    "code": "wYuNFNsr",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/wYuNFNsr",
-    "name_cn": "太空炼金术士"
-  },
-  {
-    "name": "AIRA AI Retail Assistant",
-    "code": "GaHQ2Q4V",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GaHQ2Q4V",
-    "name_cn": "AIRA AI零售助理"
-  },
-  {
-    "name": "Universe Keyboard",
-    "code": "t48JR3Q3",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/t48JR3Q3",
-    "name_cn": "宇宙键盘"
-  },
-  {
-    "name": "Vocena: Live Captions",
-    "code": "thyY5kvy",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/thyY5kvy",
-    "name_cn": "Vocena：现场字幕"
-  },
-  {
-    "name": "BaronFM",
-    "code": "bZ1zEqbG",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/bZ1zEqbG",
-    "name_cn": "男爵FM"
-  },
-  {
-    "name": "Snoozr: Rest &amp; Rise",
-    "code": "3snTJAJH",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/3snTJAJH",
-    "name_cn": "Snoozr：休息崛起"
-  },
-  {
-    "name": "Piru: Medication Tracker",
-    "code": "JVB4589D",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/JVB4589D",
-    "name_cn": "Piru：药物追踪器"
-  },
-  {
-    "name": "Airmai",
-    "code": "GEN6DdpC",
-    "desc": "** Apple Design Award Winner ** 它专为最新一代iOS设计，支持3D Touch、快速文档预览、创建高质量PDF，同其他应用程序和服务的本地集成，实现无障碍顺畅工作流。 工作流定制是其核心，带有丰富功能，如稍后...",
-    "url": "https://testflight.apple.com/join/GEN6DdpC"
-  },
-  {
-    "name": "EveryDolla",
-    "code": "qUY2VXJz",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/qUY2VXJz"
-  },
-  {
-    "name": "Motexiz",
-    "code": "wMZ1qwmy",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/wMZ1qwmy",
-    "name_cn": "莫特西兹"
-  },
-  {
-    "name": "Wrestling GM 2026",
-    "code": "XAHqJRPA",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/XAHqJRPA",
-    "name_cn": "2026年通用摔跤"
-  },
-  {
-    "name": "Brewed Social",
-    "code": "w2kTnQcX",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/w2kTnQcX",
-    "name_cn": "酿造的社交关系"
-  },
-  {
-    "name": "Mute FSD",
-    "code": "ueGwJshR",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ueGwJshR",
-    "name_cn": "静音消防处"
-  },
-  {
-    "name": "Ars Medica Digitalis",
-    "code": "bY5Fkkgd",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/bY5Fkkgd",
-    "name_cn": "数字版《医学之书》"
-  },
-  {
-    "name": "EHAQ - Thread Identifier",
-    "code": "zCQF1xdQ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zCQF1xdQ",
-    "name_cn": "EHAQ -线程标识符"
-  },
-  {
-    "name": "Lading: Moving Box Tracker",
-    "code": "3ruUnn9B",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/3ruUnn9B",
-    "name_cn": "装货：移动箱追踪器"
-  },
-  {
-    "name": "PoolMonitor",
-    "code": "WpdCBpaZ",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/WpdCBpaZ"
-  },
-  {
-    "name": "Split - Dépenses entre amis",
-    "code": "y9QTt4Hd",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/y9QTt4Hd",
-    "name_cn": "分割——朋友之间的支出分配"
-  },
-  {
-    "name": "Beaverup",
-    "code": "DYeEY49k",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/DYeEY49k",
-    "name_cn": "海狸果"
-  },
-  {
-    "name": "PlayAlong — Listen in Sync",
-    "code": "fG1MXAXm",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/fG1MXAXm",
-    "name_cn": "一起游戏——同步聆听"
-  },
-  {
-    "name": "Rescue Flight VR",
-    "code": "hD2J8neM",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/hD2J8neM",
-    "name_cn": "救援飞行VR"
-  },
-  {
-    "name": "漢字の時間",
-    "code": "gn6qKBdn",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/gn6qKBdn"
-  },
-  {
-    "name": "Frictionary",
-    "code": "PVm2hD27",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/PVm2hD27",
-    "name_cn": "摩擦性"
-  },
-  {
-    "name": "Casberi",
-    "code": "xBD4tYZh",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/xBD4tYZh",
-    "name_cn": "卡斯贝里"
-  },
-  {
-    "name": "The Press App",
-    "code": "qV63Xh4j",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/qV63Xh4j",
-    "name_cn": "新闻应用程序"
-  },
-  {
-    "name": "Mural: Speak Languages",
-    "code": "dAE1Rnzh",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/dAE1Rnzh",
-    "name_cn": "壁画：说语言"
-  },
-  {
-    "name": "Task Compass for Reminders",
-    "code": "T3DMu1kp",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/T3DMu1kp",
-    "name_cn": "任务导航器：用于提醒事项的工具"
-  },
-  {
-    "name": "StepStake",
-    "code": "jGRnb2ZU",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/jGRnb2ZU",
-    "name_cn": "阶梯桩"
-  },
-  {
-    "name": "TrackMeTV",
-    "code": "CsydNJ1f",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/CsydNJ1f"
-  },
-  {
-    "name": "Safience",
-    "code": "N6E8gtEt",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/N6E8gtEt",
-    "name_cn": "安全"
-  },
-  {
-    "name": "kal&#039;s valley",
-    "code": "UrpvHUPK",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/UrpvHUPK",
-    "name_cn": "卡尔的山谷"
-  },
-  {
-    "name": "iVenza: Train, Track, Compete",
-    "code": "8KHF4y69",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/8KHF4y69",
-    "name_cn": "iVenza：火车、轨道、竞争"
-  },
-  {
-    "name": "WSID",
-    "code": "wpDamsmt",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/wpDamsmt"
-  },
-  {
-    "name": "HeartRate Broadcaster",
-    "code": "VUJCa5Gw",
-    "desc": "HeartRate Broadcaster 将您的 iPhone 转变为标准蓝牙心率监测器，数据源自您佩戴的传感器。 您的 Apple Watch 和 AirPods Pro 3 可连续测量心率，但其他设备无法读取这些数据。训练应用和码表通...",
-    "url": "https://testflight.apple.com/join/VUJCa5Gw",
-    "name_cn": "心跳率广播公司"
-  },
-  {
-    "name": "OneShot: Final Score",
-    "code": "5XfRsKzC",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/5XfRsKzC",
-    "name_cn": "OneShot：最终比分"
-  },
-  {
-    "name": "LILT — Synthesizer",
-    "code": "ZCwpMHS4",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/ZCwpMHS4",
-    "name_cn": "LILT——合成器"
-  },
-  {
-    "name": "Panthyr",
-    "code": "Er5NqkmN",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/Er5NqkmN",
-    "name_cn": "黑豹"
-  },
-  {
-    "name": "StylePort",
-    "code": "zbXV7SMd",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/zbXV7SMd"
-  },
-  {
-    "name": "絆効率計算",
-    "code": "K9jyWRZk",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/K9jyWRZk"
-  },
-  {
-    "name": "Proton Pass - Password Manager",
-    "code": "GiTMzX3I",
-    "desc": "",
-    "url": "https://testflight.apple.com/join/GiTMzX3I",
-    "name_cn": "质子通行证——密码管理器"
+    "name": "Hermes Conduit",
+    "code": "gcF9BBJ3",
+    "desc": "",
+    "url": "https://testflight.apple.com/join/gcF9BBJ3",
+    "name_cn": "赫耳墨斯引导者"
   }
 ]

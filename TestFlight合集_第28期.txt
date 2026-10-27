@@ -1,0 +1,76 @@
+TestFlight合集 第28期
+
+1. Twinkle的小世界
+   简介：我创建了 Twinkle’s Little Worlds，这是一款神奇的互动游戏，最初是为我三岁的侄女制作的。观看她的表演改变了一切，从装饰纸杯蛋糕、喂养动物朋友，到下雨和举办舞会庆祝。她是我最关心的...
+   https://testflight.apple.com/join/ry6HwnCY
+2. SEQD培训
+   简介：SEQD Training 是一款围绕渐进性和连续性构建的力量训练应用程序。 准确地了解您上次做了什么，知道今天要克服什么，并按顺序进行训练，而不是局限于周一至周日的时间表。 SEQD 帮助举重运动员记录锻炼，...
+   https://testflight.apple.com/join/Xa5r4356
+3. DevTools
+   简介：Safari网页调试利器。 1，Console - 脚本控制台，执行命令，查看输出 2，Elements - 网页元素、dom结构、CSS样式 3，Network - 网络请求列表 4，Resources - 查看 localStorage...
+   https://testflight.apple.com/join/x2H6vgKe
+4. 时间戳相机：EverStamp
+   简介：EverStamp 将照片和视频转化为值得信赖、可验证的证据。通过加密保护、合格的时间戳和独立验证来记录财产状况、损坏、检查、移交等，证明您的记录的创建时间和地点以及...
+   https://testflight.apple.com/join/YysaHd8m
+5. 地图应用，适用于tvOS平台
+   简介：通过 Maps tvOS 在 Apple TV 上探索世界。 在标准地图、卫星地图和混合地图之间切换。搜索地点，发现附近的咖啡、美食、公园和公交站，并在 350 KB 已保存地点数据限制内保留最多 50 个已保存地点。
+   https://testflight.apple.com/join/n5dRXnby
+6. Zapline：实时电视播放器
+   简介：Zapline 是 Apple TV 的直播电视，专为那些宁愿观看而不是等待的人们而设计。 带上您自己的提供商（登录、播放列表链接、门户或 HDHomeRun 调谐器），Zapline 让您在电视上感觉宾至如归： • 快速频道切换，永不黑屏...
+   https://testflight.apple.com/join/PXNkADRc
+7. 存钱罐：信封式预算工具
+   简介：Stash 是一个信封预算，显示您的资金动向。每一块钱都能找到一份工作。您填写租金和杂货等信封，记录您的支出，并始终知道什么是安全的支出。 一切都保留在您的 iPhone 和您自己的 iCloud 中。无需创建帐户，无需...
+   https://testflight.apple.com/join/hxHzqKN7
+8. 斯古利——屏幕上的小岛
+   简介：Sgully，ScreenGull：一款免费的 iPhone 应用程序，让您保持离线状态。设置一个计时器（1分钟到4小时），你的分散注意力的应用程序就会被屏蔽，离线的每一分钟都会为戴着无檐小便帽的海鸥赚取薯条，从鸡蛋长到海鸥。工作人员（家人...
+   https://testflight.apple.com/join/C4W2FvRU
+9. 字节缓存
+   简介：ByteCache：缓存字节。 ByteStash 的本机 iPhone、iPad 和 Mac 客户端，自托管代码片段管理器。
+   https://testflight.apple.com/join/rpmeVJW6
+10. AstroMoji：人工智能表情符号创作平台
+   简介：AstroMoji 是一家由人工智能驱动的太空主题表情符号工作室。描述你想要什么，然后看着你的话语落入黑洞，然后以专为你制作的全新表情符号的形式出现。 你能做什么 ✍️ 从文本创建：输入一个想法，例如“猫宇航员喝咖啡”，然后得到...
+   https://testflight.apple.com/join/Ag1BHGP9
+11. 雅-基蒂聊天
+   简介：与来自世界各地的人们聊天并交朋友。加入新人休息室、文化体验、音乐和卡拉 OK 以及旅行故事等主题房间，开始私人聊天，并与朋友进行视频通话。有 14 种语言版本。每个人都通过快速自拍照和身份证件进行验证...
+   https://testflight.apple.com/join/T9bndd2h
+12. 每日食堂
+   简介：Daily Diner 是一款舒适的习惯追踪器，可让您按照自己的节奏制定小习惯。跟踪日常习惯、选择特定日期或设定每周目标。检查应用程序中或主屏幕小部件中的每个小步骤，并通过每日记录回顾您的进度。没有连胜预...
+   https://testflight.apple.com/join/kCRY6Rkj
+13. 这图能改
+   简介：This Pic Can Change (这图能改) is an iPhone photo and video utility (iOS 17+) from indie studio HugeHard Studio. This beta f...
+   https://testflight.apple.com/join/GK8ht2vv
+14. Origamo：可折叠的迷你游戏
+   https://testflight.apple.com/join/BJdP3yV4
+15. 纸夹式XBT钱包
+   https://testflight.apple.com/join/GJNNFBEj
+16. MTVP
+   https://testflight.apple.com/join/PXzTBAeB
+17. 拖拉机轨道
+   https://testflight.apple.com/join/Qa72TuqS
+18. 早明浦ダム 貯水率モニタ
+   简介：四国地方、とりわけ香川県の生活と産業を支える「四国の水がめ」早明浦ダムの貯水率を、 リアルタイムでグラフィカルに可視化する早明浦ダム専用アプリです。 【主な機能】 ◆ 一目で分かる波型メーター 円形のグラスの中で実際の貯水率の高さまで水が溜...
+   https://testflight.apple.com/join/rczGbqTJ
+19. ソデマネ｜推し活の予定とお金
+   https://testflight.apple.com/join/eBkx9GGY
+20. 马普利瓦
+   https://testflight.apple.com/join/UYYcMZZF
+21. 公路旅行：汽油费用计算器
+   https://testflight.apple.com/join/4xwTadNZ
+22. 回顾：私人视频流
+   https://testflight.apple.com/join/JV5JAAtZ
+23. 超越极限：自由体时间延时摄影
+   https://testflight.apple.com/join/naeVTyga
+24. 弗里奇
+   https://testflight.apple.com/join/mpQxJQZz
+25. 匿名者
+   https://testflight.apple.com/join/VbCjqjEr
+26. Arx：在这里，想法可以转化为商业机会。
+   https://testflight.apple.com/join/dxcKE8aY
+27. 梅隆：社交屏幕时间
+   https://testflight.apple.com/join/bF7ctScW
+28. 瓦尔杜姆私密通信系统
+   https://testflight.apple.com/join/Aqay7XH2
+29. 执行
+   https://testflight.apple.com/join/sRaFqN1y
+30. 赫耳墨斯引导者
+   https://testflight.apple.com/join/gcF9BBJ3
